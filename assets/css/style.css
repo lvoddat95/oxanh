@@ -5595,3 +5595,11 @@ Flaticon icon font: Flaticon
 .toc-marker path {
   transition: all 0.3s ease;
 }
+
+.hc-offcanvas-nav a.nav-next{
+  background-color: #2c5d8f;
+}
+.hc-offcanvas-nav ul {
+    position: static !important;
+    padding: 0 !important;
+}

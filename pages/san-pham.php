@@ -57,8 +57,8 @@
                             <div class="ci-heading">
                                 <h2 class="ci-heading__main main-color">Kế hoạch tương trợ <span>G1</span></h2>
                             </div>
-                            <div class="fz-16 text-sanpham" style="text-align: justify;">
-                                Với tỷ lệ mắc Bệnh ung thư gia tăng mỗi năm <br>
+                            <div class="fz-16 text-sanpham p-md-0" style="text-align: justify;">
+                                Với tỷ lệ mắc Bệnh hiểm nghèo gia tăng mỗi năm <br>
                                 Oxanh xin giới thiệu <span class="fw-medium">Kế hoạch tương trợ G1</span> sẽ giúp bạn giảm bớt lo âu với những quyền lợi ưu việt, mang lại sự chuẩn bị tốt nhất trước những rủi ro bất ngờ.
                             </div>
                         </div>
@@ -74,7 +74,7 @@
             <div class="ci-block text-center" id="topic-2">
                 <div class="container">
                     <div class="ci-heading mb-3 mb-md-5">
-                        <h2 class="ci-heading__main ">Danh mục các bệnh hiểm nghèo</h2>
+                        <h2 class="ci-heading__main ">Danh mục 46 bệnh hiểm nghèo</h2>
                     </div>
                     <div class="fz-16 mb-3">
                         Các bệnh nghiêm trọng được định nghĩa trong kế hoạch này đề cập đến các bệnh. <br> Trạng thái bệnh được quy định chi tiết tại đây:

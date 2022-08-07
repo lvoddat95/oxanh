@@ -360,6 +360,9 @@
   .ci-flow > div{
     width: calc(100%/2);
   }
+  .text-sanpham{
+    padding: 0;
+  }
 }
 
 @media (max-width: 575px) {
