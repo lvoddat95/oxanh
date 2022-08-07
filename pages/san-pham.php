@@ -7,62 +7,88 @@
 
         <?php include_once NAVBAR; ?>
 
-        <!-- <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/san-pham/cham-soc.jpg);">
-            <div class="container">
-                <div class="ci-breadcrumb-inner">
-                    <h1 class="ci-breadcrumb-title">Giải quyết quyền lợi tương trợ</h1>
-                    <div class="ci-breadcrumb-desc">
-                        Các bước yêu cầu tương trợ vì bệnh hiểm nghèo
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
+        <!-- <nav class="toc">
+            <ul>
+                <li><a href="#topic-1">Kế hoạch tương trợ G1</a></li>
+                <li>
+                    <a href="#topic-2">Danh mục các bệnh hiểm nghèo</a>
+                </li>
+                <li>
+                    <a href="#topic-3">Mức tương trợ tối đa và phí thành viên</a>
+                </li>
+                <li>
+                    <a href="#topic-4">Lưu ý cơ bản</a>
+                </li>
+                <li>
+                    <a href="#topic-5">Cách thức tham gia thành viên</a>
+                </li>
+                <li>
+                    <a href="#topic-6"> Thời gian chờ</a>
+                </li>
+                <li>
+                    <a href="#topic-7">Nội dung tương trợ </a>
+                </li>
+                <li>
+                    <a href="#topic-8"> Chấm dứt kế hoạch</a>
+                </li>
+                <li>
+                    <a href="#topic-9"> Hoàn cảnh không có sự hỗ trợ lẫn nhau</a>
+                </li>
+                <li>
+                    <a href="#topic-10"> Đề nghị tương trợ và quy tắc phân bổ</a>
+                </li>
+                <li>
+                    <a href="#topic-11">  Rút khỏi kế hoạch </a>
+                </li>
+                <li>
+                    <a href="#topic-12"> Các vấn đề khác cần chú ý</a>
+                </li>
+            </ul>
+            <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+            </svg>
+        </nav> -->
         <main>
 
-
-            <div class="">
-
-                <div class="ci-block ci-sanpham" id="ke-hoach">
-                    <div class="container">
-                        <div class="row gx-lg-5 align-items-center">
-                            <div class="col-md-7">
-                                <div class="ci-heading">
-                                    <h2 class="ci-heading__main main-color">Kế hoạch tương trợ <span>G1</span></h2>
-                                </div>
-                                <div class="fz-16 text-sanpham" style="text-align: justify;">
-                                    Với tỷ lệ mắc Bệnh ung thư gia tăng mỗi năm <br>
-                                    Oxanh xin giới thiệu <span class="fw-medium">Kế hoạch tương trợ G1</span> sẽ giúp bạn giảm bớt lo âu với những quyền lợi ưu việt, mang lại sự chuẩn bị tốt nhất trước những rủi ro bất ngờ.
-                                </div>
+            <div class="ci-block ci-sanpham" id="topic-1">
+                <div class="container">
+                    <div class="row gx-lg-5 align-items-center">
+                        <div class="col-md-7">
+                            <div class="ci-heading">
+                                <h2 class="ci-heading__main main-color">Kế hoạch tương trợ <span>G1</span></h2>
                             </div>
-                            <div class="col-md-5 ">
-                                <div class="ps-lg-5 img-sanpham">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-soc.jpg" alt="Ô Xanh">
-                                </div>
+                            <div class="fz-16 text-sanpham" style="text-align: justify;">
+                                Với tỷ lệ mắc Bệnh ung thư gia tăng mỗi năm <br>
+                                Oxanh xin giới thiệu <span class="fw-medium">Kế hoạch tương trợ G1</span> sẽ giúp bạn giảm bớt lo âu với những quyền lợi ưu việt, mang lại sự chuẩn bị tốt nhất trước những rủi ro bất ngờ.
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="ci-block text-center">
-                    <div class="container">
-                        <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main ">Danh mục các bệnh hiểm nghèo</h2>
+                        <div class="col-md-5 ">
+                            <div class="ps-lg-5 img-sanpham">
+                                <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-soc.jpg" alt="Ô Xanh">
+                            </div>
                         </div>
-                        <div class="fz-16 mb-3">
-                            Các bệnh nghiêm trọng được định nghĩa trong kế hoạch này đề cập đến các bệnh. <br> Trạng thái bệnh được quy định chi tiết tại đây:
-                        </div>
-
-                        <a href="javascript:void(0);" onclick="fancybox_modal('#danh-muc-benh');" class="ci-docs__link">
-                            <i class="fa-solid fa-book-medical me-2"></i>
-                            <span>Xem bảng danh mục</span>
-                        </a>
-
                     </div>
                 </div>
             </div>
 
-            <div class="ci-block text-center bg-color1">
+            <div class="ci-block text-center" id="topic-2">
+                <div class="container">
+                    <div class="ci-heading mb-3 mb-md-5">
+                        <h2 class="ci-heading__main ">Danh mục các bệnh hiểm nghèo</h2>
+                    </div>
+                    <div class="fz-16 mb-3">
+                        Các bệnh nghiêm trọng được định nghĩa trong kế hoạch này đề cập đến các bệnh. <br> Trạng thái bệnh được quy định chi tiết tại đây:
+                    </div>
+
+                    <a href="javascript:void(0);" onclick="fancybox_modal('#danh-muc-benh');" class="ci-docs__link">
+                        <i class="fa-solid fa-book-medical me-2"></i>
+                        <span>Xem bảng danh mục</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="ci-block text-center bg-color1" id="topic-3">
                 <div class="container">
                     <div class="ci-heading mb-3 mb-md-5">
                         <h2 class="ci-heading__main ">Mức tương trợ tối đa và phí thành viên</h2>
@@ -122,8 +148,7 @@
                 </div>
             </div>
 
-
-            <div class="ci-block ">
+            <div class="ci-block" id="topic-4">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -143,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="ci-block ci-style bg-color1">
+            <div class="ci-block ci-style bg-color1" id="topic-5">
                 <div class="container">
                     <div class="ci-heading mb-3 mb-md-5">
                         <h2 class="ci-heading__main">Cách thức tham gia thành viên</h2>
@@ -191,9 +216,7 @@
                 </div>
             </div>
 
-
-
-            <div class="ci-block pb-0">
+            <div class="ci-block pb-0" id="topic-6">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -224,7 +247,7 @@
                 </div>
             </div>
 
-            <div class="ci-block">
+            <div class="ci-block" id="topic-7">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -240,16 +263,14 @@
                                 kế hoạch này và thanh toán quỹ trợ giúp lẫn nhau cho các thành viên bị bệnh nếu xác định được thông qua các thủ tục liên quan rằng việc Trợ giúp lẫn nhau cần được thực hiện.
                                 Việc thanh toán được thực hiện 1 lần toàn bộ số tiền tương trợ thành viên.</p>
                             <p class="mb-3"> Trừ những trường hợp đặc biệt, Ô Xanh có thể tạm ứng trước (nhưng không quá 50%) để thành viên có thời gian hoàn thiện hồ sơ xin tương trợ.</p>
-                            Các bệnh hiểm nghèo được định nghĩa trong kế hoạch này đề cập đến các bệnh, trạng thái bệnh hoặc các hoạt động được quy định trong <a title="Xem danh mục" href="#ke-hoach">Các bệnh hiểm nghèo</a>.
+                            Các bệnh hiểm nghèo được định nghĩa trong kế hoạch này đề cập đến các bệnh, trạng thái bệnh hoặc các hoạt động được quy định trong <a title="Xem danh mục" href="#topic1">Các bệnh hiểm nghèo</a>.
 
                         </div>
                     </div>
                 </div>
             </div>
 
-
-
-            <div class="ci-block ci-style bg-color4">
+            <div class="ci-block ci-style bg-color4" id="topic-8">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -272,7 +293,7 @@
                 </div>
             </div>
 
-            <div class="ci-block">
+            <div class="ci-block" id="topic-9">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -358,7 +379,7 @@
                 </div>
             </div>
 
-            <div class="ci-block ci-style bg-color3">
+            <div class="ci-block ci-style bg-color3" id="topic-10">
                 <div class="container">
                     <div class="position-relative">
                         <div class="ci-heading">
@@ -582,7 +603,7 @@
                 </div>
             </div>
 
-            <div class="ci-block pb-0">
+            <div class="ci-block pb-0" id="topic-11">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -653,8 +674,7 @@
                 </div>
             </div>
 
-
-            <div class="ci-block">
+            <div class="ci-block" id="topic-12">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
