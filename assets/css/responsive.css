@@ -363,6 +363,10 @@
   .text-sanpham{
     padding: 0;
   }
+  .danh-muc-benh{
+    font-size: 14px;
+    line-height: normal;
+  }
 }
 
 @media (max-width: 575px) {
