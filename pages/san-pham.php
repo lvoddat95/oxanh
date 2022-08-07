@@ -685,9 +685,9 @@
                         </div>
                         <div class="ci-faq ci-faq2">
                             <div id="ci-vandekhac" class="accordion">
-                                <div class="row mb-4">
+                                <div class="row">
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac0" aria-expanded="true">
                                                     Tuổi tham gia chương trình
@@ -736,7 +736,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac1" aria-expanded="true">
                                                     Thành phần thỏa thuận
@@ -752,9 +752,9 @@
                                     </div>
                                 </div>
 
-                                <div class="row mb-4">
+                                <div class="row">
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac2" aria-expanded="true">
                                                     Điều kiện tham gia
@@ -768,7 +768,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac3" aria-expanded="true">
                                                     Phạm vi thành viên
@@ -783,9 +783,9 @@
                                     </div>
                                 </div>
 
-                                <div class="row mb-4">
+                                <div class="row">
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac4" aria-expanded="true">
                                                     Lỗi độ tuổi
@@ -814,7 +814,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="accordion-item">
+                                        <div class="accordion-item mb-4">
                                             <div class="accordion-header">
                                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac5" aria-expanded="true">
                                                     Xử lý tranh chấp
