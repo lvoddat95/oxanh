@@ -665,140 +665,152 @@
                         </div>
                         <div class="ci-faq ci-faq2">
                             <div id="ci-vandekhac" class="accordion">
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac0" aria-expanded="true">
-                                            Tuổi tham gia chương trình
-                                        </button>
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac0" aria-expanded="true">
+                                                    Tuổi tham gia chương trình
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac0" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+
+                                                    <p class="ci-list mb-3 mt-4">
+                                                        <span class="fw-medium d-block"><i class="far fa-circle-1 sub-color2 me-2"></i>Tuổi tham gia</span>
+                                                        <span class="d-block ms-4">
+                                                            Độ tuổi tham gia chương trình này là từ 30 ngày tuổi sau khi sinh đến 65 tuổi,
+                                                            nhưng chỉ những người đã là thành viên trước 60 tuổi mới được tham gia tiếp cho đến 65 tuổi.
+                                                            Tuổi tham gia kế hoạch là tuổi của thành viên tại thời điểm tham gia kế hoạch.
+                                                        </span>
+                                                    </p>
+                                                    <p class="ci-list mb-3 mt-4">
+                                                        <span class="fw-medium d-block"><i class="far fa-circle-2 sub-color2 me-2"></i>Cách tính tuổi</span>
+                                                        <span class="d-block ms-4">
+                                                            Đề cập đến độ tuổi được tính dựa trên ngày sinh được ghi trong Giấy khai sinh, thẻ căn cước hợp lệ.
+                                                            Sau 30 ngày kể từ ngày sinh được tính là 1 tuổi và cứ sau mỗi sinh nhật thì tăng lên một tuổi.
+                                                        </span>
+                                                    </p>
+
+                                                    <p class="ci-list mb-3 mt-4">
+                                                        <span class="fw-medium d-block"><i class="far fa-circle-3 sub-color2 me-2"></i>Độ tuổi thành viên</span>
+                                                        <span class="d-block ms-4">
+                                                            + Từ 30 ngày tuổi trở lên được tính là 01 tuổi.
+                                                        </span>
+                                                        <span class="d-block ms-4">
+                                                            + Trường hợp ngày tham gia thành viên (chính thức) chưa đến ngày sinh nhật thì tuổi của thành viên tính bằng năm hiện tại trừ (-) năm sinh.
+                                                        </span>
+                                                        <span class="d-block ms-4">
+                                                            + Trường hợp ngày tham gia thành viên (chính thức) đã qua ngày sinh nhật thì tuổi của thành viên tính bằng Năm hiện tại trừ (-) năm sinh cộng một (+1).
+                                                        </span>
+                                                        <span class="d-block ms-4">
+                                                            + Phần mềm và máy tính sẽ giúp thành viên tính được tuổi chính xác khi tham giam chương trình.
+                                                        </span>
+                                                        <i class="gray-color d-block ms-4">Ví dụ: Cháu A sinh ngày 1.6.2021. Cháu được bố mẹ đăng ký cho tham gia trở thành thành viên của Ô Xanh vào ngày 15.7.2021. Tính đến và kể cả ngày 15.7.2021 thì cháu A được 45 ngày, cháu được tính là 1 tuổi. Sau sinh nhật 1.6.2022, cháu A được tính thêm 1 tuổi là 2 tuổi.
+                                                            Chị B sinh ngày 30.4.1976, Chị trở thành thành viên vào ngày 15.7.2021. Như vậy Chị B được tính là 46 tuổi.
+                                                        </i>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="vandekhac0" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-
-                                            <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium d-block"><i class="far fa-circle-1 sub-color2 me-2"></i>Tuổi tham gia</span>
-                                                <span class="d-block ms-4">
-                                                    Độ tuổi tham gia chương trình này là từ 30 ngày tuổi sau khi sinh đến 65 tuổi,
-                                                    nhưng chỉ những người đã là thành viên trước 60 tuổi mới được tham gia tiếp cho đến 65 tuổi.
-                                                    Tuổi tham gia kế hoạch là tuổi của thành viên tại thời điểm tham gia kế hoạch.
-                                                </span>
-                                            </p>
-                                            <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium d-block"><i class="far fa-circle-2 sub-color2 me-2"></i>Cách tính tuổi</span>
-                                                <span class="d-block ms-4">
-                                                    Đề cập đến độ tuổi được tính dựa trên ngày sinh được ghi trong Giấy khai sinh, thẻ căn cước hợp lệ.
-                                                    Sau 30 ngày kể từ ngày sinh được tính là 1 tuổi và cứ sau mỗi sinh nhật thì tăng lên một tuổi.
-                                                </span>
-                                            </p>
-
-                                            <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium d-block"><i class="far fa-circle-3 sub-color2 me-2"></i>Độ tuổi thành viên</span>
-                                                <span class="d-block ms-4">
-                                                    + Từ 30 ngày tuổi trở lên được tính là 01 tuổi.
-                                                </span>
-                                                <span class="d-block ms-4">
-                                                    + Trường hợp ngày tham gia thành viên (chính thức) chưa đến ngày sinh nhật thì tuổi của thành viên tính bằng năm hiện tại trừ (-) năm sinh.
-                                                </span>
-                                                <span class="d-block ms-4">
-                                                    + Trường hợp ngày tham gia thành viên (chính thức) đã qua ngày sinh nhật thì tuổi của thành viên tính bằng Năm hiện tại trừ (-) năm sinh cộng một (+1).
-                                                </span>
-                                                <span class="d-block ms-4">
-                                                    + Phần mềm và máy tính sẽ giúp thành viên tính được tuổi chính xác khi tham giam chương trình.
-                                                </span>
-                                                <i class="gray-color d-block ms-4">Ví dụ: Cháu A sinh ngày 1.6.2021. Cháu được bố mẹ đăng ký cho tham gia trở thành thành viên của Ô Xanh vào ngày 15.7.2021. Tính đến và kể cả ngày 15.7.2021 thì cháu A được 45 ngày, cháu được tính là 1 tuổi. Sau sinh nhật 1.6.2022, cháu A được tính thêm 1 tuổi là 2 tuổi.
-                                                    Chị B sinh ngày 30.4.1976, Chị trở thành thành viên vào ngày 15.7.2021. Như vậy Chị B được tính là 46 tuổi.
-                                                </i>
-                                            </p>
-
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac1" aria-expanded="true">
+                                                    Thành phần thỏa thuận
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac1" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+                                                    Kế hoạch này bao gồm quy ước, điều khoản kế hoạch viện trợ lẫn nhau, yêu cầu về sức khỏe,
+                                                    quy tắc thành viên và các tài liệu khác liên quan đến kế hoạch này được đăng tải chi tiết trên Web/App mà thành viên đã đọc, hiểu và chấp thuận.
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac1" aria-expanded="true">
-                                            Thành phần thỏa thuận
-                                        </button>
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac2" aria-expanded="true">
+                                                    Điều kiện tham gia
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac2" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+                                                    Các thành viên phải cam kết rằng sức khỏe thể chất của họ đáp ứng các yêu cầu về sức khỏe và các điều kiện tiếp cận toàn diện khác của chương trình, và họ có thể đăng ký tham gia chương trình.
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="vandekhac1" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-                                            Kế hoạch này bao gồm quy ước, điều khoản kế hoạch viện trợ lẫn nhau, yêu cầu về sức khỏe,
-                                            quy tắc thành viên và các tài liệu khác liên quan đến kế hoạch này được đăng tải chi tiết trên Web/App mà thành viên đã đọc, hiểu và chấp thuận.
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac3" aria-expanded="true">
+                                                    Phạm vi thành viên
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac3" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+                                                    Bạn có thể đăng ký tham gia chương trình này cho chính mình, vợ/chồng, cha mẹ, con cái và bạn bè, với tư cách là người trả tiền, thực hiện nghĩa vụ tương trợ và phân bổ.
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac2" aria-expanded="true">
-                                            Điều kiện tham gia
-                                        </button>
+                                <div class="row mb-4">
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac4" aria-expanded="true">
+                                                    Lỗi độ tuổi
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac4" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+                                                    <p class="mb-3">
+                                                        Khi bạn đăng ký tham gia chương trình cho chính mình hoặc vợ/chồng, cha mẹ hoặc con cái của bạn,
+                                                        bạn nên cung cấp ngày sinh khớp với ID hợp lệ (CMT, Hộ chiếu, CCCD). Nếu có sai sót, hãy làm theo các bước bên dưới:
+                                                    </p>
+                                                    <p class="mb-3">
+                                                        <span class="fw-medium"><i class="far fa-circle-1 sub-color2 me-2"></i></span>
+                                                        Tuổi công bố của người đó hoặc các thành viên khác không đúng sự thật, và nếu tuổi thật của thành viên có sự cố cần trợ giúp
+                                                        lẫn nhau xảy ra không đáp ứng giới hạn độ tuổi tham gia chương trình, chúng tôi có quyền chấm dứt tư cách thành viên.
+                                                        Đối với các sự cố trợ giúp lẫn nhau xảy ra trước khi chấm dứt tư cách, sự trợ giúp lẫn nhau cũng vẫn sẽ không được áp dụng.
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        <span class="fw-medium"><i class="far fa-circle-2 sub-color2 me-2"></i></span>
+                                                        Nếu tuổi khai báo của người đó hoặc các thành viên khác không đúng (không cố ý, chỉ là nhầm lẫn),
+                                                        nhưng tuổi thật của họ đáp ứng giới hạn tuổi tham gia kế hoạch tại thời điểm xảy ra sự kiện tương trợ,
+                                                        họ sẽ nộp đơn xin tương trợ theo mức độ tương trợ và đóng phí tương ứng với tuổi thật của thành viên khi xin hỗ trợ lẫn nhau.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div id="vandekhac2" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-                                            Các thành viên phải cam kết rằng sức khỏe thể chất của họ đáp ứng các yêu cầu về sức khỏe và các điều kiện tiếp cận toàn diện khác của chương trình, và họ có thể đăng ký tham gia chương trình.
+                                    <div class="col-md-6">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header">
+                                                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac5" aria-expanded="true">
+                                                    Xử lý tranh chấp
+                                                </button>
+                                            </div>
+                                            <div id="vandekhac5" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
+                                                <div class="accordion-body">
+                                                    <p class="mb-3"> Việc ký kết, hiệu lực, giải thích và thực hiện kế hoạch này và giải quyết tranh chấp sẽ được điều chỉnh bởi luật pháp của Cộng hòa Xã hội Chủ nghĩa Việt Nam.</p>
+                                                    <p class="mb-3">Trong quá trình thực hiện kế hoạch này, các tranh chấp có liên quan trước tiên sẽ được giải quyết thông qua thương lượng, hòa giải; </p>
+                                                    nếu thương lượng không thành công thì sẽ khởi kiện ra tòa án nhân dân nơi ký, phát hành điều khoản này theo quy định của pháp luật.</p>
+                                                    <p class="mb-0">Nơi ký, phát hành điều khoản này: Quận Cầu Giấy, thành phố Hà Nội.</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac3" aria-expanded="true">
-                                            Phạm vi thành viên
-                                        </button>
-                                    </div>
-                                    <div id="vandekhac3" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-                                            Bạn có thể đăng ký tham gia chương trình này cho chính mình, vợ/chồng, cha mẹ, con cái và bạn bè, với tư cách là người trả tiền, thực hiện nghĩa vụ tương trợ và phân bổ.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac4" aria-expanded="true">
-                                            Lỗi độ tuổi
-                                        </button>
-                                    </div>
-                                    <div id="vandekhac4" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-                                            <p class="mb-3">
-                                                Khi bạn đăng ký tham gia chương trình cho chính mình hoặc vợ/chồng, cha mẹ hoặc con cái của bạn,
-                                                bạn nên cung cấp ngày sinh khớp với ID hợp lệ (CMT, Hộ chiếu, CCCD). Nếu có sai sót, hãy làm theo các bước bên dưới:
-                                            </p>
-                                            <p class="mb-3">
-                                                <span class="fw-medium"><i class="far fa-circle-1 sub-color2 me-2"></i></span>
-                                                Tuổi công bố của người đó hoặc các thành viên khác không đúng sự thật, và nếu tuổi thật của thành viên có sự cố cần trợ giúp
-                                                lẫn nhau xảy ra không đáp ứng giới hạn độ tuổi tham gia chương trình, chúng tôi có quyền chấm dứt tư cách thành viên.
-                                                Đối với các sự cố trợ giúp lẫn nhau xảy ra trước khi chấm dứt tư cách, sự trợ giúp lẫn nhau cũng vẫn sẽ không được áp dụng.
-                                            </p>
-                                            <p class="mb-0">
-                                                <span class="fw-medium"><i class="far fa-circle-2 sub-color2 me-2"></i></span>
-                                                Nếu tuổi khai báo của người đó hoặc các thành viên khác không đúng (không cố ý, chỉ là nhầm lẫn),
-                                                nhưng tuổi thật của họ đáp ứng giới hạn tuổi tham gia kế hoạch tại thời điểm xảy ra sự kiện tương trợ,
-                                                họ sẽ nộp đơn xin tương trợ theo mức độ tương trợ và đóng phí tương ứng với tuổi thật của thành viên khi xin hỗ trợ lẫn nhau.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#vandekhac5" aria-expanded="true">
-                                            Xử lý tranh chấp
-                                        </button>
-                                    </div>
-                                    <div id="vandekhac5" class="accordion-collapse collapse" data-bs-parent="#ci-vandekhac">
-                                        <div class="accordion-body">
-                                            <p class="mb-3"> Việc ký kết, hiệu lực, giải thích và thực hiện kế hoạch này và giải quyết tranh chấp sẽ được điều chỉnh bởi luật pháp của Cộng hòa Xã hội Chủ nghĩa Việt Nam.</p>
-                                            <p class="mb-3">Trong quá trình thực hiện kế hoạch này, các tranh chấp có liên quan trước tiên sẽ được giải quyết thông qua thương lượng, hòa giải; </p>
-                                            nếu thương lượng không thành công thì sẽ khởi kiện ra tòa án nhân dân nơi ký, phát hành điều khoản này theo quy định của pháp luật.</p>
-                                            <p class="mb-0">Nơi ký, phát hành điều khoản này: Quận Cầu Giấy, thành phố Hà Nội.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
 
                             </div>
                         </div>
