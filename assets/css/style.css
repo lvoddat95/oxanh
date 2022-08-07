@@ -68,6 +68,8 @@ Tags:
   --bg-black-opacity50: rgb(0, 0, 0, 0.5);
   --bg-color1: rgb(190 224 248 / 30%);
   --bg-color2: rgb(54 29 131 / 20%);
+  --bg-color3: rgb(238 249 248 / 95%);
+  --bg-color4: rgb(249 238 238 / 95%);
 }
 
 ::-webkit-scrollbar-track {
@@ -222,12 +224,20 @@ big {
   background-image: radial-gradient(var(--main-color) 2px, transparent 2.5px);
 }
 
-.bg-color1{
+.bg-color1 {
   background-color: var(--bg-color1);
 }
 
-.bg-color2{
+.bg-color2 {
   background-color: var(--bg-color2);
+}
+
+.bg-color3 {
+  background-color: var(--bg-color3);
+}
+
+.bg-color4 {
+  background-color: var(--bg-color4);
 }
 
 .border-ccc {
@@ -3937,6 +3947,7 @@ body .entry_content {
   text-align: justify;
 }
 
+
 .ci-faq .accordion-button {
   outline: 0;
   border: 0;
@@ -3948,7 +3959,10 @@ body .entry_content {
   font-size: var(--fz-14);
   border-radius: var(--radius-8) !important;
 }
-
+.ci-faq2 .accordion-button {
+  padding: 20px;
+  background-color: transparent !important;
+}
 .ci-faq .accordion-body {
   padding-bottom: 0;
   text-align: justify;
@@ -3956,7 +3970,21 @@ body .entry_content {
 
 .ci-faq .accordion-item {
   /* border: 0; */
-  padding: 20px;
+  padding: 12px;
+}
+
+.ci-faq2 .accordion-item {
+  padding: 0;
+  border: 0;
+  box-shadow: var(--shadow-s);
+  border-radius: var(--radius-10) !important;
+  margin-bottom: 12px;
+}
+.ci-faq2 .accordion-item:last-of-type {
+  margin-bottom: 0px;
+}
+.ci-faq2 .accordion-body {
+  padding: 0 20px 20px;
 }
 
 .ci-faq .accordion-item:first-of-type {
@@ -5399,7 +5427,7 @@ Flaticon icon font: Flaticon
 /* SAN PHAM */
 
 /* #f2fff9 */
-.ci-style{
+.ci-style {
   position: relative;
   width: 90%;
   margin: auto;
@@ -5482,7 +5510,7 @@ Flaticon icon font: Flaticon
 .table-style tr td,
 .table-style tr th,
 .table-style tr td {
-  padding:  10px 20px;
+  padding: 10px 20px;
   box-shadow: none;
   border: none;
   border-left: 1px solid #fff;
@@ -5506,22 +5534,22 @@ Flaticon icon font: Flaticon
 .table-style tr:nth-of-type(even) {
   background-color: rgba(0, 0, 0, 0.05);
 }
-.table-style tbody tr td:first-child{
+.table-style tbody tr td:first-child {
   text-align: left;
   color: var(--main-color);
   font-weight: 500;
 }
-
-.ci-icon > i{
+.ci-icon {
+  position: relative;
+}
+.ci-icon > i {
   position: absolute;
   top: -30px;
   left: -40px;
   font-size: 200px;
-  opacity: .5;
+  opacity: 0.5;
   color: var(--bg-color2);
-  z-index: -1;
 }
-.ci-icon > i.op10{
-  opacity: .1;
+.ci-icon > i.op10 {
+  opacity: 0.1;
 }
-
