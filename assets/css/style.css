@@ -3968,7 +3968,9 @@ body .entry_content {
   border-bottom-right-radius: var(--radius-16);
   border-bottom-left-radius: var(--radius-16);
 }
-
+.accordion-button.button-hidden::after {
+  display: none;
+}
 .accordion-button::after {
   content: "\f078";
   font-family: "Font Awesome 5 Pro";
@@ -5519,3 +5521,7 @@ Flaticon icon font: Flaticon
   color: var(--bg-color2);
   z-index: -1;
 }
+.ci-icon > i.op10{
+  opacity: .1;
+}
+
