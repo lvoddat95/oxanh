@@ -414,128 +414,170 @@ $(document).ready(function () {
 //     }
 // });
 
+$(function () {
 
-var toc = document.querySelector( '.toc' );
-var tocPath = document.querySelector( '.toc-marker path' );
-var tocItems;
+    $(".btn-toc").on("click", function () {
+        $(".ftoc").toggleClass('open');
+    });
 
-// Factor of screen size that the element must cross
-// before it's considered visible
-var TOP_MARGIN = 0.1,
-    BOTTOM_MARGIN = 0.2;
+    if ($('[data-tooltip="tipsy"]').length > 0) {
+        if (!$().tipsy) {
+            console.warn('Warning - Tipsy js is not loaded.');
+            return;
+        }
+        $('[data-tooltip="tipsy"]').each(function (index) {
+            var $this = $(this);
+            var v_gravity = '';
+            var v_pos = $this.data('position');
 
-var pathLength;
+            // Mac dinh hien thi "top"
+            if (!v_pos || v_pos == 'top' ){
+                v_gravity = 's';
+            }else if( v_pos == 'bottom' ){
+                v_gravity = 'n';
+            }else if( v_pos == 'left' ){
+                v_gravity = 'e';
+            }else if( v_pos == 'right' ){
+                v_gravity = 'w';
+            }else if( v_pos == 'bottom-left' ){
+                v_gravity = 'ne';
+            }else if( v_pos == 'bottom-right' ){
+                v_gravity = 'nw';
+            }else if( v_pos == 'top-left' ){
+                v_gravity = 'se';
+            }else if( v_pos == 'top-right' ){
+                v_gravity = 'sw';
+            }
 
-var lastPathStart,
-		lastPathEnd;
+            $this.tipsy({
+                gravity: v_gravity,
+                html: true 
+            });
+        });
 
-window.addEventListener( 'resize', drawPath, false );
-window.addEventListener( 'scroll', sync, false );
-
-drawPath();
-
-function drawPath() {
-  
-  tocItems = [].slice.call( toc.querySelectorAll( 'li' ) );
-
-  // Cache element references and measurements
-  tocItems = tocItems.map( function( item ) {
-    var anchor = item.querySelector( 'a' );
-    var target = document.getElementById( anchor.getAttribute( 'href' ).slice( 1 ) );
-
-    return {
-      listItem: item,
-      anchor: anchor,
-      target: target
-    };
-  } );
-
-  // Remove missing targets
-  tocItems = tocItems.filter( function( item ) {
-    return !!item.target;
-  } );
-
-  var path = [];
-  var pathIndent;
-
-  tocItems.forEach( function( item, i ) {
-
-    var x = item.anchor.offsetLeft - 5,
-        y = item.anchor.offsetTop,
-        height = item.anchor.offsetHeight;
-
-    if( i === 0 ) {
-      path.push( 'M', x, y, 'L', x, y + height );
-      item.pathStart = 0;
     }
-    else {
-      // Draw an additional line when there's a change in
-      // indent levels
-      if( pathIndent !== x ) path.push( 'L', pathIndent, y );
 
-      path.push( 'L', x, y );
-      
-      // Set the current path so that we can measure it
-      tocPath.setAttribute( 'd', path.join( ' ' ) );
-      item.pathStart = tocPath.getTotalLength() || 0;
-      
-      path.push( 'L', x, y + height );
+
+    var toc = document.querySelector('.toc');
+    var tocPath = document.querySelector('.toc-marker path');
+    var tocItems;
+
+    // Factor of screen size that the element must cross
+    // before it's considered visible
+    var TOP_MARGIN = 0.1,
+        BOTTOM_MARGIN = 0.2;
+
+    var pathLength;
+
+    var lastPathStart,
+        lastPathEnd;
+
+    window.addEventListener('resize', drawPath, false);
+    window.addEventListener('scroll', sync, false);
+
+    drawPath();
+
+    function drawPath() {
+
+        tocItems = [].slice.call(toc.querySelectorAll('li'));
+
+        // Cache element references and measurements
+        tocItems = tocItems.map(function (item) {
+            var anchor = item.querySelector('a');
+            var target = document.getElementById(anchor.getAttribute('href').slice(1));
+
+            return {
+                listItem: item,
+                anchor: anchor,
+                target: target
+            };
+        });
+
+        // Remove missing targets
+        tocItems = tocItems.filter(function (item) {
+            return !!item.target;
+        });
+
+        var path = [];
+        var pathIndent;
+
+        tocItems.forEach(function (item, i) {
+
+            var x = item.anchor.offsetLeft - 5,
+                y = item.anchor.offsetTop,
+                height = item.anchor.offsetHeight;
+
+            if (i === 0) {
+                path.push('M', x, y, 'L', x, y + height);
+                item.pathStart = 0;
+            } else {
+                // Draw an additional line when there's a change in
+                // indent levels
+                if (pathIndent !== x) path.push('L', pathIndent, y);
+
+                path.push('L', x, y);
+
+                // Set the current path so that we can measure it
+                tocPath.setAttribute('d', path.join(' '));
+                item.pathStart = tocPath.getTotalLength() || 0;
+
+                path.push('L', x, y + height);
+            }
+
+            pathIndent = x;
+
+            tocPath.setAttribute('d', path.join(' '));
+            item.pathEnd = tocPath.getTotalLength();
+
+        });
+
+        pathLength = tocPath.getTotalLength();
+
+        sync();
+
     }
-    
-    pathIndent = x;
-    
-    tocPath.setAttribute( 'd', path.join( ' ' ) );
-    item.pathEnd = tocPath.getTotalLength();
 
-  } );
-  
-  pathLength = tocPath.getTotalLength();
-  
-  sync();
-  
-}
+    function sync() {
 
-function sync() {
-  
-  var windowHeight = window.innerHeight;
-  
-  var pathStart = pathLength,
-      pathEnd = 0;
-  
-  var visibleItems = 0;
-  
-  tocItems.forEach( function( item ) {
+        var windowHeight = window.innerHeight;
 
-    var targetBounds = item.target.getBoundingClientRect();
-    
-    if( targetBounds.bottom > windowHeight * TOP_MARGIN && targetBounds.top < windowHeight * ( 1 - BOTTOM_MARGIN ) ) {
-      pathStart = Math.min( item.pathStart, pathStart );
-      pathEnd = Math.max( item.pathEnd, pathEnd );
-      
-      visibleItems += 1;
-      
-      item.listItem.classList.add( 'visible' );
+        var pathStart = pathLength,
+            pathEnd = 0;
+
+        var visibleItems = 0;
+
+        tocItems.forEach(function (item) {
+
+            var targetBounds = item.target.getBoundingClientRect();
+
+            if (targetBounds.bottom > windowHeight * TOP_MARGIN && targetBounds.top < windowHeight * (1 - BOTTOM_MARGIN)) {
+                pathStart = Math.min(item.pathStart, pathStart);
+                pathEnd = Math.max(item.pathEnd, pathEnd);
+
+                visibleItems += 1;
+
+                item.listItem.classList.add('visible');
+            } else {
+                item.listItem.classList.remove('visible');
+            }
+
+        });
+
+        // Specify the visible path or hide the path altogether
+        // if there are no visible items
+        if (visibleItems > 0 && pathStart < pathEnd) {
+            if (pathStart !== lastPathStart || pathEnd !== lastPathEnd) {
+                tocPath.setAttribute('stroke-dashoffset', '1');
+                tocPath.setAttribute('stroke-dasharray', '1, ' + pathStart + ', ' + (pathEnd - pathStart) + ', ' + pathLength);
+                tocPath.setAttribute('opacity', 1);
+            }
+        } else {
+            tocPath.setAttribute('opacity', 0);
+        }
+
+        lastPathStart = pathStart;
+        lastPathEnd = pathEnd;
+
     }
-    else {
-      item.listItem.classList.remove( 'visible' );
-    }
-    
-  } );
-  
-  // Specify the visible path or hide the path altogether
-  // if there are no visible items
-  if( visibleItems > 0 && pathStart < pathEnd ) {
-    if( pathStart !== lastPathStart || pathEnd !== lastPathEnd ) {
-      tocPath.setAttribute( 'stroke-dashoffset', '1' );
-      tocPath.setAttribute( 'stroke-dasharray', '1, '+ pathStart +', '+ ( pathEnd - pathStart ) +', ' + pathLength );
-      tocPath.setAttribute( 'opacity', 1 );
-    }
-  }
-  else {
-    tocPath.setAttribute( 'opacity', 0 );
-  }
-  
-  lastPathStart = pathStart;
-  lastPathEnd = pathEnd;
 
-}
+});

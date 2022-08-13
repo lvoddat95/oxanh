@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/hc-offcanvas-nav/dist/hc-offcanvas-nav.css">
     <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/select2/dist/css/select2.min.css">
     <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/datatables/datatables.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/tipsy/tipsy.min.css">
 
     <link rel="stylesheet" href="<?php echo SOURCE; ?>assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="<?php echo SOURCE; ?>assets/css/style.css">

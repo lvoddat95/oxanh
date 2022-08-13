@@ -21,6 +21,7 @@
  <script src="<?php echo SOURCE; ?>utils/datatables/dataTables.bootstrap5.min.js"></script>
  <script src="<?php echo SOURCE; ?>utils/cleave.js/dist/cleave.min.js"></script>
  <script src="<?php echo SOURCE; ?>utils/jquery-validation/dist/jquery.validate.min.js"></script>
+ <script src="<?php echo SOURCE; ?>utils/tipsy/jquery.tipsy.js"></script>
 
  <!-- Page Script  -->
  <?php

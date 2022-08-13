@@ -396,6 +396,15 @@
   .ci-flow a::after{
     display: none;
   }
+
+  .ftoc {
+    right: 10px;
+    bottom: 70px;
+  }
+  .prgoress_indicator {
+    right: 10px;
+    bottom: 10px;
+  }
 }
 
 @media (max-width: 475px) {

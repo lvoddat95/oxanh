@@ -6,48 +6,54 @@
     <div id="ci-content" class="ci-content">
 
         <?php include_once NAVBAR; ?>
+        <div class="ftoc open">
+            <button class="btn-toc" type="button" data-tooltip="tipsy" data-position="left" original-title="Nội dung trang">
+                <i class="fas fa-list-ol me-2"></i><span>Truy cập nhanh</span>
+            </button>
+            <nav class="toc">
+                <ul>
+                    <li><a href="#topic-1">Kế hoạch tương trợ G1</a> </li>
+                    <li>
+                        <a href="#topic-2">Danh mục các bệnh hiểm nghèo</a>
+                    </li>
+                    <li>
+                        <a href="#topic-3">Mức tương trợ tối đa và phí thành viên</a>
+                    </li>
+                    <li>
+                        <a href="#topic-4">Lưu ý cơ bản</a>
+                    </li>
 
-        <!-- <nav class="toc">
-            <ul>
-                <li><a href="#topic-1">Kế hoạch tương trợ G1</a></li>
-                <li>
-                    <a href="#topic-2">Danh mục các bệnh hiểm nghèo</a>
-                </li>
-                <li>
-                    <a href="#topic-3">Mức tương trợ tối đa và phí thành viên</a>
-                </li>
-                <li>
-                    <a href="#topic-4">Lưu ý cơ bản</a>
-                </li>
-                <li>
-                    <a href="#topic-5">Cách thức tham gia thành viên</a>
-                </li>
-                <li>
-                    <a href="#topic-6"> Thời gian chờ</a>
-                </li>
-                <li>
-                    <a href="#topic-7">Nội dung tương trợ </a>
-                </li>
-                <li>
-                    <a href="#topic-8"> Chấm dứt kế hoạch</a>
-                </li>
-                <li>
-                    <a href="#topic-9"> Hoàn cảnh không có sự hỗ trợ lẫn nhau</a>
-                </li>
-                <li>
-                    <a href="#topic-10"> Đề nghị tương trợ và quy tắc phân bổ</a>
-                </li>
-                <li>
-                    <a href="#topic-11">  Rút khỏi kế hoạch </a>
-                </li>
-                <li>
-                    <a href="#topic-12"> Các vấn đề khác cần chú ý</a>
-                </li>
-            </ul>
-            <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-                <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
-            </svg>
-        </nav> -->
+                    <li>
+                        <a href="#topic-5">Cách thức tham gia thành viên</a>
+                    </li>
+                    <li>
+                        <a href="#topic-6"> Thời gian chờ</a>
+                    </li>
+                    <li>
+                        <a href="#topic-7">Nội dung tương trợ </a>
+                    </li>
+                    <li>
+                        <a href="#topic-8"> Chấm dứt kế hoạch</a>
+                    </li>
+                    <li>
+                        <a href="#topic-9"> Hoàn cảnh không có sự hỗ trợ lẫn nhau</a>
+                    </li>
+                    <li>
+                        <a href="#topic-10"> Đề nghị tương trợ và quy tắc phân bổ</a>
+                    </li>
+                    <li>
+                        <a href="#topic-11"> Rút khỏi kế hoạch </a>
+                    </li>
+                    <li>
+                        <a href="#topic-12"> Các vấn đề khác cần chú ý</a>
+                    </li>
+                </ul>
+                <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+                </svg>
+            </nav>
+        </div>
+
         <main>
 
             <div class="ci-block ci-sanpham" id="topic-1">
