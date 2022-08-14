@@ -364,61 +364,38 @@ $(document).ready(function () {
 
 });
 
-// $("[validation='true']").validate({
-//     ignore: "[select2]",
-//     rules: {
-//         firstname: "required",
-//         lastname: "required",
-//         username: {
-//             required: true,
-//             minlength: 2
-//         },
-//         password: {
-//             required: true,
-//             minlength: 5
-//         },
-//         confirm_password: {
-//             required: true,
-//             minlength: 5,
-//             equalTo: "#password"
-//         },
-//         email: {
-//             required: true,
-//             email: true
-//         },
-//         topic: {
-//             required: "#newsletter:checked",
-//             minlength: 2
-//         },
-//         agree: "required"
-//     },
-//     messages: {
-//         firstname: "Please enter your firstname",
-//         lastname: "Please enter your lastname",
-//         username: {
-//             required: "Please enter a username",
-//             minlength: "Your username must consist of at least 2 characters"
-//         },
-//         password: {
-//             required: "Please provide a password",
-//             minlength: "Your password must be at least 5 characters long"
-//         },
-//         confirm_password: {
-//             required: "Please provide a password",
-//             minlength: "Your password must be at least 5 characters long",
-//             equalTo: "Please enter the same password as above"
-//         },
-//         email: "Please enter a valid email address",
-//         agree: "Please accept our policy",
-//         topic: "Please select at least 2 topics"
-//     }
-// });
 
 $(function () {
 
     $(".btn-toc").on("click", function () {
         $(".ftoc").toggleClass('open');
     });
+    
+    // if($(this).width() <= 1600){
+    //     $(".ftoc").removeClass('open');
+    // }
+
+    $(window).resize((event) => {
+        const screenWidth = window.screen.width;
+        let windowWidth = $(this).width(); //this = window
+
+        // console.log(screenWidth)
+        // console.log(windowWidth)
+
+        // Window width
+        if (windowWidth <= 1600) {
+            $(".ftoc").removeClass('open');
+        }else{
+            $(".ftoc").addClass('open');
+        }
+
+        // Window width
+        if (screenWidth <= 1600) {
+            $(".ftoc").removeClass('open');
+        }
+    });
+
+
 
     if ($('[data-tooltip="tipsy"]').length > 0) {
         if (!$().tipsy) {
@@ -431,27 +408,27 @@ $(function () {
             var v_pos = $this.data('position');
 
             // Mac dinh hien thi "top"
-            if (!v_pos || v_pos == 'top' ){
+            if (!v_pos || v_pos == 'top') {
                 v_gravity = 's';
-            }else if( v_pos == 'bottom' ){
+            } else if (v_pos == 'bottom') {
                 v_gravity = 'n';
-            }else if( v_pos == 'left' ){
+            } else if (v_pos == 'left') {
                 v_gravity = 'e';
-            }else if( v_pos == 'right' ){
+            } else if (v_pos == 'right') {
                 v_gravity = 'w';
-            }else if( v_pos == 'bottom-left' ){
+            } else if (v_pos == 'bottom-left') {
                 v_gravity = 'ne';
-            }else if( v_pos == 'bottom-right' ){
+            } else if (v_pos == 'bottom-right') {
                 v_gravity = 'nw';
-            }else if( v_pos == 'top-left' ){
+            } else if (v_pos == 'top-left') {
                 v_gravity = 'se';
-            }else if( v_pos == 'top-right' ){
+            } else if (v_pos == 'top-right') {
                 v_gravity = 'sw';
             }
 
             $this.tipsy({
                 gravity: v_gravity,
-                html: true 
+                html: true
             });
         });
 

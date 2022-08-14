@@ -18,9 +18,14 @@ if (!empty($GLOBALS["menu"])) {
                 <b class="icon-bar"></b>
             </button>
             <ul id="main-menu" class="nav navbar-nav me-auto">
-                <li class="nav-item">
+                <li class="nav-item nav-item-submenu">
                     <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>
                     " aria-current="page" href="<?php echo HTTP_PATH; ?>">Lựa chọn kế hoạch tham gia</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item <?php echo in_array('g1', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php">Kế hoạch tương trợ G1</a></li>
+                        <li><a class="dropdown-item <?php echo in_array('g2', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php">Kế hoạch tương trợ G2</a></li>
+                        <li><a class="dropdown-item <?php echo in_array('g3', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php">Kế hoạch tương trợ G3</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php echo in_array('giai-quyet-quyen-loi-bao-hiem', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/giai-quyet-quyen-loi-bao-hiem.php">Giải quyết quyền lợi</a>

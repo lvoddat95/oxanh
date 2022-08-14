@@ -274,7 +274,7 @@
 
 
 
-
+<!-- Bước đăng ký -->
 <div id="step-1" class="fancybox-modal fancybox-content-md">
     <div class="fancybox-header">
         <div class="fancybox-title text-center">
@@ -334,3 +334,122 @@
 
     </div>
 </div>
+
+<!-- End - Bước đăng ký -->
+
+<!-- Số ngày lẻ G1-->
+<div id="so-ngay-le-g1" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Tính phí số ngày lẻ
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <span class="equa text-center d-flex align-items-center justify-content-center mb-5">
+            <span class="">Số ngày lẻ </span>
+            <span class="mx-5">=</span>
+            <span class="equa-wrap d-flex flex-column">
+                <span class="mb-3 pb-3" style="border-bottom: 1px solid;">Phí năm</span>
+                <span>360 ngày</span>
+            </span>
+            <span class="mx-5">x</span>
+            <span>Số ngày lẻ</span>
+        </span>
+        <p class="mb-3">Hệ thống sẽ tự động tính phí thành viên năm đầu chính xác theo từng ngày và thông báo trước 01 tháng khi đến hạn cho những năm sau.</p>
+        <i class="gray-color">Ví dụ: Anh A 35 tuổi, tham gia gói G1 vào ngày 10.05.2022 thì sẽ đóng phí lần tiếp theo vào ngày 30.05.2023,
+            và mức phí được tính như sau: <br>
+            + Phí từ ngày 10.05.2022 – 10.05.2023 là 1.500.000 đồng <br>
+            + Phí từ ngày 10.05.2023 – 30.05.2023 là: 1.500.000 đồng : 360 ngày x 20 ngày = 83.333 đồng (làm tròn là 83.000 đồng) <br>
+            Vậy lần đầu anh A sẽ đóng: 1.583.000 đồng.
+        </i>
+    </div>
+</div>
+<!-- End - Số ngày lẻ G1-->
+
+<!-- Số ngày lẻ G2-->
+<div id="so-ngay-le-g2" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Tính phí số ngày lẻ
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <span class="equa text-center d-flex align-items-center justify-content-center mb-5">
+            <span class="">Số ngày lẻ </span>
+            <span class="mx-5">=</span>
+            <span class="equa-wrap d-flex flex-column">
+                <span class="mb-3 pb-3" style="border-bottom: 1px solid;">Phí năm</span>
+                <span>360 ngày</span>
+            </span>
+            <span class="mx-5">x</span>
+            <span>Số ngày lẻ</span>
+        </span>
+        <p class="mb-3">Hệ thống sẽ tự động tính phí thành viên năm đầu chính xác theo từng ngày và thông báo trước 01 tháng khi đến hạn cho những năm sau.</p>
+        <i class="gray-color">Ví dụ: Anh A 35 tuổi, tham gia gói G2 vào ngày 10.05.2022 thì sẽ đóng phí lần tiếp theo vào ngày 30.05.2023,
+            và mức phí được tính như sau: <br>
+            + Phí từ ngày 10.05.2022 – 10.05.2023 là 2.250.000 đồng <br>
+            + Phí từ ngày 10.05.2023 – 30.05.2023 là: 2.250.000 đồng : 360 ngày x 20 ngày = 125.000 đồng. <br>
+            Vậy lần đầu anh A sẽ đóng: 2.375.000 đồng.
+        </i>
+    </div>
+</div>
+<!-- End - Số ngày lẻ G2-->
+
+<!-- Số ngày lẻ G3-->
+<div id="so-ngay-le-g3" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Tính phí số ngày lẻ
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <span class="equa text-center d-flex align-items-center justify-content-center mb-5">
+            <span class="">Số ngày lẻ </span>
+            <span class="mx-5">=</span>
+            <span class="equa-wrap d-flex flex-column">
+                <span class="mb-3 pb-3" style="border-bottom: 1px solid;">Phí năm</span>
+                <span>360 ngày</span>
+            </span>
+            <span class="mx-5">x</span>
+            <span>Số ngày lẻ</span>
+        </span>
+        <p class="mb-3">Hệ thống sẽ tự động tính phí thành viên năm đầu chính xác theo từng ngày và thông báo trước 01 tháng khi đến hạn cho những năm sau.</p>
+        <i class="gray-color">Ví dụ: Anh A 35 tuổi, tham gia gói G3 vào ngày 10.05.2022 thì sẽ đóng phí lần tiếp theo vào ngày 30.05.2023, 
+            và mức phí được tính như sau: <br>
+            + Phí từ ngày 10.05.2022 – 10.05.2023 là 3.750.000 đồng <br>
+            + Phí từ ngày 10.05.2023 – 30.05.2023 là: 3.750.000 đồng : 360 ngày x 20 ngày = 208.333 đồng (làm tròn 208.000 đồng). <br>
+            Vậy lần đầu anh A sẽ đóng: 3.958.000 đồng.
+        </i>
+    </div>
+</div>
+<!-- End - Số ngày lẻ G3-->
+
+
+<!-- Nộp phí và Gia hạn-->
+<div id="nop-phi-gia-han" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Nộp phí năm tiếp theo và thời gian gia hạn
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+
+        <p class="mb-2 text-justify">Trước khi đến thời điểm nộp phí 30 ngày, ngay cả khi vẫn còn số dư trong tài khoản,
+            Nền tảng sẽ gửi đến thành viên thông báo thu phí cho năm tiếp theo (Phụ lục 02 - theo Mẫu được đăng tải trên Website).
+        </p>
+        <p class="mb-2 text-justify">Bạn nên đảm bảo rằng nộp phí thành viên đầy đủ và đúng hạn. Nếu phí được nộp không đúng hạn hoặc không đủ, thời gian gia hạn thanh toán được kéo dài thêm 05 ngày làm việc kể từ 0h00
+            ngày đáng ra phải hoàn thành việc nộp phí. </p>
+        <p class="mb-2 text-justify">Trong trường hợp xảy ra sự cố viện trợ lẫn nhau trong thời gian gia hạn, đơn xin Trợ giúp lẫn nhau vẫn có thể được bắt đầu,
+            nhưng số phí thành viên còn thiếu sẽ được khấu trừ khi thanh toán khoản viện trợ lẫn nhau. </p>
+
+        <p class="mb-2 text-justify fw-medium">Nếu hết thời gian gia hạn, thành viên vẫn chưa hoàn thành việc đóng góp phí,
+            thành viên sẽ bị rút khỏi kế hoạch Trợ giúp lẫn nhau kể từ 0h:00 ngày sau khi hết thời gian gia hạn, trừ khi có thỏa thuận khác.</p>
+
+        <span class="equa text-center d-flex align-items-center justify-content-center my-4">
+            Phí thành viên của năm kế tiếp = Phí thành viên theo phụ lục 1 (–) 50% số dư tài khoản (+/-) a% Phí thành viên
+        </span>
+
+        <i class="gray-color d-block text-center">(a là tỷ lệ dự báo tăng giảm phí thành viên của năm tới) </i>
+    </div>
+</div>
+<!-- End - Số ngày lẻ -->
