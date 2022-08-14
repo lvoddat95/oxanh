@@ -76,7 +76,7 @@
             Yêu cầu sức khoẻ <br>của kế hoạch hỗ trợ lần nhau của Ô Xanh
         </div>
     </div>
-    <div class="fancybox-body">
+    <div class="fancybox-body text-justify">
         <div class="mb-4 fw-medium">
             Tôi cam kết rằng sức khỏe của tôi đáp ứng các yêu cầu sức khỏe sau đây và hiểu rằng việc không đáp ứng các điều kiện sau đây sẽ dẫn đến việc tự động rút khỏi kế hoạch tương trợ và không được hỗ trợ lẫn nhau và số tiền đã phân bổ sẽ không được hoàn lại:
         </div>
@@ -145,7 +145,7 @@
             Mặc dù có bệnh/tình trạng bệnh trên nhưng tôi thuộc các trường hợp ngoại lệ dưới đây vì đáp ứng các yêu cầu sau:
         </div>
 
-        <div class="mb-4">
+        <div class="mb-4 text-justify">
             <p><i class="far fa-circle-1 sub-color2 me-2"></i> Trong phần <b>điều trị y tế</b> , bạn có thể tham gia chương trình khi có đủ các điều kiện sau và các điều kiện khác của yêu cầu sức khỏe này:
                 Điều trị y tế để sinh con bình thường, điều hòa kinh nguyệt, cảm lạnh thông thường hoặc cảm lạnh và các bệnh nhiễm trùng đường hô hấp trên,
                 viêm dạ dày ruột cấp tính hoặc viêm ruột thừa, tổn thương cơ hoặc khớp nhẹ, gãy xương không biến chứng, thoát vị đĩa đệm thắt lưng và thoái hóa đốt sống cổ.</p>
@@ -185,7 +185,7 @@
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
             <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#khong-dong-y')">Không</a>
-            <a href="javascript:;"  onclick="fancybox_new_modal('#thong-tin-suc-khoe')" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
+            <a href="javascript:;" onclick="fancybox_new_modal('#thong-tin-suc-khoe')" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
         </div>
     </div>
 </div>
