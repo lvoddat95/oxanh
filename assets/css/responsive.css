@@ -150,6 +150,9 @@
     right: 10px;
     bottom: 10px;
   }
+  .ci-sanpham{
+    width: 96%;
+  }
 }
 
 @media (max-width: 1199px) {

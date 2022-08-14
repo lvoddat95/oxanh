@@ -41,42 +41,21 @@
     <div class="fancybox-body">
         <div class="mb-4">
             <label class="checkcontainer" for="ckb1">
-                <input id="ckb1" type="checkbox" checked="checked" disabled>
+                <input id="ckb1" type="checkbox" checked="checked">
                 <span class="checkmark" style="top: 3px;"></span>
                 <div>
                     Tôi là công dẫn Việt Nam, đang sinh sống tại Việt Nam.
                 </div>
             </label>
         </div>
-        <div class="mb-4">
-            <label class="checkcontainer" for="ckb2">
-                <input id="ckb2" type="checkbox" checked="checked" disabled>
-                <span class="checkmark" style="top: 3px;"></span>
-                <div>
-                    Tôi là Bên mua bảo hiểm, Người được bảo hiểm và cũng là người sở hữu thẻ/tài khoản dùng
-                    để đóng phí cho hợp đồng bảo hiểm này.
-                </div>
-            </label>
-        </div>
-        <div class="mb-4">
-            <label class="checkcontainer" for="ckb3">
-                <input id="ckb3" type="checkbox" checked="checked" disabled>
-                <span class="checkmark" style="top: 3px;"></span>
-                <div>
-                    Tôi hiểm rằng Ô Xanh có thể xem xét lại việc phát hành/duy trì hiệu lực Hợp đồng
-                    bảo hiểm này nếu các thông tin kê khai là thông tin chính xác.
-                </div>
-            </label>
-        </div>
         <div>
             <label class="checkcontainer mb-0" for="ckb4">
-                <input id="ckb4" type="checkbox" checked="checked" disabled>
+                <input id="ckb4" type="checkbox" checked="checked">
                 <span class="checkmark" style="top: 3px;"></span>
                 <div>
-                    Tôi đồng ý tham gia bảo hiểm qua giao dịch điện tử với Công ty Công nghệ bảo hiểm Hạt Thóc Vàng,
-                    đã đọc hiểu và đồng ý với <a href="javascript:;">Điều khoản sử dụng Ô Xanh</a>,
-                    <a href="javascript:;">Điều khoản bảo mật của Ô Xanh</a> và
-                    <a href="javascript:;">Quy tắc, điều khoản của sản phẩm Ô Xanh</a> Bảo hiểm bệnh ung thư.
+                    Tôi đồng ý tham gia <span class="fw-medium">Nền tảng</span> trợ giúp lẫn nhau Ô Xanh qua giao dịch điện tử với công ty Công nghệ Internet chiếc Ô Xanh;
+                    đã đọc hiểu và đồng ý với các <a href="javascript:;">Điều khoản điều kiện, Quy ước, Quy tắc và Điều khoản bảo mật</a> của Ô Xanh.
+
                 </div>
             </label>
         </div>
@@ -91,41 +70,128 @@
 <!--End - Modal Tôi đồng ý -->
 
 <!-- Modal Thông tin sức khoẻ -->
-<div id="thong-tin-suc-khoe" class="fancybox-modal fancybox-content-md">
+<div id="thong-tin-suc-khoe" class="fancybox-modal fancybox-content-lg">
     <div class="fancybox-header">
         <div class="fancybox-title text-center">
-            Thông tin sức khoẻ
+            Yêu cầu sức khoẻ <br>của kế hoạch hỗ trợ lần nhau của Ô Xanh
         </div>
     </div>
     <div class="fancybox-body">
         <div class="mb-4 fw-medium">
-            Bạn có bao giờ được chẩn đoán hoặc điều trị một trong các trường hợp sau đây:
+            Tôi cam kết rằng sức khỏe của tôi đáp ứng các yêu cầu sức khỏe sau đây và hiểu rằng việc không đáp ứng các điều kiện sau đây sẽ dẫn đến việc tự động rút khỏi kế hoạch tương trợ và không được hỗ trợ lẫn nhau và số tiền đã phân bổ sẽ không được hoàn lại:
         </div>
+
         <div class="mb-4">
-            1. Bạn có đang trong quá trình khám để chẩn đoán bệnh; hoặc đang chờ phẫu thuật; hoặc đang chờ
-            kết quả xét nghiệm y khoa, cận lâm sàng, giải phẫu bệnh hoặc sinh thiết; hoặc đã có kết quả
-            bất thường của các xét nghiệm dấu ấn ung thư CEA, CA-125, AFP, PSA?
+            <p><b>1.&nbsp;Thể nhân&nbsp;dự định tham gia&nbsp;Chương trình tương trợ hỗ trợ&nbsp;bệnh hiểm nghèo&nbsp;của&nbsp;Ô Xanh&nbsp;không có các hành vi điều trị y tế sau đây:</b></p>
+
+            <p>a) Hai năm trở lại đây phải uống thuốc trên 30 ngày liên tục hoặc nằm viện trên 15 ngày liên tục do ốm đau, điều trị, phẫu thuật hoặc nhập viện điều trị nhiều hơn 5 ngày &nbsp;trong vòng 06 tháng gần đây.</p>
+
+            <p>b) Đang nằm viện hoặc được bác sĩ đề nghị nhập viện.</p>
+
         </div>
+
         <div class="mb-4">
-            2. Trong 3 tháng vừa qua, bạn có bao giờ bị một trong các dấu hiệu hoặc triệu chứng sau: đau dai dẳng
-            mới xuất hiệu; hoặc mệt mỏi kéo dài hơn 7 ngày; hoặc sụt cân hơn 5kg; hoặc bị sưng hay thay đổi
-            kích thước của vú (đối với nữ); hoặc có máu trong nước tiểu, máu trong phân, máu trong đàm; hoặc
-            thay đổi thói quen đi đại tiện như tiêu chảy kéo dài, táo bón xen kẽ tiêu chảy, phân mỏng dẹp.
+            <p><b>2.&nbsp;Thể nhân&nbsp;dự định tham gia&nbsp;Chương trình Tương trợ Ô Xanh&nbsp;cho&nbsp;Bệnh&nbsp;hiểm nghèo không có các bệnh hoặc triệu chứng trước đây và hiện tại như sau:</b></p>
+
+            <p>a. Các khối u ác tính, bệnh Hodgkin, ung thư hạch, ung thư biểu mô tại chỗ, u tân sinh trong biểu mô, u não và tủy sống.</p>
+
+            <p>b) Không được chẩn đoán rõ ràng là lành tính: nốt phổi, nốt hoặc khối ở vú, nốt tuyến giáp, nốt hoặc khối ở gan, nốt bàng quang và hệ thống tiết niệu, polyp dạ dày, khối hoặc polyp ruột.</p>
+
+            <p>c) Nhồi máu não, xuất huyết não, bệnh tim (bao gồm rối loạn nhịp tim, đau tim, đau ngực, dị tật tim bẩm sinh hoặc phẫu thuật tim), tăng huyết áp độ 2 trở lên (không dùng thuốc, huyết áp tâm thu ≥160mmHg hoặc huyết áp tâm trương ≥100mmHg), đái tháo đường.</p>
+
+            <p>d. Viêm gan (kể cả người mang vi rút viêm gan), xơ gan, bệnh thận đa nang, suy thận.</p>
+
+            <p>e. Thiếu máu bất sản, lupus ban đỏ hệ thống, viêm khớp dạng thấp, bệnh phổi tắc nghẽn mãn tính, bệnh Parkinson, động kinh, rối loạn tâm thần, liệt, AIDS, mang HIV.</p>
+
+            <p>f) R<b>ối loạn lipid máu từ độ IIb trở lên theo mô hình Lipoprotein</b> hoặc &nbsp;tê liệt, liệt, mất cảm giác, co giật, ngất xỉu, bất kỳ hình thức vô cảm với cơn đau nào, đột quỵ, chấn thương não, rối loạn hệ thống thần kinh trung ương, bệnh Alzheimer, mất trí nhớ hoặc bại não, bệnh và chứng rối loạn của tim hay mạch máu, bệnh tâm thần, trầm cảm, lo lắng hoặc suy nhược thần kinh, rối loạn hô hấp, bệnh rối loạn của tai, đau lưng hoặc cổ liên tục trên 6 tuần, &nbsp;suy &nbsp;tuyến giáp, suy gan, suy thận.</p>
+
+            <p>g) Trong 6 tháng gần đây, số cân nặng bị sụt giảm do không tập luyện thể dục thể thao là hơn 5 kg.</p>
+
         </div>
-        <div>
-            3. Bạn có bao giờ được chẩn đoán hoặc điều trị viêm gan siêu vi B, hoặc viêm gan siêu vi C,
-            bướu tuyến giáp, HIV/AIDS, ung thư, u, bướu, nang, pô-líp (polyp), hạch hoặc bất kỳ khối
-            u nào khác?
+
+        <div class="mb-4">
+            <p><b>3.&nbsp;Các yêu cầu bổ sung đối với thể nhân nữ (14 tuổi trở lên)&nbsp;có ý định tham gia&nbsp;Chương trình Tương trợ Ô Xanh&nbsp;cho các&nbsp;bệnh hiểm nghèo&nbsp;:</b></p>
+
+            <p>Hiện không có các bệnh sau: chảy máu âm đạo không đều, viêm cổ tử cung nặng, khám TCT bất thường (loại trừ viêm nhiễm), dương tính với HPV; chưa được chẩn đoán là lành tính: u nang buồng trứng, polyp nội mạc tử cung.</p>
+
         </div>
+
+        <div class="">
+            <p><b>4.&nbsp;Các yêu cầu bổ sung đối với thể nhân từ hai tuổi trở xuống&nbsp;có ý định tham gia&nbsp;Chương trình hỗ trợ lẫn nhau&nbsp;để&nbsp;hỗ trợ lẫn nhau&nbsp;đối với&nbsp;bệnh hiểm&nbsp;nghèo&nbsp;của Ô Xanh</b>:</p>
+
+            <p>Cân nặng lúc sinh không dưới 2 kg, tuổi thai khi sinh không dưới 36 tuần; không bị ngạt, thiếu oxy từ khi đẻ đến sau đẻ một tuần, không chậm phát triển, bại não.</p>
+
+        </div>
+
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#khong-dong-y')">Có</a>
-            <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Không</a>
+            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#truong-hop-ngoai-le')">Không</a>
+            <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
         </div>
     </div>
 </div>
 <!--End - Modal Thông tin sức khoẻ-->
+
+<!-- Modal Thông tin sức khoẻ -->
+<div id="truong-hop-ngoai-le" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Các trường hợp ngoại lệ
+        </div>
+    </div>
+    <div class="fancybox-body">
+        <div class="mb-4 fw-medium">
+            Mặc dù có bệnh/tình trạng bệnh trên nhưng tôi thuộc các trường hợp ngoại lệ dưới đây vì đáp ứng các yêu cầu sau:
+        </div>
+
+        <div class="mb-4">
+            <p><i class="far fa-circle-1 sub-color2 me-2"></i> Trong phần <b>điều trị y tế</b> , bạn có thể tham gia chương trình khi có đủ các điều kiện sau và các điều kiện khác của yêu cầu sức khỏe này:
+                Điều trị y tế để sinh con bình thường, điều hòa kinh nguyệt, cảm lạnh thông thường hoặc cảm lạnh và các bệnh nhiễm trùng đường hô hấp trên,
+                viêm dạ dày ruột cấp tính hoặc viêm ruột thừa, tổn thương cơ hoặc khớp nhẹ, gãy xương không biến chứng, thoát vị đĩa đệm thắt lưng và thoái hóa đốt sống cổ.</p>
+            <p><i class="far fa-circle-2 sub-color2 me-2"></i> <b>Các nốt hoặc cục ở vú chưa được chẩn đoán rõ ràng là lành tính</b>: đáp ứng bất kỳ điều kiện nào sau đây và
+                đáp ứng các điều kiện khác của yêu cầu sức khỏe này, có thể tham gia chương trình:
+                <br>&nbsp;a. Được chẩn đoán là tăng sản vú hoặc khối tăng sản;
+                <br>&nbsp;b. Khám siêu âm hoặc chụp nhũ ảnh trong vòng 1 năm nếu không có bất kỳ bệnh lý nào sau đây: nốt hoặc khối có ranh giới không rõ ràng,
+                hình dạng bất thường, một ít phản xạ hoặc vi vôi hóa, nổi hạch ở nách, BI-RADS cấp 4 hoặc cao hơn.
+            </p>
+            <p><i class="far fa-circle-3 sub-color2 me-2"></i> <b>Các nốt tuyến giáp chưa được chẩn đoán rõ là lành tính</b>: đáp ứng các điều kiện sau và đáp ứng các điều kiện khác của yêu cầu về
+                sức khỏe này thì được tham gia chương trình: <br>
+                Những người đã khám siêu âm trong vòng 1 năm qua mà <b>không</b> có bất kỳ bệnh lý nào sau đây: ranh giới nốt không rõ ràng, siêu âm hoặc vi vôi hóa một chút, lưu lượng máu dồi dào, sưng hạch bạch huyết ở cổ, TI-RADS độ 4 trở lên.
+            <p><i class="far fa-circle-4 sub-color2 me-2"></i> Đối với <b>bệnh tim</b>, bạn có thể tham gia chương trình nếu đáp ứng các điều kiện sau và đáp ứng các yêu cầu sức khỏe khác:
+                Bệnh tim bẩm sinh đã tự khỏi hoặc phẫu thuật được 2 năm, siêu âm tim hoàn toàn bình thường.
+            <p>
+            <p><i class="far fa-circle-5 sub-color2 me-2"></i> Người <b>viêm gan (bao gồm cả người mang vi rút viêm gan)</b> đáp ứng các điều kiện sau và đáp ứng các điều kiện khác của yêu cầu sức khỏe này có thể tham gia chương trình:
+                <br>&nbsp;<b>a. Viêm gan B:</b>
+                <br>&nbsp;&nbsp; 1) Khám viêm gan B trong vòng 1 năm qua, viêm gan B có nhỏ hơn 3 chỉ dấu dương tính (HBsAg, HBeAg, HBcAg dương tính) hoặc không vượt quá 2 chỉ dấu dương tính (HBsAg, HbcAg/HbeAg dương tính), chức năng gan (ALT, AST) hoàn toàn bình thường, và siêu âm gan bình thường Hoặc chỉ gợi ý nang gan, u máu gan, gan nhiễm mỡ; hoặc:
+                <br>&nbsp;&nbsp;2) Khám viêm gan B trong vòng 1 năm trở lại đây, kháng thể bề mặt viêm gan B (HBsAg) dương tính, siêu âm gan bình thường hoặc chỉ cho biết nang gan, u máu trong gan, gan nhiễm mỡ.
+                <br> &nbsp;<b>b. Viêm gan C:</b>
+                Khám viêm gan C trong vòng 1 năm trở lại đây, ARN virus viêm gan C âm tính, chức năng gan (ALT, AST) hoàn toàn bình thường, siêu âm gan bình thường hoặc chỉ thấy nang gan, u máu trong gan, gan nhiễm mỡ.
+                <br>&nbsp;<b>c. Viêm gan siêu vi A và viêm gan siêu vi E</b> đã được chữa khỏi.
+            </p>
+
+            <p><i class="far fa-circle-6 sub-color2 me-2"></i> <b>Chảy máu âm đạo bất thường</b> có thể tham gia chương trình khi đáp ứng các điều kiện sau và các điều kiện khác của yêu cầu sức khỏe này:
+                Chảy máu âm đạo bất thường do polyp lành tính cổ tử cung, polyp lành tính nội mạc tử cung, viêm nội mạc tử cung, u xơ tử cung,
+                rối loạn chức năng tử cung hoặc kinh nguyệt không đều.</p>
+            <p><i class="far fa-circle-7 sub-color2 me-2"></i> <b>U nang buồng trứng lành tính chưa được chẩn đoán</b> có thể tham gia chương trình nếu đáp ứng bất kỳ điều kiện nào sau đây và
+                đáp ứng các điều kiện khác của yêu cầu sức khỏe này:
+                U nang đơn giản, u nang sinh lý, u nang sô cô la, u nang hoàng thể, nang noãn hoặc buồng trứng đa nang.</p>
+
+
+        </div>
+
+
+    </div>
+    <div class="fancybox-footer">
+        <div class="d-flex justify-content-center">
+            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#khong-dong-y')">Không</a>
+            <a href="javascript:;"  onclick="fancybox_new_modal('#thong-tin-suc-khoe')" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
+        </div>
+    </div>
+</div>
+<!--End - Modal Thông tin sức khoẻ-->
+
+
 
 <!-- Modal Thông tin sức khoẻ -->
 <div id="khong-dong-y" class="fancybox-modal fancybox-content-md">
@@ -414,7 +480,7 @@
             <span>Số ngày lẻ</span>
         </span>
         <p class="mb-3">Hệ thống sẽ tự động tính phí thành viên năm đầu chính xác theo từng ngày và thông báo trước 01 tháng khi đến hạn cho những năm sau.</p>
-        <i class="gray-color">Ví dụ: Anh A 35 tuổi, tham gia gói G3 vào ngày 10.05.2022 thì sẽ đóng phí lần tiếp theo vào ngày 30.05.2023, 
+        <i class="gray-color">Ví dụ: Anh A 35 tuổi, tham gia gói G3 vào ngày 10.05.2022 thì sẽ đóng phí lần tiếp theo vào ngày 30.05.2023,
             và mức phí được tính như sau: <br>
             + Phí từ ngày 10.05.2022 – 10.05.2023 là 3.750.000 đồng <br>
             + Phí từ ngày 10.05.2023 – 30.05.2023 là: 3.750.000 đồng : 360 ngày x 20 ngày = 208.333 đồng (làm tròn 208.000 đồng). <br>

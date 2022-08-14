@@ -23,7 +23,7 @@
                         <div class="row gx-lg-5 align-items-center">
                             <div class="col-md-7">
                                 <div class="ci-heading">
-                                    <h2 class="ci-heading__main">Công ty Cổ phần Công nghệ Internet Ô Xanh</h2>
+                                    <h2 class="ci-heading__main">Công ty Cổ phần <br>Công nghệ Internet Ô Xanh</h2>
                                 </div>
                                 <div class="fz-16" style="text-align: justify;">
                                     Quý vị thân mến, Công ty Cổ phần Công nghệ Internet Ô Xanh (sau đây gọi là "Công ty Internet Ô Xanh", "
