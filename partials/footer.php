@@ -10,7 +10,7 @@
                 <div class="col-lg-3">
                     <div class="footer-item">
                         <div class="footer-title">Địa chỉ giao dịch</div>
-                        <div class="footer-content">Số 5 Tú Mỡ, quận Cầu Giấy, TP.Hà Nội</div>
+                        <div class="footer-content"><i class="fad main-color fa-fw fa-location-dot me-2"></i>Số 5 Tú Mỡ, quận Cầu Giấy, TP.Hà Nội</div>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -18,8 +18,8 @@
                         <div class="footer-title">Chăm sóc khách hàng</div>
                         <div class="footer-content">
                             <ul class="list-unstyled">
-                                <li>Hotline: <a href="tel:+0339869338">0339.869.338</a></li>
-                                <li>Email: <a href="mailto:contact@oxanh.vn">contact@oxanh.vn</a></li>
+                                <li><i class="fad main-color fa-fw fa-phone me-2"></i>Hotline: <a class="dark-color" href="tel:+0339869338">0339.869.338</a></li>
+                                <li><i class="fad main-color fa-fw fa-envelope me-2"></i>Email: <a class="dark-color" href="mailto:contact@oxanh.vn">contact@oxanh.vn</a></li>
                                 <li><a href="" title="Để lại thông tin liên hệ">Để lại thông tin liên hệ</a></li>
                             </ul>
                         </div>

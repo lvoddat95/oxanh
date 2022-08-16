@@ -106,9 +106,9 @@
                     <div class="container">
                         <div class="ci-heading">
                             <h2 class="ci-heading__main">Giá trị cốt lõi</h2>
-                            <p class="fz-16 mb-5">Ô Xanh luôn mang đến khách hàng những trải nghiệm mới mẻ, giúp quá trình tham gia bảo hiểm đơn giản, <br>
-                                nhanh chóng và dễ dàng hơn với các giải pháp sáng tạo, sản phẩm dễ hiểu được hỗ trợ bởi công nghệ số thông minh.</p>
                         </div>
+                        <p class="fz-16 mb-5">Ô Xanh luôn mang đến khách hàng những trải nghiệm mới mẻ, giúp quá trình tham gia bảo hiểm đơn giản, <br>
+                            nhanh chóng và dễ dàng hơn với các giải pháp sáng tạo, sản phẩm dễ hiểu được hỗ trợ bởi công nghệ số thông minh.</p>
                         <div class="text-center">
                             <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/gia-tri.jpg" alt="O xanh">
                         </div>
