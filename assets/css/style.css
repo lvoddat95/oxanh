@@ -4062,6 +4062,9 @@ body .entry_content {
   line-height: 46px;
   font-size: 18px;
   color: var(--dark);
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
   left: 0;
   top: 0;
   height: 46px;
@@ -5566,7 +5569,8 @@ Flaticon icon font: Flaticon
   text-align: left;
   font-weight: var(--fw-bold);
   font-size: 20px;
-  background: rgba(240, 244, 253, 0.95);
+  background: rgb(47 175 139);
+  color: #fff;
   border: 0;
   padding: 12px 14px;
 }
@@ -5592,7 +5596,6 @@ Flaticon icon font: Flaticon
   transform: translateY(-50%);
   right: 14px;
   font-size: 14px;
-  color: var(--gray);
 }
 
 .ftoc:not(.open) .btn-toc:after {
