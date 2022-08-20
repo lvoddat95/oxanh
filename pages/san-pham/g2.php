@@ -137,7 +137,7 @@
                                 </tr>
                                 <tr>
                                     <td>Từ 60 - 65 (chỉ dành cho người đã là thành viên)</td>
-                                    <td>Chưa triền khai</td>
+                                    <td>Chưa triển khai</td>
                                 </tr>
                             </tbody>
                         </table>

@@ -279,7 +279,7 @@
                                     </div>
                                     <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
                                         <div class="accordion-body">
-                                            <p><a href="https://oxanh.vn">Xem phần 100 c&acirc;u hỏi v&agrave; trả lời về Bệnh hiểm ngh&egrave;o.</a></p>
+                                            <p><a href="faq.php">Xem phần 100 c&acirc;u hỏi v&agrave; trả lời về Bệnh hiểm ngh&egrave;o.</a></p>
 
                                             <p><b><i>Th&agrave;nh vi&ecirc;n cam kết đ&atilde; đọc, hiểu v&agrave; đồng &yacute; với c&aacute;c nội dung của Quy ước th&agrave;nh vi&ecirc;n, Điều khoản, Quy tắc v&agrave; c&aacute;c điều kiện tham gia Nền tảng trợ gi&uacute;p &Ocirc; Xanh</i></b></p>
 
