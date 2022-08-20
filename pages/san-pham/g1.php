@@ -333,7 +333,7 @@
                             </div>
 
                             <div class="d-block text-center mb-3">
-                                <a href="javascript:void(0);" title="Xem ngay" onclick="fancybox_modal('#rut-khoi-ke-hoach');" class="ci-btn ci-btn-hover-dark ci-btn-main me-4">
+                                <a href="javascript:void(0);" title="Xem ngay" onclick="fancybox_modal('#rut-khoi-ke-hoach');" class="ci-btn ci-btn-hover-dark ci-btn-main me-4 mb-4 mb-lg-0">
                                     <i class="far fa-file-slash me-2"></i>
                                     <span>Rút khỏi kế hoạch</span>
                                 </a>
