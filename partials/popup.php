@@ -519,3 +519,186 @@
     </div>
 </div>
 <!-- End - Số ngày lẻ -->
+
+
+<!-- Nội dung tương trợ-->
+<div id="noi-dung-tuong-tro" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Nội dung tương trợ
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <p class="mb-3">SAU THỜI GIAN CHỜ 90 NGÀY và trong thời gian là thành viên của chương trình, một thành viên bị tai nạn và/hoặc được chẩn đoán ban đầu (lần đầu tiên được chẩn đoán)
+            là mắc bệnh nặng trong danh mục bệnh hiểm nghèo được xác định trong chương trình này VÀ SỐNG SÓT SAU 7 NGÀY kể từ ngày bị tai nạn và/hoặc được chẩn đoán mắc bệnh hiểm nghèo, thành viên bị bệnh có thể gửi đơn xin Trợ giúp lẫn nhau cho chúng tôi. </p>
+        <p class="mb-3">Sau khi kết thúc điều tra sự cố tương trợ của thành viên, chúng tôi sẽ bắt đầu phân bổ viện trợ lẫn nhau cho các thành viên trong
+            kế hoạch này và thanh toán quỹ trợ giúp lẫn nhau cho các thành viên bị bệnh nếu xác định được thông qua các thủ tục liên quan rằng việc Trợ giúp lẫn nhau cần được thực hiện.
+            Việc thanh toán được thực hiện 1 lần toàn bộ số tiền tương trợ thành viên.</p>
+        <p class="mb-3"> Trừ những trường hợp đặc biệt, Ô Xanh có thể tạm ứng trước (nhưng không quá 50%) để thành viên có thời gian hoàn thiện hồ sơ xin tương trợ.</p>
+        Các bệnh hiểm nghèo được định nghĩa trong kế hoạch này đề cập đến các bệnh, trạng thái bệnh hoặc các hoạt động được quy định trong <a title="Xem danh mục" onclick="fancybox_modal('#danh-muc-benh');">Các bệnh hiểm nghèo</a>.
+    </div>
+</div>
+<!-- End - Nội dung tương trợ -->
+
+
+<!-- Rút khỏi kế hoạch-->
+<div id="rut-khoi-ke-hoach" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            <i class="far fa-file-slash me-2 text-danger"></i> Rút khỏi kế hoạch
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <div class="ci-faq ">
+            <div id="ci-rutkhoi" class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rutkhoi0" aria-expanded="true">
+                            <span class="fz-18">Các thành viên tự nguyện rút khỏi kế hoạch</span>
+                        </button>
+                    </div>
+                    <div id="rutkhoi0" class="accordion-collapse collapse" data-bs-parent="#ci-rutkhoi">
+                        <div class="accordion-body">
+                            Thành viên có thể xin rút khỏi chương trình bất cứ lúc nào và nhận lại phí đã đóng mà không tính lãi sau khi trừ đi phí quản lý, phí đã chia sẻ và/hoặc chấp nhận chia sẻ đến thời điểm hoàn thành việc rút khỏi chương trình.
+                            Sau khi một thành viên rút khỏi chương trình và đáp ứng các điều kiện để tham gia lại chương trình, thời gian chờ được tính lại.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#rutkhoi2" aria-expanded="true">
+                            <span class="fz-18">Kế hoạch thoát tự động</span>
+                        </button>
+                    </div>
+                    <div id="rutkhoi2" class="accordion-collapse collapse" data-bs-parent="#ci-rutkhoi">
+                        <div class="accordion-body">
+                            Thành viên sẽ rút khỏi chương trình khi xảy ra một trong các trường hợp sau:
+                            <span class="d-block my-3 ms-4">(1) Những người đã đủ 65 tuổi;</span>
+                            <span class="d-block my-3 ms-4">(2) Những người đã nhận được quỹ Trợ giúp lẫn nhau của kế hoạch này;</span>
+                            <span class="d-block my-3 ms-4">(3) Được xác minh rằng họ không đáp ứng các điều kiện tham gia;</span>
+                            <span class="d-block my-3 ms-4">(4) Không đóng phí thành viên và phí quản lý như đã thỏa thuận;</span>
+                            <span class="d-block my-3 ms-4">(5) Các yếu tố chính sách hoặc bất khả kháng khiến kế hoạch không thể tồn tại;</span>
+                            <span class="d-block my-3 ms-4">(6) Được xác minh rằng khi tham gia chương trình này, họ không đáp ứng các yêu cầu về sức khỏe,
+                                hoặc mắc bệnh hiểm nghèo theo quy định trong kế hoạch trợ giúp lẫn nhau này;</span>
+                            <span class="d-block my-3 ms-4">(7) Kế hoạch viện trợ lẫn nhau cần được chấm dứt theo điều khoản này;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#rutkhoi3" aria-expanded="true">
+                            <span class="fz-18">Tác động của việc thoát khỏi kế hoạch viện trợ lẫn nhau</span>
+                        </button>
+                    </div>
+                    <div id="rutkhoi3" class="accordion-collapse collapse" data-bs-parent="#ci-rutkhoi">
+                        <div class="accordion-body">
+                            Thành viên sẽ rút khỏi chương trình khi xảy ra một trong các trường hợp sau:
+                            <span class="d-block my-3 ms-4">(1) Nếu thành viên rút lui, bảo đảm tương trợ sẽ bị chấm dứt;</span>
+                            <span class="d-block my-3 ms-4">(2) Tại thời điểm rút lui, số tiền đã phân bổ tương ứng với từng thời kỳ và các trường hợp đã phê duyệt và công khai, thành viên vẫn có trách nhiệm tương trợ;</span>
+                            <span class="d-block my-3 ms-4">(3) Thời gian chờ sẽ được áp dụng nếu tham gia lại;</span>
+                            <span class="d-block my-3 ms-4"> (4) Các thành viên đã nộp đơn xin trợ giúp lẫn nhau thành công và rút lui, khi tham gia lại kế hoạch, chỉ tham gia vào
+                                việc phân bổ các khoản viện trợ lẫn nhau mà không còn quyền được nhận hỗ trợ lẫn nhau.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End - Rút khỏi kế hoạch -->
+
+
+<!-- Hoàn cảnh không có sự hỗ trợ lẫn nhau -->
+<div id="hoan-canh-khong-su-ho-tro" class="fancybox-modal fancybox-content-xl">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            <i class="fas fa-shield-slash text-danger me-2"></i>Hoàn cảnh không có sự hỗ trợ lẫn nhau
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <div class="ci-faq">
+            <div id="ci-hoancanh" class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh0" aria-expanded="true">
+                            <span class="fz-18">1. Nếu một thành viên bị bệnh nặng như được xác định trong chương trình này nhưng do
+                                các trường hợp sau thì sẽ không thể nhận được sự hỗ trợ lẫn nhau</span>
+                        </button>
+                    </div>
+                    <div id="hoancanh0" class="accordion-collapse collapse" data-bs-parent="#ci-hoancanh">
+                        <div class="accordion-body">
+                            <span class="d-block my-3 ms-4">+ Thành viên bị người trả tiền (phí thành viên) cố ý giết hoặc bị thương;</span>
+                            <span class="d-block my-3 ms-4">+ Thành viên phạm tội cố ý hoặc chống lại các biện pháp cưỡng chế hình sự theo quy định của pháp luật</span>
+                            <span class="d-block my-3 ms-4">+ Các hành động khiêu khích hoặc cố ý của các thành viên dẫn đến đánh nhau hoặc bị tấn công;</span>
+                            <span class="d-block my-3 ms-4">+ Các thành viên chủ động uống hoặc tiêm thuốc (không theo chỉ dẫn của bác sỹ);</span>
+                            <span class="d-block my-3 ms-4">+ Thành viên lái xe có động cơ trong khi say rượu, hoặc lái xe không có động cơ trong khi say;</span>
+                            <span class="d-block my-3 ms-4">+ Lái xe mà không có giấy phép lái xe hợp pháp, hoặc điều khiển xe cơ giới mà không có giấy phép lái xe hợp pháp;</span>
+                            <span class="d-block my-3 ms-4">+ Thành viên tự sát hoặc cố ý gây thương tích;</span>
+                            <span class="d-block my-3 ms-4">+ Các thành viên bị nhiễm HIV hoặc AIDS, trừ khi có thỏa thuận khác trong kế hoạch này?;</span>
+                            <span class="d-block my-3 ms-4">+ Các bệnh di truyền, dị tật bẩm sinh, dị tật hoặc bất thường nhiễm sắc thể, trừ khi có thỏa thuận khác trong kế hoạch này.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh1" aria-expanded="true">
+                            <span class="fz-18">2. Bệnh/tình trạng hiểm nghèo của thành viên được gây ra,
+                                toàn bộ hoặc một phần, bởi bất kỳ một trong những nguyên nhân dưới đây</span>
+                        </button>
+                    </div>
+                    <div id="hoancanh1" class="accordion-collapse collapse" data-bs-parent="#ci-hoancanh">
+                        <div class="accordion-body">
+                            <span class="d-block my-3 ms-4">+ Bệnh tật hoặc thương tật khác với chẩn đoán bệnh/tình trạng hiểm nghèo theo định nghĩa tại Mục 7.1 dưới đây;</span>
+                            <span class="d-block my-3 ms-4">+ Bệnh/tình trạng hiểm nghèo mà thành viên có triệu chứng, đã được xác minh, hoặc được chẩn đoán trước hoặc trong thời gian chờ trừ khi có thỏa thuận khác trong kế hoạch này;</span>
+                            <span class="d-block my-3 ms-4">+ Bệnh/tình trạng hiểm nghèo phát sinh, trực tiếp từ một khuyết tật hoặc bệnh bẩm sinh đã xuất hiện hoặc được chẩn đoán trước thi tham gia thành viên;</span>
+                            <span class="d-block my-3 ms-4">+ Thành viên không còn sống trong ít nhất bảy (7) ngày sau khi chẩn đoán bệnh/tình trạng hiểm nghèo;</span>
+                            <span class="d-block my-3 ms-4">+ Bức xạ ion hóa hoặc ô nhiễm bởi phóng xạ từ bất kỳ nhiên liệu hạt nhân hoặc từ bất kỳ chất thải hạt nhân do đốt nhiên liệu hạt nhân;</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed button-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh2" aria-expanded="true">
+                            <span class="fz-18">3. Khi tham gia chương trình một thành viên không đáp ứng các yêu cầu về sức khỏe,
+                                hoặc mắc bệnh nặng theo quy định của chương trình, thành viên sẽ không thể nhận được sự
+                                Trợ giúp lẫn nhau và tư cách thành viên của thành viên sẽ bị chấm dứt và thành viên sẽ
+                                tự động rút khỏi chương trình thì được hoàn lại phí thành viên còn lại đến thời điểm rút khỏi chương trình.</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed button-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh3" aria-expanded="true">
+                            <span class="fz-18"> 4. Thành viên đáp ứng các yêu cầu về sức khỏe khi tham gia chương trình và không mắc
+                                bệnh hiểm nghèo như đã xác định trong kế hoạch. Nhưng khi thay đổi chương trình tương trợ,
+                                lại không đáp ứng các yêu cầu về sức khỏe của chương trình mới.
+                                Vì vậy khi bênh nặng thành viên đăng ký tham gia chương trình hỗ trợ lẫn nhau với chương trình mới sẽ không phù hợp mà</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed button-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh4" aria-expanded="true">
+                            <span class="fz-18">5. Đặc biệt lưu ý: Thành viên mắc bệnh hiểm nghèo quy định tại Điều 7.1 của kế hoạch này, nhưng là đối tượng không tương trợ quy định tại Điều 7.1 của kế hoạch này thì thành viên đó không được tương trợ.
+                                Vui lòng đọc kỹ toàn bộ nội dung của Điều 7.1, đặc biệt là phần in đậm.</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button collapsed button-hidden" type="button" data-bs-toggle="collapse" data-bs-target="#hoancanh5" aria-expanded="true">
+                            <span class="fz-18">6. Thành viên tham gia các hoạt động hàng không (trừ khi với tư cách là hành khách), tham gia các cuộc diễn tập, huấn luyện quân sự, tham gia chiến đấu của các lực lượng vũ trang.
+                                Điều trị thuốc không theo chỉ dẫn của cơ quan y tế.
+                                Do động đất, núi lửa, sóng thần, nhiễm phóng xạ, chiến tranh, nội chiến, đình công, thiên tai, dịch bệnh,
+                                các trường hợp bất khả kháng.</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End - Hoàn cảnh không có sự hỗ trợ lẫn nhau-->

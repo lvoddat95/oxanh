@@ -150,9 +150,6 @@
     right: 10px;
     bottom: 10px;
   }
-  .ci-sanpham{
-    width: 96%;
-  }
 }
 
 @media (max-width: 1199px) {
@@ -375,6 +372,10 @@
   .danh-muc-benh {
     font-size: 14px;
     line-height: normal;
+  }
+  #upload-files table td {
+    width: 100%;
+    display: block;
   }
 }
 
