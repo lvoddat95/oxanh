@@ -65,7 +65,7 @@
                                                         <option value="">Bản thân</option>
                                                         <option value="1">Bố/mẹ</option>
                                                         <option value="2">Anh/Chị/Em</option>
-                                                        <option value="3">Con</option>
+                                                        <option value="3">Vợ/Con</option>
                                                         <option value="4">Bạn bè</option>
                                                     </select>
                                                 </div>
