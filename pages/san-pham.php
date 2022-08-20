@@ -1,4 +1,4 @@
-<?php require_once "../../config.php"; ?>
+<?php require_once "../config.php"; ?>
 <?php include_once HEADER; ?>
 <?php $GLOBALS["menu"] = 'home,g1'; ?>
 
