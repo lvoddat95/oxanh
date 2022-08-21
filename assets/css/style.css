@@ -956,8 +956,9 @@ a:hover {
   border-radius: var(--radius-16);
   margin: 7.5px;
   background: #fff;
-  -webkit-box-shadow: var(--shadow-s);
-  box-shadow: var(--shadow-s);
+  -webkit-box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
+  border: var(--border-eee);
 }
 
 .ci-package-item:hover {
@@ -971,22 +972,20 @@ a:hover {
 }
 
 .ci-package-item__top span {
-  color: var(--gray);
+  color: #c19921;
+  font-size: 2.4rem;
+  font-weight: 500;
 }
 
 .ci-package-item__top h3 {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: var(--fw-bold);
   color: var(--main-color);
 }
 
 .ci-package-item__mid {
   position: relative;
-  padding: 6px 0 24px;
-  margin: 0 -20px;
-  border-top: var(--border-eee);
-  border-bottom: var(--border-eee);
 }
 
 .ci-package-item__mid-inner {
@@ -1023,7 +1022,7 @@ a:hover {
 }
 
 .ci-package-item__bottom {
-  margin: 40px 0 0;
+  margin: 20px 0 0;
   text-align: center;
 }
 
@@ -5491,6 +5490,19 @@ Flaticon icon font: Flaticon
   overflow: hidden;
   max-width: 100%;
   width: 100%;
+}
+.table-style.style2 {
+  padding: 6px 10px;
+  margin-bottom: 0;
+  border-radius: var(--radius-8);
+  border: var(--border-eee);
+}
+
+.table-style.style2 tbody tr td:first-child{
+}
+
+.table-style.style2 thead{
+  text-transform: none;
 }
 
 .table-style tr td,
