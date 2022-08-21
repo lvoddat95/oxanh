@@ -4219,7 +4219,9 @@ body .entry_content {
 .gm-ui-hover-effect>span {
   background-color: #fff;
 }
-
+.gm-style .gm-style-iw-tc::after{
+  background: var(--main-color);
+}
 .gm-style .gm-style-iw-c {
   padding: 0px;
   background: var(--main-color);
