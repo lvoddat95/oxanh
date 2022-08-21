@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="ci-contact-item col-lg-4 col-md-6 col-12">
                                     <a href="" class="ci-contact-link">
-                                        <h3 class="ci-contact-item__title">Kiểm tra lãi suất sản phẩm bảo hiểm Ô Xanh</h3>
+                                        <h3 class="ci-contact-item__title">Kiểm tra lãi suất sản phẩm  Ô Xanh</h3>
                                         <i class="ci-contact-item__icon far fa-chart-user"></i>
                                     </a>
                                 </div>
@@ -88,7 +88,7 @@
                             <div class="ci-heading">
                                 <h2 class="ci-heading__main mb-4">Kiểm tra quyền lợi bảo vệ của Quý khách</h2>
                                 <p class="mb-0">
-                                    Để biết thông tin chi tiết về quyền lợi bảo vệ, Quý khách vui lòng đăng nhập cổng Ô Xanh Dịch vụ Trực tuyến để kiểm tra chi tiết hợp đồng bảo hiểm của mình.
+                                    Để biết thông tin chi tiết về quyền lợi bảo vệ, Quý khách vui lòng đăng nhập cổng Ô Xanh Dịch vụ Trực tuyến để kiểm tra chi tiết hợp đồng  của mình.
                                 </p>
                             </div>
                             <a href="dang-ky2.php" class="ci-btn ci-btn-main d-inline-block">

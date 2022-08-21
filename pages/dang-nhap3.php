@@ -12,7 +12,7 @@
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Đăng nhập tài khoản</h1>
                     <div class="ci-breadcrumb-desc">
-                        Nhận lại quyền lợi bảo hiểm bảo vệ toàn diện từ ICaner
+                        Nhận lại quyền lợi bảo hiểm bảo vệ toàn diện từ OXanh 
                     </div>
                 </div>
             </div>

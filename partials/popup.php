@@ -200,7 +200,7 @@
             <span class="fw-medium"> Cảm ơn bạn đã chọn tham gia Bảo hiểm ung thư </span><br>
             Với thông tin bạn đã cung cấp, chúng tôi rất tiếc chưa thể chấp nhận Hồ sơ yêu cầu
             bảo hiểm tại thời điểm hiện tại. <br>
-            Bạn có thể liên hệ Công ty Công nghệ bảo hiểm Hạt Thóc Vàng qua website hoặc Tổng đài
+            Bạn có thể liên hệ Công ty Cổ phần Công nghệ Internet Ô Xanh qua website hoặc Tổng đài
             <span class="fw-medium"><a href="tel:19001234">19001234</a></span> (miễn phí)
             để được tư vấn thêm.
         </div>

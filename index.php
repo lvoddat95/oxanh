@@ -178,7 +178,7 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                            <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="https://oxanh.herokuapp.com/assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                            <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
                         </div>
                     </div>
                     <div class="col-lg-6">

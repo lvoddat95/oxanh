@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bảo hiểm ưng thư | Công ty Công nghệ bảo hiểm Hạt Thóc Vàng</title>
+    <title>Bảo hiểm ưng thư | Công ty Cổ phần Công nghệ Internet Ô Xanh</title>
 
     <!-- Load Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -550,7 +550,7 @@
                             </ul>
                         </div>
                         <p class="m-0">
-                            © 2022 Bản quyền thuộc về Công ty Công nghệ bảo hiểm Hạt Thóc Vàng.</p>
+                            © 2022 Bản quyền thuộc về Công ty Cổ phần Công nghệ Internet Ô Xanh.</p>
                     </div>
                 </div>
             </div>

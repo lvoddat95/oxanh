@@ -47,8 +47,8 @@
                                     <h2 class="ci-purchase__title">
                                         2. Xác nhận thông tin cá nhân
                                     </h2>
-                                    <p class="ci-purchase__desc">Tôi là Bên mua bảo hiểm,
-                                        Người được bảo hiểm và cũng là người sở hữu thẻ/tài khoản dùng để đóng phí cho hợp đồng bảo hiểm này.</p>
+                                    <p class="ci-purchase__desc">Tôi là Bên mua ,
+                                        Người được  và cũng là người sở hữu thẻ/tài khoản dùng để đóng phí cho hợp đồng  này.</p>
                                 </div>
                             </div>
                         </div>
@@ -65,8 +65,8 @@
                                             <input id="cam-ket" type="checkbox">
                                             <span class="checkmark" style="top: 5px;"></span>
                                             <div>
-                                                <span>Tôi là Bên mua bảo hiểm, Người được bảo hiểm và cũng là người sở hữu thẻ/tài khoản dùng để đóng phí
-                                                    cho hợp đồng bảo hiểm này.</span>
+                                                <span>Tôi là Bên mua , Người được  và cũng là người sở hữu thẻ/tài khoản dùng để đóng phí
+                                                    cho hợp đồng  này.</span>
                                             </div>
                                         </label>
                                     </div>
@@ -130,7 +130,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="ci-purchase-box">
-                                    <h3 class="ci-purchase__subtitle">Thông tin gói bảo hiểm</h3>
+                                    <h3 class="ci-purchase__subtitle">Thông tin gói </h3>
                                     <div class="package-change">
                                         <div class="package-info">
                                             <div class="mb-3">
@@ -138,14 +138,14 @@
                                             </div>
                                         </div>
                                         <div id="package-sotienbh" class="package-info">
-                                            <h3>Quyền lợi bảo hiểm</h3>
+                                            <h3>Quyền lợi </h3>
                                             <p class="sotienbh"><span>200.000.000</span> VNĐ</p>
                                         </div>
                                         <div id="package-phibh" class="package-info">
                                             <table class="table table-borderless mb-0">
                                                 <tbody>
                                                     <tr>
-                                                        <td class="w-50">Thời hạn bảo hiểm:</td>
+                                                        <td class="w-50">Thời hạn :</td>
                                                         <td class="w-50 text-end">5 năm</td>
                                                     </tr>
                                                     <tr>
@@ -156,7 +156,7 @@
                                             </table>
                                         </div>
                                         <div id="package-phibh" class="package-info">
-                                            <h3>Phí bảo hiểm</h3>
+                                            <h3>Phí </h3>
                                             <p class="phibh"><span>422.000</span> đ/năm</p>
                                         </div>
                                     </div>

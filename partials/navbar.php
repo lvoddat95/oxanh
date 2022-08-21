@@ -71,7 +71,7 @@ if (!empty($GLOBALS["menu"])) {
                                 <i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
                             </a>
                         </div>
-                        <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh d-block w-100" type="button">MUA BẢO HIỂM</button> -->
+                        <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh d-block w-100" type="button">MUA </button> -->
                     </form>
                 </li>
 
@@ -103,7 +103,7 @@ if (!empty($GLOBALS["menu"])) {
                             <i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
                         </a>
                     </div>
-                    <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh" type="button">MUA BẢO HIỂM</button> -->
+                    <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh" type="button">MUA </button> -->
                 </form>
             </div>
         </div>

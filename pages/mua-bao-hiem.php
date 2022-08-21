@@ -49,7 +49,7 @@
                                             1. Thông tin cá nhân
                                         </h2>
                                         <p class="ci-purchase__desc">Các thông tin bên dưới dùng cho việc thẩm định,
-                                            phát hành hợp đồng bảo hiểm và sẽ được bảo mật.
+                                            phát hành hợp đồng và sẽ được bảo mật.
                                             Do đó, bạn hãy điền đầy đủ và chính xác các thông tin này</p>
                                     </div>
                                 </div>

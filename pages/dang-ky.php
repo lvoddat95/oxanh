@@ -171,7 +171,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                 </a>
                             </li>
                         </ul>
-                        <p class="mb-0">© 2022 Bản quyền thuộc về Công ty Công nghệ bảo hiểm Hạt Thóc Vàng</p>
+                        <p class="mb-0">© 2022 Bản quyền thuộc về Công ty Cổ phần Công nghệ Internet Ô Xanh</p>
                     </div>
                 </div>
             </div>

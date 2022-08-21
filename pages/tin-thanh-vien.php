@@ -39,7 +39,7 @@
                                                     Chương trình khuyến mại dành cho CBNV Agribank mua sản phẩm Đón đầu thay đổi trong tương lai
                                                 </a>
                                             </h3>
-                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm bảo hiểm Đón đầu thay
+                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm  Đón đầu thay
                                                 đổi 3.0 được phân phối tại ngân hàng Nông nghiệp
                                                 và Phát triển Nông thôn Việt Nam (Agribank) bao
                                                 gồm các sản phẩm bổ trợ đi kèm (nếu có), từ ngày
@@ -66,7 +66,7 @@
                                                     Chương trình khuyến mại dành cho CBNV Agribank mua sản phẩm Đón đầu thay đổi trong tương lai
                                                 </a>
                                             </h3>
-                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm bảo hiểm Đón đầu thay
+                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm  Đón đầu thay
                                                 đổi 3.0 được phân phối tại ngân hàng Nông nghiệp
                                                 và Phát triển Nông thôn Việt Nam (Agribank) bao
                                                 gồm các sản phẩm bổ trợ đi kèm (nếu có), từ ngày
@@ -93,7 +93,7 @@
                                                     Chương trình khuyến mại dành cho CBNV Agribank mua sản phẩm Đón đầu thay đổi trong tương lai
                                                 </a>
                                             </h3>
-                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm bảo hiểm Đón đầu thay
+                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm  Đón đầu thay
                                                 đổi 3.0 được phân phối tại ngân hàng Nông nghiệp
                                                 và Phát triển Nông thôn Việt Nam (Agribank) bao
                                                 gồm các sản phẩm bổ trợ đi kèm (nếu có), từ ngày
@@ -120,7 +120,7 @@
                                                     Chương trình khuyến mại dành cho CBNV Agribank mua sản phẩm Đón đầu thay đổi trong tương lai
                                                 </a>
                                             </h3>
-                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm bảo hiểm Đón đầu thay
+                                            <p class="ci-blog-info__desc"> Áp dụng sản phẩm  Đón đầu thay
                                                 đổi 3.0 được phân phối tại ngân hàng Nông nghiệp
                                                 và Phát triển Nông thôn Việt Nam (Agribank) bao
                                                 gồm các sản phẩm bổ trợ đi kèm (nếu có), từ ngày
@@ -142,14 +142,14 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo SOURCE; ?>assets/img/5_Du-bao-tinh-hinh-ung-thu.jpg" alt="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia bảo hiểm y tế" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo SOURCE; ?>assets/img/5_Du-bao-tinh-hinh-ung-thu.jpg" alt="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">
-                                        <a href="single.php" title="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia bảo hiểm y tế" class="main-color">Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia bảo hiểm y tế</a>
+                                        <a href="single.php" title="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế" class="main-color">Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế</a>
                                     </h3>
                                     <p class="ci-blog-info__desc">
-                                        Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia bảo hiểm y tế.
+                                        Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế.
                                     </p>
                                     <a href="single.php" class="ci-blog-info__readmore-outline" title="Xem tiếp"><i class="far fa-arrow-right-long me-2"></i>Xem tiếp</a>
                                 </div>

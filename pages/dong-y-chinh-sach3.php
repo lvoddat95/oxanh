@@ -40,7 +40,7 @@
                                             Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào. Bằng
                                             cách
                                             đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:;">Chính sách
-                                                quy đính của Công ty Công nghệ bảo hiểm Hạt Thóc Vàng </a>
+                                                quy đính của Công ty Cổ phần Công nghệ Internet Ô Xanh </a>
                                         </div>
                                     </label>
                                 </div>
@@ -54,7 +54,7 @@
                                             Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào. Bằng
                                             cách
                                             đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:;">Chính sách
-                                                quy đính của Công ty Công nghệ bảo hiểm Hạt Thóc Vàng </a>
+                                                quy đính của Công ty Cổ phần Công nghệ Internet Ô Xanh </a>
                                         </div>
                                     </label>
                                 </div>

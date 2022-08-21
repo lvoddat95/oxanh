@@ -12,7 +12,7 @@
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Google Map</h1>
                     <div class="ci-breadcrumb-desc">
-                        Nhận lại quyền lợi bảo hiểm bảo vệ toàn diện từ ICaner
+                        Nhận lại quyền lợi  bảo vệ toàn diện từ ICaner
                     </div>
                 </div>
             </div>

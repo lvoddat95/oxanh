@@ -68,7 +68,7 @@
                                     <div class="accordion-header">
                                         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapseOne">
                                             <span class="fz-18">
-                                                3. Công ty Ô Xanh có phải là công ty bảo hiểm không?
+                                                3. Công ty Ô Xanh có phải là công ty  không?
                                             </span>
                                         </button>
                                     </div>
@@ -551,7 +551,7 @@
                                     <div class="accordion-header">
                                         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-18" aria-expanded="true" aria-controls="collapseOne">
                                             <span class="fz-18">
-                                                19. Ô Xanh thật có ích cho xã hội cho cộng đồng thì tôi có nên tham gia các loại hình bảo hiểm khác không ví dụ như bảo hiểm y tế, bảo hiểm nhân thọ.
+                                                19. Ô Xanh thật có ích cho xã hội cho cộng đồng thì tôi có nên tham gia các loại hình  khác không ví dụ như  y tế,  nhân thọ.
 
                                             </span>
                                         </button>

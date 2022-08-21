@@ -270,10 +270,10 @@
                         <div class="ci-heading mb-3 mb-md-5">
                             <h2 class="ci-heading__main text-center">Thời gian chờ là <span class="main-color">90 ngày</span></h2>
                         </div>
-                        <div class="mb-3">
+                        <div>
                             <div class="row gx-5 mb-3">
                                 <div class="col-lg-5 d-flex align-items-center">
-                                    <img class="img-fluid mb-3" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.png" alt="Ô Xanh">
+                                    <img class="img-fluid mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.png" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="text-justify fz-16">
@@ -304,7 +304,7 @@
                 </div>
             </div>
 
-            <div class="ci-block ci-style" id="topic-8">
+            <div class="ci-block pb-0 ci-style" id="topic-8">
                 <div class="container">
                     <div class="position-relative">
                         <dic class="ci-icon">
@@ -313,7 +313,7 @@
                         <div class="ci-heading mb-3 mb-md-5">
                             <h2 class="ci-heading__main text-center">Chấm dứt kế hoạch</h2>
                         </div>
-                        <div class="mb-3">
+                        <div>
                             <div class="row gx-5 mb-3">
                                 <div class="col-lg-5">
                                     <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-dut.png" alt="Ô Xanh">
@@ -332,7 +332,7 @@
                                 </div>
                             </div>
 
-                            <div class="d-block text-center mb-3">
+                            <div class="d-block text-center">
                                 <a href="javascript:void(0);" title="Xem ngay" onclick="fancybox_modal('#rut-khoi-ke-hoach');" class="ci-btn ci-btn-hover-dark ci-btn-main me-4 mb-4 mb-lg-0">
                                     <i class="far fa-file-slash me-2"></i>
                                     <span>Rút khỏi kế hoạch</span>
