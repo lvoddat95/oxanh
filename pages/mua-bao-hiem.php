@@ -175,11 +175,12 @@
                                                 <p class="sotienbh"><span>200.000.000</span> VNĐ</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">
-                                                <h3>Phí thành viên</h3>
+                                                <h3>Phí thành viên (Đóng đến ngày 30/08/2022)</h3>
                                                 <p class="phibh"><span>1,500,000</span> đ/năm</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">
-                                                <h3>Phí quản lý (10% Phí thành viên)</h3>
+                                                <h3>Phí quản lý</h3>
+
                                                 <p class="phibh"><span>150,000</span> đ/năm</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">

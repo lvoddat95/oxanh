@@ -134,12 +134,12 @@
                                     <div class="package-change">
                                         <div class="package-info">
                                             <div class="mb-3">
-                                                <span class="fw-medium fz-16">Cancer Care 300</span>
+                                                <span class="fw-medium fz-16">G1 - 200.000.000</span>
                                             </div>
                                         </div>
                                         <div id="package-sotienbh" class="package-info">
                                             <h3>Quyền lợi bảo hiểm</h3>
-                                            <p class="sotienbh"><span>300.000.000</span> VNĐ</p>
+                                            <p class="sotienbh"><span>200.000.000</span> VNĐ</p>
                                         </div>
                                         <div id="package-phibh" class="package-info">
                                             <table class="table table-borderless mb-0">

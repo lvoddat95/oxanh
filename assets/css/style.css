@@ -913,7 +913,7 @@ a:hover {
 
 .ci-package-block {
   position: relative;
-  background: var(--grey);
+  background: #fff;
   overflow: hidden;
 }
 

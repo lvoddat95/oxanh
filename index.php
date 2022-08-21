@@ -172,6 +172,34 @@
             </div>
         </div>
 
+        <div class="ci-block bg-pattern pb-0">
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                        <div class="mb-5 mb-lg-0 me-9 me-lg-5">
+                            <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="https://oxanh.herokuapp.com/assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-2 mb-lg-5 pb-5">
+                            <div class="ci-heading mb-3 mb-md-5">
+                                <h2 class="ci-heading__main ">Danh mục <br>46 bệnh hiểm nghèo</h2>
+                            </div>
+                            <div class="fz-16 mb-3 mb-md-5">
+                                Các bệnh nghiêm trọng được định nghĩa trong kế hoạch này đề cập đến các bệnh. Trạng thái bệnh được quy định chi tiết tại đây:
+                            </div>
+                            <a href="javascript:void(0);" onclick="fancybox_modal('#danh-muc-benh');" class="ci-btn  ci-btn-hover-dark ci-btn-main d-inline-block">
+                                <i class="far fa-book-medical me-3"></i>Xem bảng danh mục</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
         <div class="ci-block">
             <div class="container">
                 <div class="ci-heading center">
