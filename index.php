@@ -51,13 +51,13 @@
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
-                                            <th>Độ tuổi (tuổi)</th>
+                                            <th width="40%">Độ tuổi (tuổi)</th>
                                             <th class="text-end">Phí tham gia/năm (đồng)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Từ 1 - 18 <br> (1 tính từ 30 ngày)</td>
+                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
                                             <td align="right">500.000</td>
                                         </tr>
                                         <tr>
@@ -77,7 +77,7 @@
                                             <td align="right">2.500.000</td>
                                         </tr>
                                         <tr>
-                                            <td>Từ 60 - 65 <br> (chỉ dành cho người đã là thành viên)</td>
+                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
                                             <td align="right">3.000.000</td>
                                         </tr>
                                     </tbody>
@@ -97,13 +97,13 @@
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
-                                            <th>Độ tuổi (tuổi)</th>
-                                            <th  class="text-end">Phí tham gia/năm (đồng)</th>
+                                            <th width="40%">Độ tuổi (tuổi)</th>
+                                            <th class="text-end">Phí tham gia/năm (đồng)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Từ 1 - 18 <br> (1 tính từ 30 ngày)</td>
+                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
                                             <td align="right">750.000</td>
                                         </tr>
                                         <tr>
@@ -123,7 +123,7 @@
                                             <td align="right">3.750.000</td>
                                         </tr>
                                         <tr>
-                                            <td>Từ 60 - 65 <br> (chỉ dành cho người đã là thành viên)</td>
+                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
                                             <td align="right">Chưa triển khai</td>
                                         </tr>
                                     </tbody>
@@ -143,13 +143,13 @@
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
-                                            <th>Độ tuổi (tuổi)</th>
-                                            <th  class="text-end">Phí tham gia/năm (đồng)</th>
+                                            <th width="40%">Độ tuổi (tuổi)</th>
+                                            <th class="text-end">Phí tham gia/năm (đồng)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Từ 1 - 18 <br> (1 tính từ 30 ngày)</td>
+                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
                                             <td align="right">1.250.000</td>
                                         </tr>
                                         <tr>
@@ -162,13 +162,13 @@
                                         </tr>
                                         <tr>
                                             <td>Từ 40 - 49</td>
-                                            <td rowspan="3" style="vertical-align: middle;"  align="right">Chưa triển khai</td>
+                                            <td rowspan="3" style="vertical-align: middle;" align="right">Chưa triển khai</td>
                                         </tr>
                                         <tr>
                                             <td>Từ 50 - 59</td>
                                         </tr>
                                         <tr>
-                                            <td>Từ 60 - 65 <br> (chỉ dành cho người đã là thành viên)</td>
+                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -180,17 +180,29 @@
                     </div>
 
                 </div>
-                <div class="ci-package-docs">
-                    <a href="" class="ci-docs__link">
-                        <i class="fas fa-arrow-down-to-bracket me-2"></i>
-                        <span>Tài liệu giới thiệu sản phẩm</span>
-                    </a>
-                    <span class="mx-3"></span>
-                    <a href="" class="ci-docs__link">
-                        <i class="fas fa-arrow-down-to-bracket me-2"></i>
-                        <span>Quy tắc & Điều khoản</span>
-                    </a>
+
+                <div class="row ">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="ci-package-docs mt-0">
+                            <a href="" class="ci-docs__link">
+                                <i class="fas fa-arrow-down-to-bracket me-2"></i>
+                                <span>Tài liệu giới thiệu sản phẩm</span>
+                            </a>
+                            <span class="mx-3"></span>
+                            <a href="" class="ci-docs__link">
+                                <i class="fas fa-arrow-down-to-bracket me-2"></i>
+                                <span>Quy tắc & Điều khoản</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <i class="d-block text-end">
+                            <b class="me-2">Lưu ý:</b> (<b class="text-danger">1</b>)1 tuổi tính từ 30 ngày, <br>
+                            (<b class="text-danger">2</b>)60-65 tuổi chỉ dành cho người đã là thành viên
+                        </i>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
