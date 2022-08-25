@@ -108,7 +108,7 @@
         }
 
         list.push(
-          '<a href="javascript:;" tabindex="0" data-index="' +
+          '<a href="javascript:void(0);" tabindex="0" data-index="' +
           i +
           '"' +
           (src && src.length ? ' style="background-image:url(' + src + ')"' : 'class="fancybox-thumbs-missing"') +

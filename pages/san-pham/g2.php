@@ -62,6 +62,9 @@
                 <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
                 </svg>
+
+                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" 
+                class="ci-btn ci-btn-outline border-2 main-color ci-btn-thamgia d-block mt-3">Tham gia trực tuyến</a>
             </nav>
         </div>
 
@@ -127,7 +130,7 @@
                         <h2 class="ci-heading__main ">Mức tương trợ tối đa và phí thành viên</h2>
                     </div>
                     <div class="fz-16 mb-3 mb-md-5 text">
-                        Với gói G2 này, mức tương trợ tối đa cho thành viên lên tới <span class="fw-medium main-color">300.000.000</span> đồng.
+                        Với gói G2 này, mức tương trợ tối đa cho thành viên lên tới <span class="fw-medium main-color">300.000.000₫</span>.
                         <br> Tùy theo các nhóm tuổi phí thành viên cụ thể như sau:
 
                     </div>
@@ -149,7 +152,7 @@
                                     <th style="border-right: 1px solid #fff;" rowspan="2">Độ tuổi</th>
                                     <th>Tên Gói và Mức tương trợ tối đa</th>
                                 <tr>
-                                    <th>G2 – 300.000.000</th>
+                                    <th>G2 – 300.000.000₫</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -493,15 +496,12 @@
                                             </p>
 
                                             <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium"><i class="far fa-circle-2 sub-color2 me-2"></i>Tỷ lệ tương trợ/phân bổ:</span>
-                                                Tiền trợ giúp lẫn nhau được chia cho các thành viên theo một tỷ lệ cố định được tính bằng cách lấy
-                                                Tiền trợ giúp thành viên (theo sự kiện) chia cho (:) Tổng phí thành viên.
-                                                Trường hợp tỷ lệ này lớn hơn 1% thì lấy 1% và gọi đó là tỷ lệ phân bổ
+                                                <span class="fw-medium"><i class="far fa-circle-2 sub-color2 me-2"></i>Số tiền tương trợ/phân bổ của mỗi thành viên</span>
+                                                được tính bằng cách lấy tỷ lệ phân bổ nhân (x) với mức phí thành viên.
                                             </p>
 
                                             <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium"><i class="far fa-circle-3 sub-color2 me-2"></i>Số tiền tương trợ/phân bổ của mỗi thành viên:</span>
-                                                được tính bằng cách lấy tỷ lệ phân bổ nhân (x) với mức phí thành viên.
+                                                <span class="fw-medium"><i class="far fa-circle-3 sub-color2 me-2"></i>Số tiền trợ giúp thành viên (theo sự kiện)</span> = Tỷ lệ tương trợ/phân bổ X Tổng phí thành viên.
                                             </p>
                                         </div>
                                     </div>

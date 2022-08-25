@@ -54,7 +54,7 @@
                 <span class="checkmark" style="top: 3px;"></span>
                 <div>
                     Tôi đồng ý tham gia <span class="fw-medium">Nền tảng</span> trợ giúp lẫn nhau Ô Xanh qua giao dịch điện tử với công ty Công nghệ Internet chiếc Ô Xanh;
-                    đã đọc hiểu và đồng ý với các <a href="javascript:;">Điều khoản điều kiện, Quy ước, Quy tắc và Điều khoản bảo mật</a> của Ô Xanh.
+                    đã đọc hiểu và đồng ý với các <a href="javascript:void(0);">Điều khoản điều kiện, Quy ước, Quy tắc và Điều khoản bảo mật</a> của Ô Xanh.
 
                 </div>
             </label>
@@ -62,8 +62,8 @@
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" data-fancybox-close>Không</a>
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4" onclick="fancybox_new_modal('#thong-tin-suc-khoe')">Xác nhận</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" data-fancybox-close>Không</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4" onclick="fancybox_new_modal('#thong-tin-suc-khoe')">Xác nhận</a>
         </div>
     </div>
 </div>
@@ -126,7 +126,7 @@
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#truong-hop-ngoai-le')">Không</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#truong-hop-ngoai-le')">Không</a>
             <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
         </div>
     </div>
@@ -184,8 +184,8 @@
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#khong-dong-y')">Không</a>
-            <a href="javascript:;" onclick="fancybox_new_modal('#thong-tin-suc-khoe')" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#khong-dong-y')">Không</a>
+            <a href="javascript:void(0);" onclick="fancybox_new_modal('#thong-tin-suc-khoe')" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
         </div>
     </div>
 </div>
@@ -207,7 +207,7 @@
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4" data-fancybox-close>Đóng</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4" data-fancybox-close>Đóng</a>
         </div>
     </div>
 </div>
@@ -271,7 +271,7 @@
     </div>
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
-            <a href="javascript:;" class="btn ci-btn ci-bg-sub-color mx-2 mx-lg-4">Upload danh sách files</a>
+            <a href="javascript:void(0);" class="btn ci-btn ci-bg-sub-color mx-2 mx-lg-4">Upload danh sách files</a>
         </div>
     </div>
 </div>

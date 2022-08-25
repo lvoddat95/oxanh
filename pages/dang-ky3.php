@@ -116,6 +116,9 @@
                                         <div class="mt-5">
                                             <button class="btn w-100 ci-btn ci-bg-sub-color " type="submit">Đăng ký</button>
                                         </div>
+                                        <div class="mt-5 text-center">
+                                            Quý khách đã có tài khoản <a href="dang-nhap3.php">Đăng nhập</a>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="auth-heading mb-5">

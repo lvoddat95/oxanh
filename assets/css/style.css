@@ -71,7 +71,7 @@ Tags:
   --bg-color3: rgb(238 249 248 / 95%);
   --bg-color4: rgb(249 238 238 / 95%);
   --bg-color5: rgb(251 250 239 / 95%);
-  --bg-pattern:#f1f6fb;
+  --bg-pattern: #f1f6fb;
 }
 
 ::-webkit-scrollbar-track {
@@ -445,7 +445,9 @@ a:hover {
 }
 
 .ci-btn-outline:hover {
-  background: var(--silver2);
+  background-color: #222 !important;
+  color: #fff;
+  border-color: #222 !important;
 }
 
 .ci-btn-link {
@@ -458,6 +460,13 @@ a:hover {
 .ci-btn-link:hover {
   color: var(--sub-color);
   opacity: 0.7;
+}
+
+.ci-btn-thamgia{
+  position: relative;
+  z-index: 11;
+  padding: 10px;
+  text-align: center;
 }
 
 .ci-block {
@@ -1665,6 +1674,8 @@ a:hover {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  max-width: 700px;
+  margin: auto;
   z-index: 2;
 }
 
@@ -4218,9 +4229,11 @@ body .entry_content {
 .gm-ui-hover-effect>span {
   background-color: #fff;
 }
-.gm-style .gm-style-iw-tc::after{
+
+.gm-style .gm-style-iw-tc::after {
   background: var(--main-color);
 }
+
 .gm-style .gm-style-iw-c {
   padding: 0px;
   background: var(--main-color);
@@ -5491,6 +5504,7 @@ Flaticon icon font: Flaticon
   max-width: 100%;
   width: 100%;
 }
+
 .table-style.style2 {
   padding: 6px 10px;
   margin-bottom: 0;
@@ -5498,10 +5512,9 @@ Flaticon icon font: Flaticon
   border: var(--border-eee);
 }
 
-.table-style.style2 tbody tr td:first-child{
-}
+.table-style.style2 tbody tr td:first-child {}
 
-.table-style.style2 thead{
+.table-style.style2 thead {
   text-transform: none;
 }
 
@@ -5712,10 +5725,11 @@ Flaticon icon font: Flaticon
   background: linear-gradient(to right, #ffffff 50%, rgb(0, 52, 120) 50%, rgba(0, 52, 120, 0.6) 100%);
 }
 
-.bg-outbox{
+.bg-outbox {
   position: relative;
 }
-.bg-outbox::after{
+
+.bg-outbox::after {
   content: "";
   background: linear-gradient(94.36deg, #0044A4 0.2%, #0068E2 100%);
   position: absolute;
@@ -5723,6 +5737,14 @@ Flaticon icon font: Flaticon
   right: 0;
   top: 0;
   bottom: 0;
-  width: calc(100% );
-  height: calc(100% );
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.more {
+  color: #c19921;
+  font-weight: 500;
+}
+.more:hover{
+  color: var(--dark)
 }

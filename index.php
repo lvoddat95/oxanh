@@ -45,14 +45,14 @@
                         <div class="ci-package-item">
                             <div class="ci-package-item__top">
                                 <span>Kế hoạch G1</span>
-                                <h3>Quyền lợi tương trợ tối đa 200.000.000 đồng</h3>
+                                <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
                             </div>
                             <div class="ci-package-item__mid">
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
                                             <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (đồng)</th>
+                                            <th class="text-end">Phí tham gia/năm (₫)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -86,19 +86,22 @@
                             <div class="ci-package-item__bottom">
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                             </div>
+                            <div class="text-center mt-3">
+                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php" class="fw-medium">Chi tiết kế hoạch</a>
+                            </div>
                         </div>
 
                         <div class="ci-package-item">
                             <div class="ci-package-item__top">
                                 <span>Kế hoạch G2</span>
-                                <h3>Quyền lợi tương trợ tối đa 300.000.000 đồng</h3>
+                                <h3>Quyền lợi tương trợ tối đa 300.000.000<small>₫</small></h3>
                             </div>
                             <div class="ci-package-item__mid">
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
                                             <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (đồng)</th>
+                                            <th class="text-end">Phí tham gia/năm (₫)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -132,19 +135,22 @@
                             <div class="ci-package-item__bottom">
                                 <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                             </div>
+                            <div class="text-center mt-3">
+                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php" class="fw-medium">Chi tiết kế hoạch</a>
+                            </div>
                         </div>
 
                         <div class="ci-package-item">
                             <div class="ci-package-item__top">
                                 <span>Kế hoạch G3</span>
-                                <h3>Quyền lợi tương trợ tối đa 500.000.000 đồng</h3>
+                                <h3>Quyền lợi tương trợ tối đa 500.000.000<small>₫</small></h3>
                             </div>
                             <div class="ci-package-item__mid">
                                 <table class="table table-style style2 mb-0">
                                     <thead>
                                         <tr>
                                             <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (đồng)</th>
+                                            <th class="text-end">Phí tham gia/năm (₫)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -175,7 +181,12 @@
                             </div>
                             <div class="ci-package-item__bottom">
                                 <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+
                             </div>
+                            <div class="text-center mt-3">
+                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php" class="fw-medium">Chi tiết kế hoạch</a>
+                            </div>
+
                         </div>
                     </div>
 

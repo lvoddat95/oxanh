@@ -36,7 +36,7 @@
                                             <div>
                                                 Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào. Bằng
                                                 cách
-                                                đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:;">Chính sách
+                                                đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:void(0);">Chính sách
                                                     quy đính của Công ty Cổ phần Công nghệ Internet Ô Xanh </a>
                                             </div>
                                         </label>
@@ -50,7 +50,7 @@
                                             <div>
                                                 Chúng tôi không sử dụng thông tin của bạn với bất kỳ mục đích nào. Bằng
                                                 cách
-                                                đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:;">Chính sách
+                                                đăng nhập hoặc đăng ký, bạn đồng ý với <a href="javascript:void(0);">Chính sách
                                                     quy đính của Công ty Cổ phần Công nghệ Internet Ô Xanh </a>
                                             </div>
                                         </label>
@@ -71,7 +71,7 @@
 
                                     <div class="mt-5 auth-btn-agree d-flex justify-content-center">
                                         <a href="" class="btn ci-btn ci-btn-outline w-50 mx-2 mx-lg-4" type="submit">Không đồng ý</a>
-                                        <a href="javascript:;" onclick="AlertMessage('#dialog-content','<?php echo SOURCE; ?>')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
+                                        <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo SOURCE; ?>')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
                                             ý</a>
                                     </div>
 

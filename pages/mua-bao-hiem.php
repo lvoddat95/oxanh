@@ -119,7 +119,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="" class="form-label">Email: <span class="text-danger">*</span></label>
-                                                    <input type="text" class="form-control" placeholder="example@email.com">
+                                                    <input type="email" class="form-control" placeholder="example@email.com">
                                                 </div>
                                             </div>
                                         </div>
@@ -129,10 +129,38 @@
                                             <input type="text" class="form-control">
                                         </div>
 
+                                        <div class="table-box fz-16 mb-4">
+                                            <label class="checkcontainer mb-0" for="gioi-thieu">
+                                                <input id="gioi-thieu" type="checkbox" onchange="show_thanh_vien_gioi_thieu(this);">
+                                                <span class="checkmark" style="top: 2px;"></span>
+                                                <div>
+                                                    <span class="fw-normal">Thành viên giới thiệu</span>
+                                                </div>
+                                            </label>
+                                        </div>
+
+                                        <div id="thanh-vien-gioi-thieu" style="display: none;">
+                                        <div class="row gx-5">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Tài khoản thành viện giới thiệu: <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="" class="form-label">Mã thành viên giới thiệu: <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+
 
 
                                         <div class="d-flex justify-content-between mt-5">
-                                            <a href="javascript:;" style="visibility: hidden; opacity: 0;" class="btn ci-btn ci-btn-200 ci-btn-outline">
+                                            <a href="javascript:void(0);" style="visibility: hidden; opacity: 0;" class="btn ci-btn ci-btn-200 ci-btn-outline">
                                                 Quay lại
                                             </a>
                                             <a href="xem-thong-tin.php" class="btn ci-btn ci-btn-200 ci-btn-main">
@@ -148,7 +176,7 @@
                                             <div class="package-info">
                                                 <div class="mb-3">
                                                     <span class="fw-medium fz-16">G1 - 200.000.000</span>
-                                                    <!-- <a class="ms-3" href="javascript:;" onclick="show_package_select(this);">
+                                                    <!-- <a class="ms-3" href="javascript:void(0);" onclick="show_package_select(this);">
                                                         <u>Thay đổi</u> <i class="ms-1 far fa-pen-to-square"></i></a> -->
                                                 </div>
                                                 <div class="package-select" style="display: none;">
@@ -171,20 +199,20 @@
                                                 </div>
                                             </div>
                                             <div id="package-sotienbh" class="package-info">
-                                                <h3>Quyền lợi tham gia</h3>
-                                                <p class="sotienbh"><span>200.000.000</span> VNĐ</p>
+                                                <h3><i class="far fa-user-shield me-2 fz-14"></i>Quyền lợi tham gia</h3>
+                                                <p class="sotienbh"><span>200.000.000</span>₫</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">
-                                                <h3>Phí thành viên (Đóng đến ngày 30/08/2022)</h3>
+                                                <h3><i class="far fa-circle-dollar me-2 fz-14"></i>Phí thành viên (Đóng đến ngày 30/08/2022)</h3>
                                                 <p class="phibh"><span>1,500,000</span> đ/năm</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">
-                                                <h3>Phí quản lý</h3>
+                                                <h3><i class="far fa-money-check-dollar-pen me-2 fz-14"></i>Phí quản lý</h3>
 
                                                 <p class="phibh"><span>150,000</span> đ/năm</p>
                                             </div>
                                             <div id="package-phibh" class="package-info">
-                                                <h3>Tổng số tiền phải nộp</h3>
+                                                <h3><i class="far fa-credit-card me-2 fz-14"></i>Tổng số tiền phải nộp</h3>
                                                 <p class="phibh"><span>1,650,000</span> đ/năm</p>
                                             </div>
                                         </div>

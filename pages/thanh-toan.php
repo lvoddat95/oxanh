@@ -289,7 +289,7 @@
                                         </div>
                                         <div class="package-info">
                                             <h3>Tổng phí thanh toán</h3>
-                                            <p class="sotienbh"><span>1,878,000</span> VNĐ</p>
+                                            <p class="sotienbh"><span>1,878,000</span>₫</p>
                                         </div>
                                         <div id="package-phibh" class="package-info">
                                             <table class="table table-borderless mb-0">

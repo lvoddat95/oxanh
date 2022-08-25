@@ -139,7 +139,7 @@
                                         </div>
                                         <div id="package-sotienbh" class="package-info">
                                             <h3>Quyền lợi </h3>
-                                            <p class="sotienbh"><span>200.000.000</span> VNĐ</p>
+                                            <p class="sotienbh"><span>200.000.000</span>₫</p>
                                         </div>
                                         <div id="package-phibh" class="package-info">
                                             <table class="table table-borderless mb-0">

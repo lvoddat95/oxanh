@@ -120,7 +120,7 @@
                             </ul>
                         <div class="ci-package-docs mt-0">
                             <div class="ci-docs-item">
-                                <a href="javascript:;" class="ci-docs__link">
+                                <a href="javascript:void(0);" class="ci-docs__link">
                                     <i class="fas fa-arrow-up-from-square me-2"></i>
                                     <span>Nộp trực tiếp, nộp bản chính tại trung tâm dịch vụ khách hàng Ô Xanh</span>
                                 </a>
