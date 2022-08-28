@@ -1,6 +1,6 @@
 <?php require_once "../../config.php"; ?>
 <?php include_once HEADER; ?>
-<?php $GLOBALS["menu"] = 'home,g3'; ?>
+<?php $GLOBALS["menu"] = 'san-pham,g3'; ?>
 
 <body>
     <div id="ci-content" class="ci-content">

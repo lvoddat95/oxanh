@@ -10,7 +10,7 @@ if (!empty($GLOBALS["menu"])) {
     <nav class="navbar px-3 p-xl-0 ">
         <div class="container">
             <a class="navbar-brand" href="<?php echo HTTP_PATH; ?>">
-                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="130px">
+                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/oxanh.svg" alt="Logo" width="50px">
             </a>
             <button class="navbar-toggle d-block d-xl-none" type="button">
                 <b class="icon-bar"></b>
@@ -18,8 +18,11 @@ if (!empty($GLOBALS["menu"])) {
                 <b class="icon-bar"></b>
             </button>
             <ul id="main-menu" class="nav navbar-nav me-auto">
+            <li class="nav-item">
+                    <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>">Trang chủ</a>
+                </li>
                 <li class="nav-item nav-item-submenu">
-                    <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>
+                    <a class="nav-link <?php echo in_array('san-pham', $arr_menu) ? " active " : ""; ?>
                     " aria-current="page" href="<?php echo HTTP_PATH; ?>">Lựa chọn kế hoạch tham gia</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item <?php echo in_array('g1', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php">Kế hoạch tương trợ G1</a></li>
