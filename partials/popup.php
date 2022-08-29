@@ -362,7 +362,7 @@
         Đăng nhập bằng tên đăng nhập (vừa khai báo), mật khẩu và mã <span class="fw-medium">OTP/MÃ THAM GIA THÀNH VIÊN </span> (gửi qua tin nhắn/email)
     </div>
 </div>
-<div id="step-3" class="fancybox-modal fancybox-content-md">
+<!-- <div id="step-3" class="fancybox-modal fancybox-content-md">
     <div class="fancybox-header">
         <div class="fancybox-title text-center">
             Bước 3: Kê khai thông tin
@@ -372,21 +372,23 @@
         <p class="mb-3">Vào kê khai thông tin. Nếu đáp ứng yêu cầu của nền tảng thì kích vào nút nộp hồ sơ để chụp ảnh hoặc mở files (trên máy tính/máy di động) hồ sơ khám bệnh.</p>
         <p class="mb-3">Trường hợp tại thời điểm kê khai thông tin, thành viên chưa sẵn sàng có hồ sơ khám bệnh thì bấm vào nút “nộp sau” để nộp vào thời gian chờ.</p>
     </div>
-</div>
-<div id="step-4" class="fancybox-modal fancybox-content-md">
+</div> -->
+<div id="step-3" class="fancybox-modal fancybox-content-md">
     <div class="fancybox-header">
         <div class="fancybox-title text-center">
-            Bước 4: Chọn tham gia gói tương trợ
+            Bước 3: Chọn gói kế hoạch tương trợ và kê khai thông tin
         </div>
     </div>
     <div class="fancybox-body fz-16 ">
-        Chọn tham gia gói tương trợ <span class="fw-medium">(G1, G2 hay G3)</span> để nộp phí thành viên và chính thức trở thành thành viên của nền tảng vào lúc 0h00 ngày kế tiếp.
+        <p class="mb-3"><b>Chọn tham gia gói tương trợ</b> <span class="fw-medium">(G1, G2 hay G3)</span> để nộp phí thành viên và chính thức trở thành thành viên của nền tảng vào lúc 0h00 ngày kế tiếp.</p>
+        <p class="mb-0"><b>Vào kê khai thông tin.</b> Nếu đáp ứng yêu cầu của nền tảng thì kích vào nút nộp hồ sơ để chụp ảnh hoặc mở files (trên máy tính/máy di động) hồ sơ khám bệnh.</p>
+        <p class="mb-0">Trường hợp tại thời điểm kê khai thông tin, thành viên chưa sẵn sàng có hồ sơ khám bệnh thì bấm vào nút “nộp sau” để nộp vào thời gian chờ.</p>
     </div>
 </div>
-<div id="step-5" class="fancybox-modal fancybox-content-lg">
+<div id="step-4" class="fancybox-modal fancybox-content-lg">
     <div class="fancybox-header">
         <div class="fancybox-title text-center">
-            Bước 5: Thanh toán (có clip hướng dẫn)
+            Bước 4: Thanh toán (có clip hướng dẫn)
         </div>
     </div>
     <div class="fancybox-body fz-16 ">

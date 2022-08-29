@@ -63,8 +63,7 @@
                     <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
                 </svg>
 
-                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" 
-                class="ci-btn ci-btn-outline border-2 main-color ci-btn-thamgia d-block mt-3">Tham gia trực tuyến</a>
+                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color ci-btn-thamgia d-block mt-3">Tham gia trực tuyến</a>
             </nav>
         </div>
 
@@ -241,21 +240,15 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-3');" title="Kê khai thông tin">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/register.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 3: <br>Kê khai thông tin</span>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-4');" title="Chọn gói tương trợ">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-3');" title="Chọn gói kế hoạch tương trợ và kê khai thông tin">
                                     <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/product.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 4: <br>Chọn gói tương trợ</span>
+                                    <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
                                 </a>
                             </div>
                             <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-5');" title="Thanh toán" class="last">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-4');" title="Thanh toán" class="last">
                                     <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/pay.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 5: <br>Thanh toán</span>
+                                    <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
                                 </a>
                             </div>
 

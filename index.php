@@ -368,20 +368,14 @@
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/register.png" alt="Oxanh">
-                                        <span class="ci-flow__link">Bước 3: <br>Kê khai thông tin</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="">
                                         <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/product.png" alt="Oxanh">
-                                        <span class="ci-flow__link">Bước 4: <br>Chọn gói tương trợ</span>
+                                        <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="" class="last">
                                         <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/pay.png" alt="Oxanh">
-                                        <span class="ci-flow__link">Bước 5: <br>Thanh toán</span>
+                                        <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
                                     </a>
                                 </div>
 

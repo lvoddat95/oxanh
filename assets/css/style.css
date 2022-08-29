@@ -5288,13 +5288,14 @@ Flaticon icon font: Flaticon
 .ci-flow {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-left: -8px;
   margin-right: -8px;
 }
 
 .ci-flow>div {
   position: relative;
-  width: calc(100% / 5);
+  max-width: 270px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -5318,6 +5319,7 @@ Flaticon icon font: Flaticon
   right: -7px;
   top: 50%;
   transform: translateY(-50%);
+  display: none;
 }
 
 .ci-flow a.last::after {
