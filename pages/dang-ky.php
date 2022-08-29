@@ -88,7 +88,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                         <input type="text" class="form-control input-phone">
                                     </div>
                                     <div class="form-group">
-                                        <label for="" class="form-label">CMTND/CCCD</label>
+                                        <label for="" class="form-label">CMTND/CCCD/Mã định danh</label>
                                         <input type="text" class="form-control">
                                     </div>
 

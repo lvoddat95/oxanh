@@ -60,7 +60,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <label for="" class="form-label">Tỉnh/Thành phố</label>
                                             <select class="form-select" select2>
                                                 <option value="">Chọn tỉnh/thành phố</option>
@@ -81,16 +81,16 @@
                                         <div class="form-group">
                                             <label for="" class="form-label">Ghi chú địa chỉ</label>
                                             <input type="text" class="form-control">
-                                        </div>
+                                        </div> -->
                                         <div class="form-group">
                                             <label for="" class="form-label">Điện thoại</label>
                                             <input type="text" class="form-control input-phone">
                                         </div>
                                         <div class="form-group">
-                                            <label for="" class="form-label">CMTND/CCCD</label>
+                                            <label for="" class="form-label">CMTND/CCCD/Mã định danh</label>
                                             <input type="text" class="form-control">
                                         </div>
-
+<!-- 
                                         <div class="row">
                                             <div class="col-md-6 text-center">
                                                 <label for="mattruoc_file">
@@ -106,7 +106,7 @@
                                                 <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                                 <p class="tx-16">Ảnh mặt sau</p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                     <div>

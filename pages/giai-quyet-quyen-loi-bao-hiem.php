@@ -26,7 +26,10 @@
                         <div class="row ci-block-icon">
                             <div class="col-12">
                                 <div class="ci-heading mb-3 mb-md-5">
-                                    <h2 id="buoc1" class="ci-heading__main">Bước 1. Chuẩn bị Hồ sơ yêu cầu tương trợ</h2>
+                                    <h2 id="buoc1" class="ci-heading__main">Tóm lước quy trình giải quyết đề nghị tương trợ</h2>
+                                </div>
+                                <div class="ci-heading mb-3 mb-md-5">
+                                    <h2 id="buoc1" class="fz-32 fw-bold">Bước 1. Chuẩn bị Hồ sơ yêu cầu tương trợ</h2>
                                 </div>
                                 <div class="fz-16">
 
@@ -54,7 +57,7 @@
                 <div class="ci-block pb-0 overflow-visible">
                     <div class="container">
                         <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main">Mẫu đơn yêu cầu tương trợ</h2>
+                            <h2 class="fz-32 fw-bold">Mẫu đơn yêu cầu tương trợ</h2>
                         </div>
                         <div class="ci-download">
                             <div class="row gx-5">
@@ -89,7 +92,7 @@
                 <div class="ci-block pb-0">
                     <div class="container">
                         <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main">Bước 2. Nộp hồ sơ trực tuyến</h2>
+                            <h2 class="fz-32 fw-bold">Bước 2. Nộp hồ sơ trực tuyến trước</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
                             Sau khi chuẩn bị xong hồ sơ yêu cầu tương trợ như Bước 1, thành viên Nộp hồ sơ tương trợ trực tuyến (tại đây) để upload hồ sơ lên hệ thống.
@@ -109,15 +112,15 @@
                 <div class="ci-block">
                     <div class="container">
                         <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main">Bước 3. Nộp hồ sơ tại văn phòng</h2>
+                            <h2 class="fz-32 fw-bold">Bước 3. Nộp bản chính sau</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
                             Nộp trực tiếp bản chính hoặc bản sao công chứng của các tài liệu gốc tại văn phòng Ô Xanh hoặc cho điều tra viên của Ô Xanh.
                         </div>
                         <ul class="list-unstyled fz-16">
-                                <li><i class="fad main-color fa-fw fa-location-dot me-2"></i>Địa chỉ: Số 5 Tú Mỡ, quận Cầu Giấy, TP.Hà Nội</li>
-                                <li><i class="fad main-color fa-fw fa-phone me-2"></i>Hotline: <a class="dark-color" href="tel:+0339869338">0339.869.338</a> </li>
-                            </ul>
+                            <li><i class="fad main-color fa-fw fa-location-dot me-2"></i>Địa chỉ: Số 5 Tú Mỡ, quận Cầu Giấy, TP.Hà Nội</li>
+                            <li><i class="fad main-color fa-fw fa-phone me-2"></i>Hotline: <a class="dark-color" href="tel:+0339869338">0339.869.338</a> </li>
+                        </ul>
                         <div class="ci-package-docs mt-0">
                             <div class="ci-docs-item">
                                 <a href="javascript:void(0);" class="ci-docs__link">
@@ -125,7 +128,7 @@
                                     <span>Nộp trực tiếp, nộp bản chính tại trung tâm dịch vụ khách hàng Ô Xanh</span>
                                 </a>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -134,7 +137,7 @@
                     <div class="container">
 
                         <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main color-gray">Tóm lược quy trình giải quyết bồi thường</h2>
+                            <h2 class="fz-32 fw-bold color-gray">Những điều cần biết khi giải quết đề nghị tương trợ</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-5">
                             Theo 03 bước như trên.
@@ -148,12 +151,30 @@
                                     <div class="ci-claim-process__item">
                                         <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/schedule.png" alt="HTV">
                                         <h3 class="ci-claim-process__title">Khi nào tôi có thể nộp hồ sơ yêu cầu giải quyết Quyền lợi tương trợ lẫn nhau?</h3>
-                                        <p class="ci-claim-process__content">Thành viên có thể gửi Hồ sơ yêu cầu tương trợ lẫn nhau trong vòng 180 ngày kể từ ngày xảy ra sự kiện tương trợ.</p>
+                                        <p class="ci-claim-process__content">
+                                            Thành viên có thể gửi Hồ sơ yêu cầu tương trợ lẫn nhau trong vòng 180 ngày kể
+                                            từ ngày xảy ra sự kiện tương trợ <b class="sub-color2">(ngày bị tai nạn hoặc mắc bệnh hiểm nghèo)</b>
+                                        </p>
                                     </div>
 
-                                    <div class="ci-claim-process__img pt-5  d-none d-md-block">
+                                    <div class="ci-claim-process__img px-5  d-none d-md-block">
                                         <img width="360px" class=" img-fluid" src="<?php echo SOURCE; ?>assets/img/claim-process.png" alt="HTV">
                                     </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="ci-claim-process__item">
+                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/find.png" alt="HTV">
+
+                                        <h3 class="ci-claim-process__title">Trong bao lâu thì Hồ sơ yêu cầu tương trợ của tôi được giải quyết?</h3>
+                                        <p class="ci-claim-process__content">
+                                            Khi tiếp nhận hồ sơ, trường hợp cần bổ sung chứng từ, chúng tôi sẽ thông báo đến Quý thành viên trong vòng <span class="sub-color2 fw-bold">02 ngày</span> làm việc qua email và tin nhắn.
+                                            hồ sơ đầy đủ và hợp lệ, chúng tôi sẽ sẽ tiến hành điều tra xem xét cụ thể và đưa ra ý kiến đánh giá sơ bộ <span class="sub-color2 fw-bold">trong vòng 05 ngày</span>.
+                                            Sau đó tiến hành công khai thông tin theo quy định. Thời gian thực hiện công khai là <span class="sub-color2 fw-bold">07 ngày</span> . Sau thời gian công khai,
+                                            nếu không có ý kiến nào phản đối, Ô Xanh sẽ ra Thông báo giải quyết tương trợ đến Thành viên trong vòng <span class="sub-color2 fw-bold">03 ngày</span> .
+                                            tôi sẽ chuyển số tiền tương trợ cho Quý thành viên trong 03 ngày kể từ ngày ra thông báo giải quyết tương trợ.
+                                        </p>
+                                    </div>
+
                                 </div>
 
                                 <div class="col-lg-4 col-md-6 col-12">
@@ -164,30 +185,14 @@
                                             chúng tôi sẽ chuyển số tiền được chi trả theo phương thức thanh toán mà thành viên đã cung cấp.</p>
                                     </div>
                                     <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/find.png" alt="HTV">
-
-                                        <h3 class="ci-claim-process__title">Trong bao lâu thì Hồ sơ yêu cầu tương trợ của tôi được giải quyết?</h3>
-                                        <p class="ci-claim-process__content">Các hồ sơ đầy đủ và hợp lệ, chúng tôi sẽ tiến hành công khai thông tin theo quy định của Điều khoản kế hoạch trợ giúp lẫn nhau vì bệnh/tình trạng hiểm nghèo.
-                                            Thời gian thực hiện công khai là <span class="sub-color2 fw-bold">07 ngày</span>. Sau thời gian công khai, nếu không có ý kiến nào phản đối,
-                                            Ô Xanh sẽ ra Thông báo giải quyết tương trợ đến Thành viên trong vòng <span class="sub-color2 fw-bold">03 ngày</span> làm việc qua email và tin nhắn.
-                                            Trường hợp hồ sơ cần bổ sung chứng từ, chúng tôi sẽ thông báo đến Quý thành viên trong vòng 2 ngày làm việc qua email và tin nhắn.</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/claim.png" alt="HTV">
-                                        <h3 class="ci-claim-process__title">Khi nào Ô Xanh sẽ chi trả Quyền lợi tương trợ cho tôi ?</h3>
-                                        <p class="ci-claim-process__content">Chúng tôi sẽ chuyển số tiền tương trợ cho Quý thành viên trong 03 ngày làm việc kể từ ngày
-                                            Thông báo giải quyết tương trợ được phát hành và chấp thuận.</p>
-                                    </div>
-                                    <div class="ci-claim-process__item">
                                         <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/contact.png" alt="HTV">
                                         <h3 class="ci-claim-process__title">Trường hợp cần trao đổi, tôi liên hệ với Ô Xanh bằng cách nào?</h3>
                                         <p class="ci-claim-process__content">Ô Xanh luôn sẵn sàng lắng nghe và trao đổi để giải đáp các câu hỏi và thắc mắc của Quý thành viên.
                                             Hãy liên hệ với chúng tôi qua Tổng đài chăm sóc khách hàng hoặc số Hotline <a href="tel:0339869338">0339 869 338</a>, Zalo chat hoặc gửi email đến địa chỉ <a href="mailto:contact@oxanh.vn">contact@oxanh.vn</a></p>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -196,7 +201,7 @@
                 <div class="ci-block">
                     <div class="container">
                         <div class="ci-heading">
-                            <h2 class="ci-heading__main">5. Câu hỏi thường gặp</h2>
+                            <h2 class="fz-32 fw-bold">Câu hỏi thường gặp</h2>
                         </div>
                         <div class="ci-faq">
                             <div id="ci-faq-accordion" class="accordion">
@@ -204,7 +209,7 @@
                                 <div class="accordion-item">
                                     <div class="accordion-header">
                                         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapseOne">
-                                            5.1 Trường hợp nào không được tương trợ?
+                                            Trường hợp nào không được tương trợ?
                                         </button>
                                     </div>
                                     <div id="collapse0" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
@@ -242,7 +247,7 @@
                                 <div class="accordion-item">
                                     <div class="accordion-header">
                                         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">
-                                            5.2 Thời gian chờ là gì?
+                                            Thời gian chờ là gì?
                                         </button>
                                     </div>
                                     <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
@@ -259,22 +264,8 @@
 
                                 <div class="accordion-item">
                                     <div class="accordion-header">
-                                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapseOne">
-                                            5.3 Thời gian xin tương trợ mất bao lâu?
-                                        </button>
-                                    </div>
-                                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
-                                        <div class="accordion-body">
-                                            <p>Trong v&ograve;ng 180 ng&agrave;y (bao gồm cả ng&agrave;y thứ 180) kể từ ng&agrave;y được bệnh viện chẩn đo&aacute;n ban đầu hoặc xẩy ra tai nạn.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <div class="accordion-header">
                                         <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
-                                            5.4 Các câu hỏi khác?
+                                            Các câu hỏi khác?
                                         </button>
                                     </div>
                                     <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">

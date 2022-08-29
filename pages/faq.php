@@ -398,7 +398,6 @@
                                                     chẩn đoán lại, tiến hành xét nghiệm và chụp chiếu lại, nếu cần thiết, tại một bệnh viện khác. Chi phí cho việc cung cấp các tài liệu hoặc bằng chứng đó do Ô Xanh chi trả.
                                                     Thành viên phải tuân thủ các kết quả/bằng chứng cuối cùng này.</li>
                                             </ul>
-                                            <p><b>Khi bị Bệnh hiểm nghèo tôi phải làm gì?:</b> Thành viên tự mình hoặc nhờ người thông báo cho Ô Xanh càng sớm càng tốt nhưng không muộn hơn 30 ngày theo quy định tại Mục 4.2 - Điều khoản kế hoạch trợ giúp lẫn nhau vì Bệnh hiểm nghèo.</p>
                                             <p><b>Bao lâu thì tôi được tương trợ?:</b> Sau khi nộp đầy đủ, hồ sơ sẽ được xử lý trong vòng 5 ngày. Qua thời gian công khai (7 ngày) mà không có ý kiến nào phản đối, thành viên sẽ được nhận tương trợ từ nền tảng trong vòng 3 ngày.</p>
                                             <p><b>Ô Xanh sẽ tương trợ cho tôi bằng cách nào?:</b> Thành viên nộp phí bằng cách nào thì Ô Xanh sẽ tương trợ cho thành viên theo cách đó.</p>
                                         </div>

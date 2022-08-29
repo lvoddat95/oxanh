@@ -32,12 +32,20 @@ Tags:
   --fz-8: 0.8rem;
   --fz-10: 1rem;
   --fz-12: 1.2rem;
+  --fz-13: 1.3rem;
   --fz-14: 1.4rem;
   --fz-16: 1.6rem;
   --fz-18: 1.8rem;
   --fz-20: 2rem;
+  --fz-22: 2.2rem;
   --fz-24: 2.4rem;
+  --fz-26: 2.6rem;
   --fz-28: 2.8rem;
+  --fz-30: 3rem;
+  --fz-32: 3.2rem;
+  --fz-34: 3.4rem;
+  --fz-36: 3.6rem;
+  --fz-38: 3.8rem;
   --fz-40: 4rem;
   --transition-25: 0.25s ease;
   --radius-2: 2px;
@@ -292,32 +300,42 @@ big {
 
 .fz-14 {
   font-size: var(--fz-14);
-  line-height: 2.4rem;
 }
 
 .fz-16 {
   font-size: var(--fz-16);
-  line-height: 2.6rem;
 }
 
 .fz-18 {
   font-size: var(--fz-18);
-  line-height: 2.8rem;
 }
 
 .fz-20 {
   font-size: var(--fz-20);
-  line-height: 3rem;
+}
+
+.fz-22 {
+  font-size: var(--fz-22);
 }
 
 .fz-24 {
   font-size: var(--fz-24);
-  line-height: 3.4rem;
 }
 
 .fz-28 {
   font-size: var(--fz-28);
-  line-height: 3.8rem;
+}
+
+.fz-30 {
+  font-size: var(--fz-30);
+}
+
+.fz-32 {
+  font-size: var(--fz-32);
+}
+
+.fz-34 {
+  font-size: var(--fz-34);
 }
 
 .fz-40 {
@@ -487,12 +505,12 @@ a:hover {
 
 .ci-header .nav-item .nav-link {
   position: relative;
-  padding: 18px 0;
+  padding: 38px 0;
   margin: 0 10px;
   font-weight: var(--fw-medium);
   color: var(--dark);
-  -webkit-transition: var(--transition-25);
-  transition: var(--transition-25);
+  /* -webkit-transition: var(--transition-25);
+  transition: var(--transition-25); */
 }
 
 .ci-header .nav-item.nav-item-submenu .nav-link::after {
@@ -556,6 +574,10 @@ a:hover {
   -op-animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+.sticky.show .nav-item .nav-link{
+  padding: 26px 0;
 }
 
 @-webkit-keyframes fadeInDown {
