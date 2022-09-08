@@ -214,7 +214,7 @@
                                     </div>
                                     <div id="collapse0" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
                                         <div class="accordion-body">
-                                            <p><strong>5.1.1</strong> Nếu một&nbsp;th&agrave;nh vi&ecirc;n bị bệnh nặng như được x&aacute;c định trong chương tr&igrave;nh n&agrave;y nhưng do c&aacute;c trường hợp sau th&igrave; sẽ kh&ocirc;ng thể nhận được sự hỗ trợ lẫn nhau:</p>
+                                            <p>Nếu một&nbsp;th&agrave;nh vi&ecirc;n bị bệnh nặng như được x&aacute;c định trong chương tr&igrave;nh n&agrave;y nhưng do c&aacute;c trường hợp sau th&igrave; sẽ kh&ocirc;ng thể nhận được sự hỗ trợ lẫn nhau:</p>
 
                                             <p>(1) Th&agrave;nh vi&ecirc;n bị người trả tiền (ph&iacute; th&agrave;nh vi&ecirc;n) cố &yacute; giết hoặc bị thương;</p>
 
@@ -234,11 +234,11 @@
 
                                             <p>(9) C&aacute;c bệnh di truyền, dị tật bẩm sinh, dị tật hoặc bất thường nhiễm sắc thể, trừ khi c&oacute; thỏa thuận kh&aacute;c trong kế hoạch n&agrave;y?.</p>
 
-                                            <p><strong>5.1.2</strong> Khi một&nbsp;th&agrave;nh vi&ecirc;n kh&ocirc;ng đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe khi tham gia chương tr&igrave;nh, hoặc mắc bệnh nặng theo quy định của chương tr&igrave;nh, th&agrave;nh vi&ecirc;n sẽ kh&ocirc;ng thể nhận được sự Trợ gi&uacute;p lẫn nhau v&agrave; tư c&aacute;ch th&agrave;nh vi&ecirc;n của thanh vi&ecirc;n sẽ bị chấm dứt v&agrave; thanh vi&ecirc;n sẽ tự động r&uacute;t khỏi chương tr&igrave;nh th&igrave; được&nbsp; ho&agrave;n lại ph&iacute; th&agrave;nh vi&ecirc;n c&ograve;n lại đến thời điểm r&uacute;t khỏi chương tr&igrave;nh.</p>
+                                            <p>Khi một&nbsp;th&agrave;nh vi&ecirc;n kh&ocirc;ng đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe khi tham gia chương tr&igrave;nh, hoặc mắc bệnh nặng theo quy định của chương tr&igrave;nh, th&agrave;nh vi&ecirc;n sẽ kh&ocirc;ng thể nhận được sự Trợ gi&uacute;p lẫn nhau v&agrave; tư c&aacute;ch th&agrave;nh vi&ecirc;n của thanh vi&ecirc;n sẽ bị chấm dứt v&agrave; thanh vi&ecirc;n sẽ tự động r&uacute;t khỏi chương tr&igrave;nh th&igrave; được&nbsp; ho&agrave;n lại ph&iacute; th&agrave;nh vi&ecirc;n c&ograve;n lại đến thời điểm r&uacute;t khỏi chương tr&igrave;nh.</p>
 
-                                            <p><strong>5.1.3</strong>&nbsp;Th&agrave;nh vi&ecirc;n đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe khi tham gia chương tr&igrave;nh v&agrave; kh&ocirc;ng mắc&nbsp;bệnh hiểm ngh&egrave;o như đ&atilde; x&aacute;c định trong kế hoạch. Nhưng khi thay đổi chương tr&igrave;nh tương trợ, lại&nbsp;kh&ocirc;ng đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe của chương tr&igrave;nh mới. V&igrave; vậy khi b&ecirc;nh nặng th&agrave;nh vi&ecirc;n đăng k&yacute; tham gia chương tr&igrave;nh hỗ trợ lẫn nhau với&nbsp;chương tr&igrave;nh mới sẽ kh&ocirc;ng ph&ugrave; hợp m&agrave; chỉ c&oacute; thể l&agrave;m theo&nbsp;chương tr&igrave;nh viện trợ lẫn nhau ban đầu.</p>
+                                            <p>&nbsp;Th&agrave;nh vi&ecirc;n đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe khi tham gia chương tr&igrave;nh v&agrave; kh&ocirc;ng mắc&nbsp;bệnh hiểm ngh&egrave;o như đ&atilde; x&aacute;c định trong kế hoạch. Nhưng khi thay đổi chương tr&igrave;nh tương trợ, lại&nbsp;kh&ocirc;ng đ&aacute;p ứng c&aacute;c y&ecirc;u cầu về sức khỏe của chương tr&igrave;nh mới. V&igrave; vậy khi b&ecirc;nh nặng th&agrave;nh vi&ecirc;n đăng k&yacute; tham gia chương tr&igrave;nh hỗ trợ lẫn nhau với&nbsp;chương tr&igrave;nh mới sẽ kh&ocirc;ng ph&ugrave; hợp m&agrave; chỉ c&oacute; thể l&agrave;m theo&nbsp;chương tr&igrave;nh viện trợ lẫn nhau ban đầu.</p>
 
-                                            <p><strong>5.1.4</strong>&nbsp;Đặc biệt lưu &yacute;: Th&agrave;nh vi&ecirc;n mắc bệnh hiểm ngh&egrave;o quy định tại Điều 7.1 của kế hoạch n&agrave;y, nhưng l&agrave; đối tượng kh&ocirc;ng được tương trợ quy định tại Điều 7.1 của kế hoạch n&agrave;y th&igrave; th&agrave;nh vi&ecirc;n đ&oacute; kh&ocirc;ng được tương trợ.&nbsp;</p>
+                                            <p>&nbsp;Đặc biệt lưu &yacute;: Th&agrave;nh vi&ecirc;n mắc bệnh hiểm ngh&egrave;o quy định tại Điều 7.1 của kế hoạch n&agrave;y, nhưng l&agrave; đối tượng kh&ocirc;ng được tương trợ quy định tại Điều 7.1 của kế hoạch n&agrave;y th&igrave; th&agrave;nh vi&ecirc;n đ&oacute; kh&ocirc;ng được tương trợ.&nbsp;</p>
 
                                         </div>
                                     </div>
@@ -253,9 +253,9 @@
                                     <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#ci-faq-accordion">
                                         <div class="accordion-body">
                                             <div class="ci-list">
-                                                <p><strong>5.2.1 </strong>Khi tham gia kế hoạch tương trợ bệnh hiểm ngh&egrave;o, th&agrave;nh&nbsp; vi&ecirc;n phải trải qua thời gian chờ trong v&ograve;ng 90 ng&agrave;y (bao gồm cả ng&agrave;y thứ 90) kể từ 0h00 ng&agrave;y h&ocirc;m sau kể từ khi th&agrave;nh vi&ecirc;n tham gia chương tr&igrave;nh th&agrave;nh c&ocirc;ng v&agrave; V&Agrave; SỐNG S&Oacute;T SAU 7 NG&Agrave;Y kể từ ng&agrave;y bị tai nạn v&agrave; hoặc được chẩn đo&aacute;n mắc bệnh hiểm ngh&egrave;o.</p>
+                                                <p>Khi tham gia kế hoạch tương trợ bệnh hiểm ngh&egrave;o, th&agrave;nh&nbsp; vi&ecirc;n phải trải qua thời gian chờ trong v&ograve;ng 90 ng&agrave;y (bao gồm cả ng&agrave;y thứ 90) kể từ 0h00 ng&agrave;y h&ocirc;m sau kể từ khi th&agrave;nh vi&ecirc;n tham gia chương tr&igrave;nh th&agrave;nh c&ocirc;ng v&agrave; V&Agrave; SỐNG S&Oacute;T SAU 7 NG&Agrave;Y kể từ ng&agrave;y bị tai nạn v&agrave; hoặc được chẩn đo&aacute;n mắc bệnh hiểm ngh&egrave;o.</p>
 
-                                                <p><strong>5.2.2&nbsp;</strong>Nếu một th&agrave;nh vi&ecirc;n mắc bệnh trong thời gian chờ hoặc kh&ocirc;ng qua khỏi trong v&ograve;ng 7 ng&agrave;y kể từ khi bị tai nạn hoặc được chẩn đo&aacute;n mắc bệnh hiểm ngh&egrave;o th&igrave; th&agrave;nh vi&ecirc;n đ&oacute; kh&ocirc;ng thuộc đối tượng được tương trợ trong kế hoạch n&agrave;y.</p>
+                                                <p>Nếu một th&agrave;nh vi&ecirc;n mắc bệnh trong thời gian chờ hoặc kh&ocirc;ng qua khỏi trong v&ograve;ng 7 ng&agrave;y kể từ khi bị tai nạn hoặc được chẩn đo&aacute;n mắc bệnh hiểm ngh&egrave;o th&igrave; th&agrave;nh vi&ecirc;n đ&oacute; kh&ocirc;ng thuộc đối tượng được tương trợ trong kế hoạch n&agrave;y.</p>
                                             </div>
 
                                         </div>
@@ -272,7 +272,7 @@
                                         <div class="accordion-body">
                                             <p><a href="faq.php">Xem phần 100 c&acirc;u hỏi v&agrave; trả lời về Bệnh hiểm ngh&egrave;o.</a></p>
 
-                                            <p><b><i>Th&agrave;nh vi&ecirc;n cam kết đ&atilde; đọc, hiểu v&agrave; đồng &yacute; với c&aacute;c nội dung của Quy ước th&agrave;nh vi&ecirc;n, Điều khoản, Quy tắc v&agrave; c&aacute;c điều kiện tham gia Nền tảng trợ gi&uacute;p &Ocirc; Xanh</i></b></p>
+                                            <p><i>Th&agrave;nh vi&ecirc;n cam kết đ&atilde; đọc, hiểu v&agrave; đồng &yacute; với c&aacute;c nội dung của Quy ước th&agrave;nh vi&ecirc;n, Điều khoản, Quy tắc v&agrave; c&aacute;c điều kiện tham gia Nền tảng trợ gi&uacute;p &Ocirc; Xanh</i></b></p>
 
                                         </div>
                                     </div>
