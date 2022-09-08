@@ -390,8 +390,11 @@
                                             </p>
                                             <p class="ci-list mb-3">
                                                 <span class="fw-medium"><i class="far fa-circle-5 sub-color2 me-2"></i></span>
-                                                Hết thời hạn công khai, thành viên bị ốm có thể nhận được sự trợ giúp lẫn nhau trong vòng <span class="fw-medium main-color">03 ngày</span> đối với những trường hợp
-                                                không có phản đối sau khi công khai.
+                                                Sau thời gian công khai, nếu không có ý kiến nào phản đối, Ô Xanh sẽ ra Thông báo giải quyết tương trợ đến Thành viên trong vòng <span class="fw-medium main-color">03 ngày</span>
+                                            </p>
+                                            <p class="ci-list mb-3">
+                                                <span class="fw-medium"><i class="far fa-circle-6 sub-color2 me-2"></i></span>
+                                                Kể từ ngày ra Thông báo giải quyết tương trợ, chúng tôi sẽ chuyển số tiền tương trợ cho Quý thành viên trong <span class="fw-medium main-color">03 ngày</span>
                                             </p>
                                         </div>
                                     </div>
@@ -443,7 +446,7 @@
                                             </p>
 
                                             <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium d-block">Bước 2: Nộp hồ sơ tương trợ (tại đây):</span>
+                                                <span class="fw-medium d-block">Bước 2: Nộp hồ sơ tương trợ <a href="<?php echo HTTP_PATH; ?>pages/giai-quyet-quyen-loi-bao-hiem.php">(tại đây)</a>:</span>
                                                 Sau khi chuẩn bị xong hồ sơ yêu cầu tương trợ như Bước 1, thành viên Nộp hồ sơ tương trợ trực tuyến (tại đây - để up hồ sơ lên hệ thống)
                                             </p>
 
