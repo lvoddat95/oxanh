@@ -4060,8 +4060,8 @@ body .entry_content {
 
 .prgoress_indicator {
   position: fixed;
-  right: 50px;
-  bottom: 75px;
+  right: 30px;
+  bottom: 30px;
   height: 46px;
   width: 46px;
   cursor: pointer;
@@ -5598,7 +5598,7 @@ Flaticon icon font: Flaticon
 
 .ftoc {
   position: fixed;
-  right: 50px;
+  right: 30px;
   bottom: 140px;
   width: 48px;
   z-index: 11;
@@ -5771,4 +5771,30 @@ Flaticon icon font: Flaticon
 }
 .more:hover{
   color: var(--dark)
+}
+
+/* Support Box*/
+
+.support{
+  position: fixed;
+  /* right: 30px; */
+  left: 30px;
+  /* bottom: 130px; */
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+.support a{
+  color: #fff;
+  background: var(--sub-color);
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px 0;
+  font-size: 24px;
 }
