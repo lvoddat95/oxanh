@@ -551,3 +551,16 @@
 </body>
 <?php include_once POPUP; ?>
 <?php include_once SCRIPTS; ?>
+
+
+<div id="popup-message" class="d-none">
+    <div class="alert alert-warning mb-0" role="alert" style="border-radius: 4px !important;">
+        Bạn đang có 3 tin nhắn trong này!
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        PopupMessage('#popup-message');
+    });
+</script>

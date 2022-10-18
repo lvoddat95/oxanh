@@ -3,8 +3,7 @@ $(function () {
     $(".ci-package-slider").slick({
       infinite: false,
       slidesToShow: 3,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
@@ -48,8 +47,7 @@ $(function () {
   }
 
   $(".ci-btn-mua-bh").on("click", function () {
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $("#ci-package-block").offset().top,
       },
       900
@@ -58,8 +56,7 @@ $(function () {
 
   // Len dau trang
   $(".go-top").on("click", function () {
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: 0,
       },
       500
@@ -222,6 +219,29 @@ var AlertMessage = function (source, urlBack) {
   });
 };
 
+var PopupMessage = function (source, urlBack) {
+  Swal.fire({
+    title: "<strong class='fz-24'><i class='fad fa-bullhorn me-3' style='color:orange;'></i>THÔNG BÁO</strong>",
+    html: $(source).html(),
+    width: 600,
+    backdrop: `rgba(0,0,0,.4)`,
+    position: "top",
+    showCancelButton: true,
+    showDenyButton: false,
+    showConfirmButton: false,
+    cancelButtonText: "Đóng",
+    customClass: {
+      htmlContainer: "entry_content",
+      cancelButton: "btn ci-btn ci-btn-outline",
+    },
+    buttonsStyling: false,
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.href = urlBack;
+    }
+  });
+};
+
 if ($(".prgoress_indicator").length) {
   if ($(".prgoress_indicator path").length) {
     var progressPath = document.querySelector(".prgoress_indicator path");
@@ -316,18 +336,15 @@ $(window).on("scroll", function (e) {
         $(".ci-count").each(function () {
           $(this)
             .prop("Counter", 0)
-            .animate(
-              {
-                Counter: $(this).text(),
+            .animate({
+              Counter: $(this).text(),
+            }, {
+              duration: 4000,
+              easing: "swing",
+              step: function (now) {
+                $(this).text(numberWithCommas(Math.ceil(now)));
               },
-              {
-                duration: 4000,
-                easing: "swing",
-                step: function (now) {
-                  $(this).text(numberWithCommas(Math.ceil(now)));
-                },
-              }
-            );
+            });
         });
         // $("#triggered").addClass("show");
         $(".ci-about-block").addClass("animated");
