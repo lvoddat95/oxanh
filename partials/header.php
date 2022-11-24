@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nền tảng tương trợ bệnh hiểm nghèo | Công ty Cổ phần Công nghệ Internet Ô Xanh </title>
+    <link rel="icon" type="image/x-icon" href="<?php echo SOURCE; ?>assets/img/favicon.ico">
+    <!-- Load Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"> -->
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/jquery-ui/themes/base/autocomplete.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/hc-offcanvas-nav/dist/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/datatables/datatables.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>utils/tipsy/tipsy.min.css">
+
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo SOURCE; ?>assets/css/responsive.css">
+
+</head>
+
+<script>
+    ! function(s, u, b, i, z) {
+        var o, t, r, y;
+        s[i] || (s._sbzaccid = z, s[i] = function() {
+            s[i].q.push(arguments)
+        }, s[i].q = [], s[i]("setAccount", z), r = ["widget.subiz.net", "storage.googleapis" + (t = ".com"), "app.sbz.workers.dev", i + "a" + (o = function(k, t) {
+            var n = t <= 6 ? 5 : o(k, t - 1) + o(k, t - 3);
+            return k !== t ? n : n.toString(32)
+        })(20, 20) + t, i + "b" + o(30, 30) + t, i + "c" + o(40, 40) + t], (y = function(k) {
+            var t, n;
+            s._subiz_init_2094850928430 || r[k] && (t = u.createElement(b), n = u.getElementsByTagName(b)[0], t.async = 1, t.src = "https://" + r[k] + "/sbz/app.js?accid=" + z, n.parentNode.insertBefore(t, n), setTimeout(y, 2e3, k + 1))
+        })(0))
+    }(window, document, "script", "subiz", "acrlhhhrktipcmtiadlf")
+</script>
