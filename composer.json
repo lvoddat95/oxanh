@@ -1,15 +1,10 @@
 {
-    "name": "admin/htv",
-    "authors": [
-        {
-            "name": "Dat Lv",
-            "email": "lvoddat95@yahoo.com"
-        }
-    ],
     "require": {
-        "phpmailer/phpmailer": "^6.5",
-        "sendgrid/sendgrid": "~7",
+        "mpdf/mpdf": "^8.0",
+        "phpmailer/phpmailer": "^6.1",
+        "sendgrid/sendgrid": "^7.3",
+        "phpoffice/phpspreadsheet": "^1.23",
         "filp/whoops": "^2.14",
-        "tinymce/tinymce": "^5.10"
+        "nesbot/carbon": "^2.59"
     }
 }
