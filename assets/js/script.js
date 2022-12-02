@@ -589,3 +589,28 @@ var show_thanh_vien_gioi_thieu = function (p_this) {
     $("#thanh-vien-gioi-thieu").slideUp("fast");
   }
 };
+var _toggle_elem = function (selector) {
+  let emo_count = parseInt($(selector).find(".cmt_emo_count").text());
+  if (!$(selector).hasClass("active")) {
+    $(selector).find(".cmt_emo_count").text(emo_count + 1);
+  }
+  $(selector).closest(".cmt_action").find(".cmt_emo").removeClass("active");
+
+  $(selector).addClass("active");
+
+}
+
+var comment_reply = function (selector) {
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+    let rep = $(selector).closest(".comment_ask").find(".cmt_info");
+    let rep_form = rep.find(".cmt_rep_form");
+    let rep_form_html = '<form id="comment_reply_form" class="cmt_rep_form">' +
+      '<div class="cmt_sub"><textarea class="form-control" placeholder="Nhập nội dung ý kiến..." name="" id="" rows="2"></textarea>' +
+      '</div></form>';
+    if (rep_form.length == 0) {
+      rep.append(rep_form_html);
+    }else{
+      rep_form.remove();
+    }
+  }
+}

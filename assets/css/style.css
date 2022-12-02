@@ -214,6 +214,10 @@ big {
   color: var(--gray);
 }
 
+.silver-color {
+  color: var(--silver);
+}
+
 .bg-grey {
   background-color: var(--grey);
 }
@@ -480,7 +484,7 @@ a:hover {
   opacity: 0.7;
 }
 
-.ci-btn-thamgia{
+.ci-btn-thamgia {
   position: relative;
   z-index: 11;
   padding: 10px;
@@ -576,7 +580,7 @@ a:hover {
   animation-iteration-count: 1;
 }
 
-.sticky.show .nav-item .nav-link{
+.sticky.show .nav-item .nav-link {
   padding: 26px 0;
 }
 
@@ -5769,13 +5773,14 @@ Flaticon icon font: Flaticon
   color: #c19921;
   font-weight: 500;
 }
-.more:hover{
+
+.more:hover {
   color: var(--dark)
 }
 
 /* Support Box*/
 
-.support{
+.support {
   position: fixed;
   /* right: 30px; */
   left: 30px;
@@ -5786,7 +5791,8 @@ Flaticon icon font: Flaticon
   transform: translateY(-50%);
   z-index: 9999;
 }
-.support a{
+
+.support a {
   color: #fff;
   background: var(--sub-color);
   border-radius: 50%;
@@ -5797,4 +5803,90 @@ Flaticon icon font: Flaticon
   justify-content: center;
   margin: 3px 0;
   font-size: 24px;
+}
+
+/* Comment */
+.ci-comment {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.cmt_avatar {
+  margin: 0 12px 0 0;
+  float: left;
+  width: 36px;
+  height: 36px;
+  background: #E5E5E5;
+  line-height: 36px;
+  text-align: center;
+  color: #949494 !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px !important;
+  font-family: arial;
+  border-radius: 50%;
+  position: relative;
+}
+
+.cmt_name {
+  font-weight: var(--fw-medium);
+  font-size: var(--fz-14);
+  color: #333;
+  text-transform: capitalize;
+}
+
+.comment_item {
+  margin-top: 16px;
+}
+
+.cmt_info_ask {
+  display: block;
+  font-size: var(--fz-14);
+  color: #4a4a4a;
+  line-height: 22px;
+  margin-left: 30px;
+}
+
+.cmt_action a {
+  color: var(--gray);
+}
+
+.cmt_action a.active,
+.cmt_action a:hover {
+  color: var(--main-color);
+}
+
+.cmt_info {
+  padding-left: 48px;
+}
+
+.comment_ask {
+  display: block;
+  overflow: visible;
+  margin: 10px 0 0;
+  clear: both;
+}
+
+.comment_reply {
+  padding-left: 48px;
+}
+
+.cmt_sub {
+  padding-left: 10px;
+  border-left: 1px solid var(--silver);
+}
+
+.cmt_admin_tag {
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: #000;
+  font-weight: normal;
+  font-size: 10px;
+  background: #eebc49;
+  padding: 2px 6px;
+  border-radius: 3px;
+  line-height: 18px;
+  height: 18px;
+  margin-left: 10px;
 }
