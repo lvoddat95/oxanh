@@ -5857,6 +5857,10 @@ Flaticon icon font: Flaticon
   color: var(--main-color);
 }
 
+.cmt_emo.active {
+  color: var(--main-color);
+}
+
 .cmt_info {
   padding-left: 48px;
 }

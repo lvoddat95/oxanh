@@ -71,16 +71,6 @@
                                                     <div class="cmt_action gray-color">
                                                         <a href="javascript:void(0);" onclick="comment_reply(this);">Trả lời</a>
                                                         <b class="silver-color mx-2">●</b>
-                                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                            <i class="far fa-solid fa-thumbs-up fa-fw"></i>
-                                                            <span class="cmt_emo_count me-2">12</span>Tàn thành
-                                                        </a>
-                                                        <b class="silver-color mx-2">●</b>
-                                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                            <i class="far fa-solid fa-thumbs-down fa-fw"></i>
-                                                            <span class="cmt_emo_count me-2">0</span>Không tàn thành
-                                                        </a>
-                                                        <b class="silver-color mx-2">●</b>
                                                         <span class="cmt_emo">
                                                             18h trước
                                                         </span>
@@ -98,16 +88,6 @@
                                                         </div>
                                                         <div class="cmt_action gray-color">
                                                             <a href="javascript:void(0);" onclick="comment_reply(this);">Trả lời</a>
-                                                            <b class="silver-color mx-2">●</b>
-                                                            <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                                <i class="far fa-solid fa-thumbs-up fa-fw"></i>
-                                                                <span class="cmt_emo_count me-2">0</span>Tàn thành
-                                                            </a>
-                                                            <b class="silver-color mx-2">●</b>
-                                                            <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                                <i class="far fa-solid fa-thumbs-down fa-fw"></i>
-                                                                <span class="cmt_emo_count me-2">0</span>Không tàn thành
-                                                            </a>
                                                             <b class="silver-color mx-2">●</b>
                                                             <span class="cmt_emo">
                                                                 2p trước
@@ -130,16 +110,6 @@
                                                     </div>
                                                     <div class="cmt_action gray-color">
                                                         <a href="javascript:void(0);" onclick="comment_reply(this);">Trả lời</a>
-                                                        <b class="silver-color mx-2">●</b>
-                                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                            <i class="far fa-solid fa-thumbs-up fa-fw"></i>
-                                                            <span class="cmt_emo_count me-2">0</span>Tàn thành
-                                                        </a>
-                                                        <b class="silver-color mx-2">●</b>
-                                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo">
-                                                            <i class="far fa-solid fa-thumbs-down fa-fw"></i>
-                                                            <span class="cmt_emo_count me-2">0</span>Không tàn thành
-                                                        </a>
                                                         <b class="silver-color mx-2">●</b>
                                                         <span class="cmt_emo">
                                                             2p trước
@@ -219,6 +189,20 @@
                                                 </a>
                                             </li>
                                         </ul>
+                                    </div>
+                                </div>
+                                <div class="ci-widget">
+                                    <div class="footer-title"><i class="far fa-face-smile me-2"></i>Ý kiến của bạn</div>
+                                    <div class="">
+                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo gray-color">
+                                            <i class="far fa-solid fa-thumbs-up fa-fw fz-16"></i>
+                                            <span class="cmt_emo_count me-2">0</span>Tàn thành
+                                        </a>
+                                        <b class="silver-color mx-2">●</b>
+                                        <a href="javascript:void(0);" onclick="_toggle_elem(this);" class="cmt_emo gray-color">
+                                            <i class="far fa-solid fa-thumbs-down fa-fw fz-16"></i>
+                                            <span class="cmt_emo_count me-2">0</span>Không tàn thành
+                                        </a>
                                     </div>
                                 </div>
                             </div>
