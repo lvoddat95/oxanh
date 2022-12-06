@@ -1,5 +1,5 @@
  <!-- Back to top with progress indicator-->
- <a class="prgoress_indicator" href="javascript:void(0);" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+ <a class="prgoress_indicator d-none" href="javascript:void(0);" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
     <!-- <i class="fal fa-circle-chevron-up"></i> -->
  </a>
 

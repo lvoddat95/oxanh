@@ -395,6 +395,60 @@
   .ci-style {
     padding: 20px;
   }
+
+  .ci-aside {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .account-menu-list {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -5px;
+    padding: 0;
+    overflow-x: scroll;
+  }
+
+  .account-menu-list li {
+    padding: 0 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .account-menu-list li a {
+    width: 110px;
+    height: 55px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 8px !important;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    font-size: 11px;
+    line-height: normal;
+    overflow: hidden;
+    background: #fff;
+    border: 2px solid #fff;
+    padding: 4px 10px;
+  }
+  .account-menu-list li.active a{
+    background: #fff;
+    font-weight: 500;
+    border-color: var(--main-color);
+  }
+  .account-menu-list li:hover a, 
+  .account-menu-list li.active a, 
+  .account-menu-list li.active a i {
+    color: var(--main-color);
+  }
+
+  .account-menu-list li a i.fa {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+
+
 }
 
 @media (max-width: 575px) {

@@ -37,7 +37,7 @@
                                     </a>
                                 </li>
 
-                                <!-- <li class="item ">
+                                <li class="item ">
                                     <a href="<?php echo HTTP_PATH; ?>pages/san-pham-quan-tam.php" title="Sản phẩm đang quan tâm">
                                         <i class="fa fa-inbox fa-fw"></i>Sản phẩm đang quan tâm
                                     </a>
@@ -47,7 +47,7 @@
                                     <a href="<?php echo HTTP_PATH; ?>pages/ma-giam-gia.php" title="Mã giảm giá">
                                         <i class="fa fa-gift fa-fw"></i>Mã giảm giá
                                     </a>
-                                </li> -->
+                                </li>
 
                                 <li class="item ">
                                     <a href="<?php echo HTTP_PATH; ?>pages/quan-ly-don-hang.php" title="Quản lý đơn hàng">
@@ -61,6 +61,11 @@
                                     </a>
                                 </li>
 
+                                <li class="item ">
+                                    <a href="<?php echo HTTP_PATH; ?>pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
+                                        <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
+                                    </a>
+                                </li>
                                 <li class="item ">
                                     <a href="<?php echo HTTP_PATH; ?>pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
                                         <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
