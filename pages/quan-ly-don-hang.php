@@ -73,7 +73,7 @@
                             <h2 class="fz-20 fw-normal mb-4">Quản lý đơn hàng</h2>
                             <div class="bg-white px-4 py-4 radius-8">
                                 <div class="row fz-14">
-                                    <div class="col-md-3 col-xs-6">
+                                    <div class="col-lg-3 col-md-6 col-6">
                                         <div class="form-group">
                                             <span class="fw-medium">
                                                 Từ ngày
@@ -84,7 +84,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-xs-6">
+                                    <div class="col-lg-3 col-md-6 col-6">
                                         <div class="form-group">
                                             <span class="fw-medium">
                                                 Đến ngày
@@ -95,12 +95,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-xs-6">
+                                    <div class="col-lg-3 col-md-6 col-6">
                                         <divp class="form-group">
                                             <span class="fw-medium">
                                                 Trạng thái
                                             </span>
-                                            <select name="Status" class="form-control">
+                                            <select name="Status" class="form-control" select2>
                                                 <option value="0">Tất cả</option>
                                                 <option value="11977">Chờ xác nhận</option>
                                                 <option value="11978">Đã xác nhận</option>
@@ -109,7 +109,7 @@
                                             </select>
                                         </divp>
                                     </div>
-                                    <div class="col-md-3 col-xs-6">
+                                    <div class="col-lg-3 col-md-6 col-6">
                                         <div class="form-group">
                                             <label class="l-contact w100p">
                                                 &nbsp;
@@ -121,40 +121,42 @@
                                 </div>
 
                                 <div class="sp-table">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Mã đơn hàng</th>
-                                                <th>Ngày mua</th>
-                                                <th>Sản phẩm</th>
-                                                <th>Tổng tiền</th>
-                                                <th>Trạng thái đơn hàng</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>BHCA.0231938</td>
-                                                <td>29/02/2022</td>
-                                                <td>Gói Care 400</td>
-                                                <td>445,000</td>
-                                                <td>Thành công</td>
-                                            </tr>
-                                            <tr>
-                                                <td>BHCA.0231938</td>
-                                                <td>29/02/2022</td>
-                                                <td>Gói Care 400</td>
-                                                <td>445,000</td>
-                                                <td>Thành công</td>
-                                            </tr>
-                                            <tr>
-                                                <td>BHCA.0231938</td>
-                                                <td>29/02/2022</td>
-                                                <td>Gói Care 400</td>
-                                                <td>445,000</td>
-                                                <td>Thành công</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Mã đơn hàng</th>
+                                                    <th>Ngày mua</th>
+                                                    <th>Sản phẩm</th>
+                                                    <th>Tổng tiền</th>
+                                                    <th>Trạng thái đơn hàng</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>BHCA.0231938</td>
+                                                    <td>29/02/2022</td>
+                                                    <td>Gói Care 400</td>
+                                                    <td>445,000</td>
+                                                    <td>Thành công</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>BHCA.0231938</td>
+                                                    <td>29/02/2022</td>
+                                                    <td>Gói Care 400</td>
+                                                    <td>445,000</td>
+                                                    <td>Thành công</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>BHCA.0231938</td>
+                                                    <td>29/02/2022</td>
+                                                    <td>Gói Care 400</td>
+                                                    <td>445,000</td>
+                                                    <td>Thành công</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
 
                             </div>
