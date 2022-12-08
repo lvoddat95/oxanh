@@ -5179,6 +5179,7 @@ Flaticon icon font: Flaticon
 
 .payment-box .payment-box__info {
   display: table-cell;
+  width: 100%;
 }
 
 .payment-box .payment-box__info p {
@@ -5224,18 +5225,21 @@ Flaticon icon font: Flaticon
 }
 
 .payment-menthod-box .payment-box__icon {
-  width: 76px;
+  width: 50px;
   padding-right: 15px;
+  vertical-align: middle;
 }
 
 .payment-menthod-box .payment-box__info h3 {
   font-size: 12px;
   line-height: 14px;
+  margin: 0;
 }
 
 .payment-menthod-box .payment-box__info p {
   font-size: 10px;
   line-height: 12px;
+  margin-top: 10px;
 }
 
 .payment-menthod-box .img-bank img {

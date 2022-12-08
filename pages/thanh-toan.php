@@ -60,7 +60,7 @@
                                         Chọn phương thức thanh toán
                                     </h2>
 
-                                    <div class="row gx-2 clearfix">
+                                    <!-- <div class="row gx-2 clearfix">
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
@@ -109,23 +109,34 @@
                                                 <input type="radio" name="iBank" value="CUAHANG">
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <div class="row gx-2 clearfix">
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid mb-2" src="<?php echo SOURCE; ?>assets/img/payment/banking.png" alt="Banking">
+                                                    <img class="img-fluid" width="" src="<?php echo SOURCE; ?>assets/img/payment/banking.png" alt="Banking">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN QUA CHUYỂN KHOẢN</h3>
-                                                    <p class="mb-0">Quý khách có thể thanh toán bằng cách chuyển khoản trực tiếp tại ngân hàng, qua thẻ ATM, hoặc qua Internet banking.</p>
                                                 </div>
-                                                <input type="radio" name="iBank" value="CHUYENKHOAN">
+                                                <input type="radio" name="iBank" value="CHUYENKHOAN" checked>
                                             </div>
                                         </div>
+                                        <div class="payment-block col-lg-6 col-md-6 col-sm-12">
+                                            <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
+                                                <div class="payment-box__icon">
+                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/paylater.png" alt="PayLater">
+                                                </div>
+                                                <div class="payment-box__info">
+                                                    <h3>THANH TOÁN SAU</h3>
+                                                </div>
+                                                <input type="radio" name="iBank" value="EPAY">
+                                            </div>
+                                        </div>
+
                                         <div class="col-12 mt-4">
-                                            <div id="payment-info" class="payment-info mb-5" data-info="CHUYENKHOAN" style="display: none;">
+                                            <div id="payment-info" class="payment-info mb-5" data-info="CHUYENKHOAN" style="display: block;">
                                                 <div class="d-flex flex-wrap justify-content-between">
                                                     <a href="#bank-agribank" class="img-bank active" onclick="chosse_bank(this);" data-stk="1029635288" data-chinhanh="">
                                                         <img src="<?php echo SOURCE; ?>assets/img/bank/1_Agribank.jpg" alt="">
