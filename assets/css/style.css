@@ -1103,7 +1103,7 @@ a:hover {
 }
 
 .ci-package-docs {
-  margin: 30px -10px 0;
+  margin: 30px 0 0;
 }
 
 .ci-docs__link {
@@ -1858,7 +1858,7 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-.form-group > span.fw-medium,
+.form-group>span.fw-medium,
 .form-group>label {
   font-size: 1.6rem;
   font-weight: 500;
@@ -1869,7 +1869,7 @@ a:hover {
   width: 100% !important;
 }
 
-.form-group select{
+.form-group select {
   width: 100% !important;
 }
 
@@ -5903,4 +5903,11 @@ Flaticon icon font: Flaticon
   line-height: 18px;
   height: 18px;
   margin-left: 10px;
+}
+
+.ci-account-download a {
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  border: 1px dashed #ccc;
 }

@@ -318,17 +318,6 @@
     width: 100%;
   }
 
-  .ci-aside .ci-package-docs{
-    margin-top: 0px;
-  }
-  .ci-aside .ci-package-docs br{
-    display: none;
-  }
-
-  .ci-aside .ci-package-docs a{
-   
-  }
-
   .ci-package-slider .slick-prev {
     left: -10px;
   }

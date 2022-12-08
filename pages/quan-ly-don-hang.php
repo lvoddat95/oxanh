@@ -20,16 +20,37 @@
                 <div class="container">
                     <div class="ci-block-aside pb-5">
                         <aside class="ci-aside mb-3">
-                            <div class="ci-user-box">
-                                <svg class="ci-menu-user-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
-                                    </path>
-                                </svg>
-                                <div class="info">
-                                    <span class="fz-12">Tài khoản của</span>
-                                    <span class="fz-16 fw-medium d-block">Lê Văn A</span>
+                            <aside class="ci-aside mb-3">
+                                <div class="ci-user-box">
+                                    <svg class="ci-menu-user-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                                        </path>
+                                    </svg>
+
+                                    <div class="info">
+                                        <span class="fz-12">Tài khoản của</span>
+                                        <span class="fz-16 fw-medium d-block">Lê Viết Đạt</span>
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="ci-user-box">
+                                    <div class="info">
+                                        <p class="mb-0">
+                                            <i class="fa fa-users blue"></i>
+                                            Mã tham gia thành viên: <b class="text-uppercase">sqLu53</b>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ci-account-download">
+                                    <a href="/Data/upload/files/User/Quy ước thành viên  FN.pdf" target="_blank" class="ci-docs__link">
+                                        <i class="fas fa-arrow-down-to-bracket me-2"></i>
+                                        <span>Quy ước thành viên</span>
+                                    </a>
+                                    <a href="/Data/upload/files/User/Điều khoản FN.pdf" target="_blank" class="ci-docs__link">
+                                        <i class="fas fa-arrow-down-to-bracket me-2"></i>
+                                        <span>Điều khoản</span>
+                                    </a>
+                                </div>
+                            </aside>
                             <ul class="account-menu-list">
                                 <li class="item ">
                                     <a href="<?php echo HTTP_PATH; ?>pages/tai-khoan.php" title="Thông tin tài khoản">
