@@ -63,8 +63,7 @@
                     <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
                 </svg>
 
-                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" 
-                class="ci-btn ci-btn-outline border-2 main-color ci-btn-thamgia d-block mt-3">Tham gia trực tuyến</a>
+                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color ci-btn-thamgia d-block mt-3">Tham gia trực tuyến</a>
             </nav>
         </div>
 
@@ -190,6 +189,12 @@
                             <div class="col-md-6 text-end">
                                 <i>Đơn vị: Đồng</i>
                             </div>
+                        </div>
+
+                        <div>
+                            <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-hover-dark ci-btn-main border-2" tabindex="0">
+                                <i class="far fa-file-pen fa-fw"></i>Tham gia trực tuyến ngay !
+                            </a>
                         </div>
 
                         <div id="topic-4" class="row">

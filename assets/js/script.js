@@ -292,14 +292,15 @@ var show_package_select = function (p_this) {
 var chose_payment = function (p_this) {
   var input = $(p_this).find("input[type=radio]");
   input.prop("checked", true);
-
+  $(".payment-menthod-box").removeClass('active');
+  $(p_this).addClass('active');
   var payment = input.val();
   var payment_info = $("#payment-info").data("info");
 
   if (payment == payment_info) {
-    $("#payment-info").slideDown();
+    $("#payment-info").slideDown('fast');
   } else {
-    $("#payment-info").slideUp();
+    $("#payment-info").slideUp('fast');
   }
 };
 

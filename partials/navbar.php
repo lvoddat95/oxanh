@@ -42,10 +42,12 @@ if (!empty($GLOBALS["menu"])) {
                 <li class="nav-item nav-item-submenu">
                     <a class="nav-link <?php echo in_array('blog', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/blog.php">Tin tức</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="tin-thanh-vien.php">Tin thành viên Oxanh</a></li>
-                        <li><a class="dropdown-item" href="manh-thuong-quan.php">Mạnh thường quân</a></li>
-                        <li><a class="dropdown-item" href="ngoi-nha-chung.php">Ngôi nhà chung</a></li>
-                        <li><a class="dropdown-item" href="tin-tong-hop.php">Tin tổng hợp</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tin-thanh-vien.php">Tin thành viên Oxanh</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/manh-thuong-quan.php">Mạnh thường quân</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/ngoi-nha-chung.php">Ngôi nhà chung</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tin-tong-hop.php">Tin tổng hợp</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tai-khoan.php">Tài khoản</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/thanh-toan.php">Thanh toán</a></li>
                     </ul>
                 </li>
 

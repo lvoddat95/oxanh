@@ -113,7 +113,7 @@
 
                                     <div class="row gx-2 clearfix">
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
-                                            <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
+                                            <div onclick="chose_payment(this);" class="payment-box payment-menthod-box active">
                                                 <div class="payment-box__icon">
                                                     <img class="img-fluid" width="" src="<?php echo SOURCE; ?>assets/img/payment/banking.png" alt="Banking">
                                                 </div>

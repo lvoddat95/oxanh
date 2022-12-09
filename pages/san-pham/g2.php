@@ -191,6 +191,12 @@
                             </div>
                         </div>
 
+                        <div>
+                            <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-hover-dark ci-btn-main border-2" tabindex="0">
+                                <i class="far fa-file-pen fa-fw"></i>Tham gia trực tuyến ngay !
+                            </a>
+                        </div>
+
                         <div id="topic-4" class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>

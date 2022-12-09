@@ -4816,7 +4816,7 @@ input[type="radio"]:before {
   height: 16px;
   width: 16px;
   line-height: 16px;
-  border: 1.5px solid var(--silver2);
+  border: 2px solid var(--silver2);
   border-radius: 50%;
 }
 
@@ -5220,6 +5220,11 @@ Flaticon icon font: Flaticon
   padding: 10px;
 }
 
+.payment-menthod-box.active{
+  /* background-color: #E5E5E5; */
+  border-color: var(--main-color);
+}
+
 .payment-menthod-box .payment-box {
   margin-bottom: 20px;
 }
@@ -5269,7 +5274,7 @@ Flaticon icon font: Flaticon
   overflow: hidden;
   border-radius: var(--radius-4);
   padding: 0px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -5375,7 +5380,7 @@ Flaticon icon font: Flaticon
   padding: 20px 0;
   background: #fff;
   border: 0;
-  box-shadow: var(--shadow-s);
+  box-shadow: var(--shadow-l);
 }
 
 .navbar-nav .dropdown-menu .dropdown-item {
