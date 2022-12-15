@@ -35,161 +35,164 @@
 
         <div id="ci-package-block" class="ci-block ci-package-block bg-grey">
             <div class="container">
-                <div class="ci-package-inner">
-                    <div class="ci-heading">
-                        <p class="ci-heading__sub">Các kế hoạch tương trợ</p>
-                        <h2 class="ci-heading__main">Chọn kế hoạch phù hợp cho bạn</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="ci-package-inner">
+                            <div class="ci-heading">
+                                <h2 class="ci-heading__main">Chọn kế hoạch phù hợp cho bạn</h2>
+                            </div>
+                            <div class="ci-package-slider">
+
+                                <div class="ci-package-item ci-package-item-1">
+                                    <div class="ci-package-item__top">
+                                        <span>Kế hoạch G1</span>
+                                        <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
+                                    </div>
+                                    <div class="ci-package-item__mid">
+                                        <table class="table table-style style2 mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th width="40%">Độ tuổi (tuổi)</th>
+                                                    <th class="text-end">Phí tham gia/năm (₫)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                    <td align="right">500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 19 - 29</td>
+                                                    <td align="right">1.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 30 - 39</td>
+                                                    <td align="right">1.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 40 - 49</td>
+                                                    <td align="right">2.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 50 - 59</td>
+                                                    <td align="right">2.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                    <td align="right">3.000.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="ci-package-item__bottom">
+                                        <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                    </div>
+                                    <div class="ci-package-item__more">
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                    </div>
+                                </div>
+
+                                <div class="ci-package-item">
+                                    <div class="ci-package-item__top">
+                                        <span>Kế hoạch G2</span>
+                                        <h3>Quyền lợi tương trợ tối đa 300.000.000<small>₫</small></h3>
+                                    </div>
+                                    <div class="ci-package-item__mid">
+                                        <table class="table table-style style2 mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th width="40%">Độ tuổi (tuổi)</th>
+                                                    <th class="text-end">Phí tham gia/năm (₫)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                    <td align="right">750.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 19 - 29</td>
+                                                    <td align="right">1.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 30 - 39</td>
+                                                    <td align="right">2.250.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 40 - 49</td>
+                                                    <td align="right">3.000.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 50 - 59</td>
+                                                    <td align="right">3.750.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                    <td align="right">Chưa triển khai</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="ci-package-item__bottom">
+                                        <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                    </div>
+                                    <div class="ci-package-item__more">
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                    </div>
+                                </div>
+
+                                <div class="ci-package-item">
+                                    <div class="ci-package-item__top">
+                                        <span>Kế hoạch G3</span>
+                                        <h3>Quyền lợi tương trợ tối đa 500.000.000<small>₫</small></h3>
+                                    </div>
+                                    <div class="ci-package-item__mid">
+                                        <table class="table table-style style2 mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th width="40%">Độ tuổi (tuổi)</th>
+                                                    <th class="text-end">Phí tham gia/năm (₫)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                    <td align="right">1.250.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 19 - 29</td>
+                                                    <td align="right">2.500.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 30 - 39</td>
+                                                    <td align="right">3.750.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 40 - 49</td>
+                                                    <td rowspan="3" style="vertical-align: middle;" align="right">Chưa triển khai</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 50 - 59</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="ci-package-item__bottom">
+                                        <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+
+                                    </div>
+                                    <div class="ci-package-item__more">
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="ci-package-slider">
-
-                        <div class="ci-package-item">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G1</span>
-                                <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
-                            </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">1.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">1.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td align="right">2.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                            <td align="right">2.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                            <td align="right">3.000.000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-                            </div>
-                            <div class="text-center mt-3">
-                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php" class="fw-medium">Chi tiết kế hoạch</a>
-                            </div>
-                        </div>
-
-                        <div class="ci-package-item">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G2</span>
-                                <h3>Quyền lợi tương trợ tối đa 300.000.000<small>₫</small></h3>
-                            </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">1.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">2.250.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td align="right">3.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                            <td align="right">3.750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                            <td align="right">Chưa triển khai</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-                            </div>
-                            <div class="text-center mt-3">
-                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php" class="fw-medium">Chi tiết kế hoạch</a>
-                            </div>
-                        </div>
-
-                        <div class="ci-package-item">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G3</span>
-                                <h3>Quyền lợi tương trợ tối đa 500.000.000<small>₫</small></h3>
-                            </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">1.250.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">2.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">3.750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td rowspan="3" style="vertical-align: middle;" align="right">Chưa triển khai</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-
-                            </div>
-                            <div class="text-center mt-3">
-                                <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php" class="fw-medium">Chi tiết kế hoạch</a>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
 
                 <div class="row ">
@@ -218,6 +221,26 @@
         </div>
     </div>
 
+
+    <div class="ci-block overflow-hidden">
+        <div class="container">
+            <div class="ci-heading ">
+                <h2 class="ci-heading__main">Video hướng dẫn</h2>
+            </div>
+            <div class="banner-video">
+                <div class="video-wrap  autoplay_off">
+                    <video height="500" controls poster="<?php echo SOURCE; ?>assets/img/umbrella.jpg" class="video-play">
+                        <source autostart="false" src="<?php echo SOURCE; ?>assets/video/Hướng dẫn chọn và thanh toán.mp4" type="video/mp4">
+                    </video>
+                    <a class="video-button" href="#" title="Play">
+                        <span class="icon-play color"><i class="fal fa-play"></i></span>
+                    </a>
+                    <div class="video-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="ci-block bg-pattern pb-0">
         <div class="container">
 
@@ -230,7 +253,7 @@
                 <div class="col-lg-6">
                     <div class="mb-2 mb-lg-5 pb-5">
                         <div class="ci-heading mb-3 mb-md-5">
-                            <h2 class="ci-heading__main ">Danh mục <br>46 bệnh hiểm nghèo</h2>
+                            <h2 class="ci-heading__main">Danh mục <br>46 bệnh hiểm nghèo</h2>
                         </div>
                         <div class="fz-16 mb-3 mb-md-5">
                             Các bệnh nghiêm trọng được định nghĩa trong kế hoạch này đề cập đến các bệnh. Trạng thái bệnh được quy định chi tiết tại đây:
@@ -246,14 +269,16 @@
         </div>
     </div>
 
-    <div class="ci-block">
+    <div class="ci-block d-none">
         <div class="container">
             <div class="ci-heading center">
-                <h2 class="ci-heading__main mb-3">Các hình thức <span class="main-color">thanh toán</span></h2>
-                <div class="row">
-                    <div class="offset-lg-2 col-lg-8 text-center">
-                        <div class="ci-app-desc mb-3">
-                            Những đối tác thanh toán đáng tin cậy của chúng tôi sẽ giúp cho bạn luôn an tâm thực hiện mọi giao dịch một cách thuận lợi nhất!
+                <h2 class="ci-heading__main">Các hình thức <span class="main-color">thanh toán</span></h2>
+                <div class="ci-heading__sub">
+                    <div class="row">
+                        <div class="offset-lg-2 col-lg-8 text-center">
+                            <div class="fz-16 gray-color">
+                                Những đối tác thanh toán đáng tin cậy của chúng tôi sẽ giúp cho bạn luôn an tâm thực hiện mọi giao dịch một cách thuận lợi nhất!
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -340,41 +365,43 @@
         <div class="container">
             <div class="ci-service-inner">
                 <div class="ci-heading ">
-                    <p class="ci-heading__sub">Đặc điểm nổi bật</p>
-                    <h2 class="ci-heading__main mb-3">Kế hoạch trợ giúp lẫn nhau vì bệnh hiểm nghèo</h2>
-                    <div class="row">
+
+                    <h2 class="ci-heading__main">Kế hoạch trợ giúp lẫn nhau vì bệnh hiểm nghèo</h2>
+                    <div class="ci-heading__sub">
                         <div class="col-lg-8">
                             <div class="fz-16 mb-3">
                                 Bảo vệ bản thân trong thời đại công nghệ số trở nên dễ dàng hơn bao giờ hết với <br> Nền tảng tương trợ trực tuyến Oxanh
                             </div>
-                            <div class="fz-16 mb-3">
+                            <div class="fz-16">
                                 Oxanh - Kế hoạch trợ giúp lẫn nhau vì bệnh hiểm nghèo có mức phí tham gia phù hợp với mọi túi tiền. <br> Bạn có thể tham gia trực tuyến nhanh chóng và dễ dàng với 5 bước:
                             </div>
-
                         </div>
+                    </div>
+                    <div class="row">
+
                         <div class="col-12">
                             <div class="ci-flow">
                                 <div>
                                     <a href="">
-                                        <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/signup.png" alt="Oxanh">
+                                        <i class="ci-flow__icon fad fa-money-check-pen"></i>
                                         <span class="ci-flow__link">Bước 1: <br>Đăng ký</span>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/login.png" alt="Oxanh">
+                                        <i class="ci-flow__icon fad fa-address-card"></i>
                                         <span class="ci-flow__link">Bước 2: <br>Đăng nhập</span>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="">
-                                        <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/product.png" alt="Oxanh">
+                                        <i class="ci-flow__icon fad fa-ballot-check"></i>
                                         <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
                                     </a>
                                 </div>
                                 <div>
                                     <a href="" class="last">
-                                        <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/pay.png" alt="Oxanh">
+                                        <i class="ci-flow__icon fad fa-credit-card"></i>
                                         <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
                                     </a>
                                 </div>
@@ -388,15 +415,15 @@
                         <!-- Services Block -->
                         <div class="services-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <i class="flaticon-health-insurance"></i>
-                                <h6>Số tiền tương trợ thành viên tối đa theo gói G1 là 200triệu, G2 là 300 triệu và G3 là 500 triệu</h6>
+                                <i class="fal fa-hands-holding-dollar"></i>
+                                <h6>Số tiền tương trợ thành viên tối đa theo gói G1 là 200 triệu, G2 là 300 triệu và G3 là 500 triệu</h6>
                             </div>
                         </div>
 
                         <!-- Services Block -->
                         <div class="services-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <i class="flaticon-care"></i>
+                                <i class="fal fa-calendar-clock"></i>
                                 <h6>Hết thời gian chờ và sống sót sau 7 ngày kể từ khi mắc bệnh hiểm nghèo, thành viên được Nền tảng tiến hành tương trợ</h6>
                             </div>
                         </div>
@@ -404,7 +431,7 @@
                         <!-- Services Block -->
                         <div class="services-block col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <i class="flaticon-policy"></i>
+                                <i class="fal fa-umbrella"></i>
                                 <h6>Bảo vệ 46 bệnh hiểm nghèo cho thành viên từ 1 đến 65 tuổi với phí tham gia hàng năm chỉ vài trăm nghìn đồng</h6>
                             </div>
                         </div>
@@ -413,13 +440,11 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="ci-block ci-quyen-loi-block">
         <div class="container">
             <div class="ci-heading">
-                <p class="ci-heading__sub">Giới thiệu</p>
                 <h2 class="ci-heading__main">Quyền lợi tương trợ</h2>
             </div>
             <div class="ci-quyen-loi-box">
@@ -430,7 +455,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-12 d-flex align-items-center">
-                        <div class="ci-quyen-loi-box__detail p-5">
+                        <div class="ci-quyen-loi-box__detail px-5">
                             <div class="ci-quyen-loi-box__quote"><i class="fad fa-quote-left"></i></div>
                             <div class="info">
                                 <p class="fz-16" style="text-align: justify; line-height: 26px;">
@@ -451,18 +476,11 @@
         </div>
     </div>
 
-    <div id="" class="ci-block ci-about-block">
+    <div class="ci-block ci-about-block d-none">
         <div class="container">
 
             <div class="ci-heading">
-                <p class="ci-heading__sub">Lợi ích mang lại</p>
                 <h2 class="ci-heading__main">Ôxanh đã mang lại những gì?</h2>
-                <!-- <div class="ci-desc my-3">
-                            <p class="mb-1"><span class="text-danger">*</span> Bảo vệ bản thân trong thời đại công nghệ số trở nên dễ dàng hơn bao giờ hết với Ô Xanh
-                                Sống khỏe – Bảo hiểm bệnh ung thư.</p>
-                            <p class="mb-1"><span class="text-danger">*</span> Ô Xanh Sống khỏe – Bảo hiểm bệnh ung thư là giải pháp phù hợp với túi tiền, bạn có thể
-                                mua trực tuyến nhanh chóng và dễ dàng với 3 bước đơn giản.</p>
-                        </div> -->
             </div>
 
             <div class="ci-about-wrapper">
