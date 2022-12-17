@@ -18,7 +18,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                 </a>
                             </div>
                             <div class="text-center mt-2 mb-5">
-                                <h3 class="auth-title">Chào mừng Quý khách đến với <br> Ô Xanh </h3>
+                                <h3 class="auth-title">ĐĂNG NHẬP</h3>
                             </div>
                             <div class="p-2">
                                 <form action="dang-ky.php">
@@ -83,7 +83,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                         <div class="alert alert-primary">
                                             Chúng tôi không sử dụng thông tin của bản với bất kỳ mục đích nào.
                                             Bằng cách đăng nhập hoặc đăng kí, bạn đồng ý với
-                                            <a href="">Chính sách quy định</a> của Công ty Công nghệ bảo hiểm Hạt Thóc
+                                            <a href="">Chính sách quy định</a> của Công ty Công nghệ Internet Chiếc Ô Xanh
                                             Vàng
                                         </div>
                                     </div>

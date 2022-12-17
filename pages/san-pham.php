@@ -85,7 +85,7 @@
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5 img-sanpham">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/baohiem.png" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/baohiem.png" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
@@ -98,12 +98,12 @@
                         <div class="row justify-content-between align-items-center">
                             <div class="col-lg-6">
                                 <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-2 mb-lg-5 pb-5">
-                                    <div class="ci-heading mb-3 mb-md-5">
+                                    <div class="ci-heading">
                                         <h2 class="ci-heading__main ">Danh mục <br>46 bệnh hiểm nghèo</h2>
                                     </div>
                                     <div class="fz-16 mb-3 mb-md-5">
@@ -123,7 +123,7 @@
 
             <div class="ci-block pb-0 text-center" id="topic-3">
                 <div class="container">
-                    <div class="ci-heading mb-3 mb-md-5">
+                    <div class="ci-heading">
                         <h2 class="ci-heading__main ">Mức tương trợ tối đa và phí thành viên</h2>
                     </div>
                     <div class="fz-16 mb-3 mb-md-5 text">
@@ -214,7 +214,7 @@
             <div class="ci-block" id="topic-5">
                 <div class="container">
                     <div class="ci-style bg-color1">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main">Cách thức tham gia thành viên</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
@@ -267,7 +267,7 @@
                         <dic class="ci-icon">
                             <i class="fad fa-hourglass-clock text-warning op10"></i>
                         </dic>
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main text-center">Thời gian chờ là <span class="main-color">90 ngày</span></h2>
                         </div>
                         <div>
@@ -310,7 +310,7 @@
                         <dic class="ci-icon">
                             <i class="fad fa-octagon-exclamation text-danger op10"></i>
                         </dic>
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main text-center">Chấm dứt kế hoạch</h2>
                         </div>
                         <div>
@@ -579,7 +579,7 @@
                             <dic class="ci-icon">
                                 <i class="fad fa-quote-left text-info op10"></i>
                             </dic>
-                            <div class="ci-heading mb-3 mb-md-5">
+                            <div class="ci-heading">
                                 <h2 class="ci-heading__main text-white">Các vấn đề khác cần chú ý</h2>
                             </div>
                             <div class="ci-faq ci-faq2">

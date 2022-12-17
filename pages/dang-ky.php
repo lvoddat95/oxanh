@@ -7,10 +7,10 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 <body>
     <div id="ci-content" class="ci-content">
 
-        <div class="auth-wrapper" style="background-image: url(<?php echo SOURCE; ?>assets/img/register.jpg);">
+        <div class="auth-wrapper" style="background-image: url(<?php echo SOURCE; ?>assets/img/auth/oxanh.png);">
             <div id="auth-particles" class="bg-overlay"></div>
             <div class="auth-page-content my-3 my-xl-5">
-                <div class="card">
+                <div class="card bg-white">
                     <div class="card-body p-3 p-xl-5">
                         <div class="text-center">
                             <a href="<?php echo HTTP_PATH; ?>">
@@ -26,7 +26,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                             <form action="dong-y-chinh-sach.php">
                                 <div class="auth-heading">
                                     <h4>
-                                        <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/user.png" width="24px" alt="">
+                                        <i class="fad fa-user me-2 main-color fz-24"></i>
                                         <span>Thông tin cá nhân</span>
                                     </h4>
                                     <div class="line"></div>
@@ -61,7 +61,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <!-- <div class="form-group">
                                         <label for="" class="form-label">Tỉnh/Thành phố</label>
                                         <select class="form-select" select2>
                                             <option value="">Chọn tỉnh/thành phố</option>
@@ -82,7 +82,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                     <div class="form-group">
                                         <label for="" class="form-label">Ghi chú địa chỉ</label>
                                         <input type="text" class="form-control">
-                                    </div>
+                                    </div> -->
                                     <div class="form-group">
                                         <label for="" class="form-label">Điện thoại</label>
                                         <input type="text" class="form-control input-phone">
@@ -91,7 +91,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                         <label for="" class="form-label">CMTND/CCCD/Mã định danh</label>
                                         <input type="text" class="form-control">
                                     </div>
-
+                                    <!-- 
                                     <div class="row">
                                         <div class="col-md-6 text-center">
                                             <label for="mattruoc_file">
@@ -107,16 +107,17 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                             <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                             <p class="tx-16">Ảnh mặt sau</p>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
                                 <div class="auth-heading">
                                     <h4>
-                                        <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/shield.png" width="24px" alt="">
+                                        <i class="fad fa-shield-keyhole me-2 main-color fz-24"></i>
                                         <span>Thông tin đăng nhập</span>
                                     </h4>
                                     <div class="line"></div>
+
                                 </div>
                                 <div>
                                     <div class="form-group">

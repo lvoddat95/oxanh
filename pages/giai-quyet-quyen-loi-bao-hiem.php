@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/breadcrumb2.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/pages/giai-quyet-quyen-loi.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Giải quyết quyền lợi tương trợ</h1>
@@ -25,10 +25,10 @@
                     <div class="container">
                         <div class="row ci-block-icon">
                             <div class="col-12">
-                                <div class="ci-heading mb-3 mb-md-5">
+                                <div class="ci-heading">
                                     <h2 id="buoc1" class="ci-heading__main">Tóm lước quy trình giải quyết đề nghị tương trợ</h2>
                                 </div>
-                                <div class="ci-heading mb-3 mb-md-5">
+                                <div class="ci-heading">
                                     <h2 id="buoc1" class="fz-32 fw-bold">Bước 1. Chuẩn bị Hồ sơ yêu cầu tương trợ</h2>
                                 </div>
                                 <div class="fz-16">
@@ -56,7 +56,7 @@
 
                 <div class="ci-block pb-0 overflow-visible">
                     <div class="container">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="fz-32 fw-bold">Mẫu đơn yêu cầu tương trợ</h2>
                         </div>
                         <div class="ci-download">
@@ -91,7 +91,7 @@
 
                 <div class="ci-block pb-0">
                     <div class="container">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="fz-32 fw-bold">Bước 2. Nộp hồ sơ trực tuyến trước</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
@@ -111,7 +111,7 @@
 
                 <div class="ci-block">
                     <div class="container">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="fz-32 fw-bold">Bước 3. Nộp bản chính sau</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
@@ -149,7 +149,9 @@
                             <div class="row gx-5">
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/schedule.png" alt="HTV">
+                                        <span class="ci-claim-process__icon color-blue">
+                                            <i class="fad fa-calendar-lines-pen"></i>
+                                        </span>
                                         <h3 class="ci-claim-process__title">Khi nào tôi có thể nộp hồ sơ yêu cầu giải quyết Quyền lợi tương trợ lẫn nhau?</h3>
                                         <p class="ci-claim-process__content">
                                             Thành viên có thể gửi Hồ sơ yêu cầu tương trợ lẫn nhau trong vòng 180 ngày kể
@@ -158,13 +160,14 @@
                                     </div>
 
                                     <div class="ci-claim-process__img px-5  d-none d-md-block">
-                                        <img width="360px" class=" img-fluid" src="<?php echo SOURCE; ?>assets/img/claim-process.png" alt="HTV">
+                                        <img width="360px" class=" img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/dieu-can-biet.png" alt="HTV">
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/find.png" alt="HTV">
-
+                                        <span class="ci-claim-process__icon color-orange">
+                                            <i class="fad fa-hourglass-clock"></i>
+                                        </span>
                                         <h3 class="ci-claim-process__title">Trong bao lâu thì Hồ sơ yêu cầu tương trợ của tôi được giải quyết?</h3>
                                         <p class="ci-claim-process__content">
                                             Khi tiếp nhận hồ sơ, trường hợp cần bổ sung chứng từ, chúng tôi sẽ thông báo đến Quý thành viên trong vòng <span class="sub-color2 fw-bold">02 ngày</span> làm việc qua email và tin nhắn.
@@ -179,13 +182,17 @@
 
                                 <div class="col-lg-4 col-md-6 col-12">
                                     <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/salary.png" alt="HTV">
+                                        <span class="ci-claim-process__icon color-green">
+                                            <i class="fad fa-sack-dollar"></i>
+                                        </span>
                                         <h3 class="ci-claim-process__title">Ô Xanh sẽ chi trả Quyền lợi thành viên như thế nào?</h3>
                                         <p class="ci-claim-process__content">Nếu Thông báo giải quyết tương trợ được phát hành với nội dung chấp thuận tương trợ cho Quý thành viên,
                                             chúng tôi sẽ chuyển số tiền được chi trả theo phương thức thanh toán mà thành viên đã cung cấp.</p>
                                     </div>
                                     <div class="ci-claim-process__item">
-                                        <img width="62px" class="ci-claim-process__icon img-fluid" src="<?php echo SOURCE; ?>assets/img/contact.png" alt="HTV">
+                                        <span class="ci-claim-process__icon">
+                                            <i class="fad fa-user-headset"></i>
+                                        </span>
                                         <h3 class="ci-claim-process__title">Trường hợp cần trao đổi, tôi liên hệ với Ô Xanh bằng cách nào?</h3>
                                         <p class="ci-claim-process__content">Ô Xanh luôn sẵn sàng lắng nghe và trao đổi để giải đáp các câu hỏi và thắc mắc của Quý thành viên.
                                             Hãy liên hệ với chúng tôi qua Tổng đài chăm sóc khách hàng hoặc số Hotline <a href="tel:0339869338">0339 869 338</a>, Zalo chat hoặc gửi email đến địa chỉ <a href="mailto:contact@oxanh.vn">contact@oxanh.vn</a></p>
@@ -198,12 +205,12 @@
                     </div>
                 </div>
 
-                <div class="ci-block">
+                <div class="ci-block bg-outbox overflow-visible">
                     <div class="container">
                         <div class="ci-heading">
                             <h2 class="fz-32 fw-bold">Câu hỏi thường gặp</h2>
                         </div>
-                        <div class="ci-faq">
+                        <div class="ci-faq ci-faq2">
                             <div id="ci-faq-accordion" class="accordion">
 
                                 <div class="accordion-item">

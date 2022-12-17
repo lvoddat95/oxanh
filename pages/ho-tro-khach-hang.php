@@ -26,7 +26,7 @@
 
                     <div class="ci-contact">
                         <div class="ci-heading">
-                            <h2 class="ci-heading__main mb-4">Hỗ trợ thành viên mọi vấn về tương trợ</h2>
+                            <h2 class="ci-heading__main">Hỗ trợ thành viên mọi vấn về tương trợ</h2>
                             <p class="mb-0">Từ giải thích về các kế hoạch tương trợ, làm thế nào để tham gia Nền tảng tương trợ, thanh toán phí đến cách lập hồ sơ để xin tương trợ</p>
                         </div>
 
@@ -61,15 +61,15 @@
 
             <div class="ci-block pb-0">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center">
+                    <div class="row justify-content-between">
                         <div class="col-lg-5">
                             <div class="mb-5 mb-lg-0">
-                                <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family.jpg" alt="HTV">
+                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family.jpg" alt="HTV">
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="ci-heading">
-                                <h2 class="ci-heading__main mb-4">Giải quyết quyền lợi tương trợ</h2>
+                                <h2 class="ci-heading__main">Giải quyết quyền lợi tương trợ</h2>
                                 <p class="mb-0">
                                     Yêu cầu giải quyết quyền lợi tương trợ với các bước đơn giản và nhanh chóng cùng Ô Xanh.
                                 </p>
@@ -81,12 +81,12 @@
                 </div>
             </div>
 
-            <div class="ci-block pb-0">
+            <div class="ci-block">
                 <div class="container">
-                    <div class="row justify-content-between align-items-center flex-column-reverse flex-lg-row">
+                    <div class="row justify-content-between flex-column-reverse flex-lg-row">
                         <div class="col-lg-6">
                             <div class="ci-heading">
-                                <h2 class="ci-heading__main mb-4">Kiểm tra quyền lợi bảo vệ của Quý khách</h2>
+                                <h2 class="ci-heading__main">Kiểm tra quyền lợi bảo vệ của Quý khách</h2>
                                 <p class="mb-0">
                                     Để biết thông tin chi tiết về quyền lợi bảo vệ, Quý khách vui lòng đăng nhập cổng Ô Xanh Dịch vụ Trực tuyến để kiểm tra chi tiết hợp đồng  của mình.
                                 </p>
@@ -96,19 +96,19 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="mb-5 mb-lg-0">
-                                <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="HTV">
+                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="HTV">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="ci-block" onload=initMap();>
+            <div class="ci-block bg-outbox overflow-visible" onload=initMap();>
                 <div class="container">
                     <div class="ci-heading">
-                        <h2 class="ci-heading__main mb-4">Mạng lưới chi nhánh, văn phòng giao dịch</h2>
+                        <h2 class="ci-heading__main">Mạng lưới chi nhánh, văn phòng giao dịch</h2>
                     </div>
-                    <div class="map-container">
+                    <div class="map-container bg-white">
                         <div class="row gx-3 gx-sm-0">
                             <div class="col-sm-4">
                                 <div class="stores-container">

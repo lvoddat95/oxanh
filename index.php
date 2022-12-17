@@ -241,18 +241,18 @@
         </div>
     </div>
 
-    <div class="ci-block bg-pattern pb-0">
+    <div class="ci-block bg-pattern">
         <div class="container">
 
-            <div class="row justify-content-between align-items-center">
+            <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                        <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                        <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="mb-2 mb-lg-5 pb-5">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main">Danh mục <br>46 bệnh hiểm nghèo</h2>
                         </div>
                         <div class="fz-16 mb-3 mb-md-5">

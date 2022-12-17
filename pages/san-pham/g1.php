@@ -87,25 +87,25 @@
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5 img-sanpham">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/baohiem.png" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/san-pham.jpg" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="ci-block pb-0" id="topic-2">
+                <div class="ci-block" id="topic-2">
                     <div class="container">
 
-                        <div class="row justify-content-between align-items-center">
+                        <div class="row">
                             <div class="col-lg-6">
                                 <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-2 mb-lg-5 pb-5">
-                                    <div class="ci-heading mb-3 mb-md-5">
+                                    <div class="ci-heading">
                                         <h2 class="ci-heading__main ">Danh mục <br>46 bệnh hiểm nghèo</h2>
                                     </div>
                                     <div class="fz-16 mb-3 mb-md-5">
@@ -125,7 +125,7 @@
 
             <div class="ci-block pb-0 text-center" id="topic-3">
                 <div class="container">
-                    <div class="ci-heading mb-3 mb-md-5">
+                    <div class="ci-heading">
                         <h2 class="ci-heading__main ">Mức tương trợ tối đa và phí thành viên</h2>
                     </div>
                     <div class="fz-16 mb-3 mb-md-5 text">
@@ -146,7 +146,7 @@
                         </div>
 
                         <table class="table table-style mb-3">
-                            <thead>
+                            <thead class="g01-bg-color">
                                 <tr>
                                     <th style="border-right: 1px solid #fff;" rowspan="2">Độ tuổi</th>
                                     <th>Tên Gói và Mức tương trợ tối đa</th>
@@ -191,13 +191,13 @@
                             </div>
                         </div>
 
-                        <div>
-                            <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-hover-dark ci-btn-main border-2" tabindex="0">
+                        <div class="mb-5">
+                            <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn g01-bg-color ci-btn-hover-dark text-white" tabindex="0">
                                 <i class="far fa-file-pen fa-fw"></i>Tham gia trực tuyến ngay !
                             </a>
                         </div>
 
-                        <div id="topic-4" class="row">
+                        <div id="topic-4" class="row gx-5">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
                                     <h3 class="fz-20 main-color2"><i class="fas fa-message-exclamation text-warning me-2"></i>Lưu ý cơ bản:</h3>
@@ -210,7 +210,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 text-center">
-                                <img class="img-fluid" width="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/policy.jpg" alt="Ô Xanh">
+                                <img class="img-fluid radius-16" src="<?php echo SOURCE; ?>assets/img/san-pham/luu-y.jpg" alt="Ô Xanh">
                             </div>
                         </div>
 
@@ -222,7 +222,7 @@
             <div class="ci-block" id="topic-5">
                 <div class="container">
                     <div class="ci-style bg-color1">
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main">Cách thức tham gia thành viên</h2>
                         </div>
                         <div class="ci-claim-desc fz-16 mb-3">
@@ -232,32 +232,36 @@
                             Cụ thể theo 5 bước như sau:
                         </div>
 
-                        <div class="ci-flow">
-                            <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-1');" title="Đăng ký">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/signup.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 1: <br>Đăng ký</span>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-2');" title="Đăng nhập">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/login.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 2: <br>Đăng nhập</span>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-3');" title="Chọn gói kế hoạch tương trợ và kê khai thông tin">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/product.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-4');" title="Thanh toán" class="last">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/pay.png" alt="Oxanh">
-                                    <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
-                                </a>
-                            </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="ci-flow">
+                                    <div>
+                                        <a href="">
+                                            <i class="ci-flow__icon fad fa-money-check-pen"></i>
+                                            <span class="ci-flow__link">Bước 1: <br>Đăng ký</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <i class="ci-flow__icon fad fa-address-card"></i>
+                                            <span class="ci-flow__link">Bước 2: <br>Đăng nhập</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <i class="ci-flow__icon fad fa-ballot-check"></i>
+                                            <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="last">
+                                            <i class="ci-flow__icon fad fa-credit-card"></i>
+                                            <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
+                                        </a>
+                                    </div>
 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -269,16 +273,16 @@
                         <dic class="ci-icon">
                             <i class="fad fa-hourglass-clock text-warning op10"></i>
                         </dic>
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main text-center">Thời gian chờ là <span class="main-color">90 ngày</span></h2>
                         </div>
                         <div>
-                            <div class="row gx-5 mb-3">
-                                <div class="col-lg-5 d-flex align-items-center">
-                                    <img class="img-fluid mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.png" alt="Ô Xanh">
+                            <div class="row gx-5">
+                                <div class="col-lg-5">
+                                    <img class="img-fluid radius-16 mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.jpg" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
-                                    <div class="text-justify fz-16">
+                                    <div class="text-justify fz-16 mb-3 mb-md-5">
                                         <p>Thời gian chờ sẽ trong vòng 90 ngày (bao gồm cả ngày thứ 90) tính từ 0h00 ngày hôm sau kể từ khi thành viên tham gia chương trình thành công.
                                             Trong thời gian chờ đợi, chẩn đoán ban đầu của thành viên phát hiện ra bệnh nghiêm trọng như được xác định trong kế hoạch này hoặc do thương tật tai nạn,
                                             sẽ không thể nhận được sự hỗ trợ lẫn nhau, tư cách thành viên chấm dứt và sẽ tự động rút khỏi chương trình,
@@ -293,12 +297,12 @@
                                                 chấm dứt tư cách thành viên và tự động rút khỏi gói này. Tuy nhiên, chúng tôi sẽ hoàn lại số phí thành viên đã đóng trong kế hoạch này mà không tính lãi suất.
                                             </i>
                                         </p>
-
-                                        <a id="topic-7" href="javascript:void(0);" onclick="fancybox_modal('#noi-dung-tuong-tro');" class="ci-btn  ci-btn-hover-dark ci-btn-outline border-2 main-color">
-                                            <i class="fa-solid fa-memo-circle-check me-2"></i>
-                                            <span>Xem nội dung tương trợ</span>
-                                        </a>
                                     </div>
+
+                                    <a id="topic-7" href="javascript:void(0);" onclick="fancybox_modal('#noi-dung-tuong-tro');" class="ci-btn  ci-btn-hover-dark ci-btn-outline border-2 main-color">
+                                        <i class="fa-solid fa-memo-circle-check me-2"></i>
+                                        <span>Xem nội dung tương trợ</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -312,13 +316,13 @@
                         <dic class="ci-icon">
                             <i class="fad fa-octagon-exclamation text-danger op10"></i>
                         </dic>
-                        <div class="ci-heading mb-3 mb-md-5">
+                        <div class="ci-heading">
                             <h2 class="ci-heading__main text-center">Chấm dứt kế hoạch</h2>
                         </div>
                         <div>
-                            <div class="row gx-5 mb-3">
+                            <div class="row gx-5 mb-3 mb-md-5">
                                 <div class="col-lg-5">
-                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-dut.png" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-dut-ke-hoach.jpg" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="fz-16 text-justify">
@@ -582,7 +586,7 @@
                             <dic class="ci-icon">
                                 <i class="fad fa-quote-left text-info op10"></i>
                             </dic>
-                            <div class="ci-heading mb-3 mb-md-5">
+                            <div class="ci-heading">
                                 <h2 class="ci-heading__main text-white">Các vấn đề khác cần chú ý</h2>
                             </div>
                             <div class="ci-faq ci-faq2">

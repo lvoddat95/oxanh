@@ -10,7 +10,7 @@
         <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/breadcrumb-bg.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
-                    <h1 class="ci-breadcrumb-title">Giới thiệu về công ty</h1>
+                    <h1 class="ci-breadcrumb-title">Giới thiệu</h1>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5">
-                                    <img class="radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/umbrella.jpg" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/umbrella.jpg" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
@@ -133,14 +133,14 @@
                     </div>
                 </div>
 
-                <div class="ci-block ">
+                <div class="ci-block bg-outbox overflow-visible">
                     <div class="container">
 
                         <div class="ci-heading">
                             <h2 class="ci-heading__main">Chức năng nhiệm vụ</h2>
                         </div>
 
-                        <div id="accordion" class="accordion ci-faq fz-16">
+                        <div id="accordion" class="accordion ci-faq ci-faq2 fz-16">
                             <div class="accordion-item">
                                 <div class="accordion-header">
                                     <button class="accordion-button text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">

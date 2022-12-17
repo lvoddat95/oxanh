@@ -124,9 +124,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-50 position-relative d-none d-lg-block">
+                    <div class="w-50 position-relative d-none d-lg-block main-overlay">
                         <div class="bg-overlay"></div>
-                        <img class="auth-img img-fluid" src="<?php echo SOURCE; ?>assets/img/register3.jpg" alt="Login">
+                        <img class="auth-img img-fluid" src="<?php echo SOURCE; ?>assets/img/auth/login.jpg" alt="Login">
                     </div>
                 </div>
 
