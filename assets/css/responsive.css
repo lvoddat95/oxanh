@@ -490,6 +490,10 @@
   .ci-flow a::after {
     display: none;
   }
+  img{
+    width: 100%;
+    height: auto;
+  }
 
 }
 
