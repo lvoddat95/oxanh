@@ -16,7 +16,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                         <div class="card-body p-3 p-xl-5">
                             <div class="text-center ">
                                 <a href="index.html" class="d-inline-block auth-logo">
-                                    <img src="<?php echo SOURCE; ?>assets/img/logo2.png" alt="" height="50">
+                                    <img src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="" height="50">
                                 </a>
                             </div>
                             <div class="text-center mt-2 mb-5">

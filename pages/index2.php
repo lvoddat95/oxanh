@@ -42,7 +42,7 @@
             <nav class="navbar px-3 p-xl-0 ">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="assets/img/logo2.png" alt="Logo" width="130px">
+                        <img src="assets/img/logo-nav.png" alt="Logo" width="130px">
                     </a>
                     <button class="navbar-toggle d-block d-xl-none" type="button">
                         <b class="icon-bar"></b>
@@ -494,7 +494,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="#" class="logo-bottom">
-                                <img class="b-lazy" src="assets/img/logo2.png">
+                                <img class="b-lazy" src="assets/img/logo-nav.png">
                             </a>
                         </div>
                         <div class="col-lg-3">

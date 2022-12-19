@@ -14,7 +14,7 @@
                             <div>
                                 <div class="text-center">
                                     <a href="<?php echo HTTP_PATH; ?>">
-                                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo2.png" alt="Logo" width="180px">
+                                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                     </a>
                                 </div>
                                 <div class="text-center mt-2 mb-5">

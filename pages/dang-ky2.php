@@ -24,7 +24,7 @@
 
                                     <div class="auth-heading">
                                         <h4>
-                                            <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/user.png" width="24px" alt="">
+                                            <i class="fad fa-user me-2 main-color fz-24"></i>
                                             <span>Thông tin cá nhân</span>
                                         </h4>
                                         <div class="line"></div>
@@ -112,7 +112,7 @@
                                     <div>
                                         <div class="auth-heading">
                                             <h4>
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/shield.png" width="24px" alt="">
+                                                <i class="fad fa-shield-keyhole me-2 main-color fz-24"></i>
                                                 <span>Thông tin đăng nhập</span>
                                             </h4>
                                             <div class="line"></div>

@@ -110,7 +110,7 @@
                         <p class="fz-16 mb-5">Ô Xanh luôn mang đến khách hàng những trải nghiệm mới mẻ, giúp quá trình tham gia bảo hiểm đơn giản, <br>
                             nhanh chóng và dễ dàng hơn với các giải pháp sáng tạo, sản phẩm dễ hiểu được hỗ trợ bởi công nghệ số thông minh.</p>
                         <div class="text-center">
-                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/gia-tri.jpg" alt="O xanh">
+                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/oxanh-gia-tri.jpg" alt="O xanh">
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         </div>
 
                         <div class="text-center">
-                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/bqt.jpg" alt="O xanh">
+                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/oxanh-to-chuc.jpg" alt="O xanh">
                         </div>
 
                     </div>
