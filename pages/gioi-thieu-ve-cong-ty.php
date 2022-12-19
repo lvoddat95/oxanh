@@ -91,7 +91,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <figure class="gallery-img mb-0">
-                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/blog08.jpg" alt="O xanh">
+                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/gia-dinh2.jpg" alt="O xanh">
                                         </figure>
                                     </div>
 
