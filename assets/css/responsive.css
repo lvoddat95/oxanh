@@ -490,11 +490,10 @@
   .ci-flow a::after {
     display: none;
   }
-  img{
-    width: 100%;
-    height: auto;
-  }
 
+  .ci-footer-top img {
+    max-width: 40px;
+  }
 }
 
 @media (max-width: 475px) {
