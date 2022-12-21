@@ -7,16 +7,14 @@
 }
 
 .navbar-toggle {
+  position: static;
   border: 2px solid var(--main-color);
   box-shadow: none !important;
   border-radius: 4px;
-  right: 0;
-  top: 0;
   height: 36px;
   width: 42px;
   text-align: center;
   padding: 9px 10px;
-  margin-top: 3px;
   background-color: #fff;
 }
 
@@ -212,6 +210,10 @@
   .ci-flow>div {
     width: calc(100% / 4);
   }
+
+  .ci-header .navbar-brand{
+    margin: 0;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -311,7 +313,7 @@
   }
 
   .slider-item__img {
-    height: 260px;
+    height: 320px;
   }
 
   .ci-slider-item__info {
@@ -490,10 +492,7 @@
   .ci-flow a::after {
     display: none;
   }
-  img{
-    width: 100%;
-    height: auto;
-  }
+
 
 }
 

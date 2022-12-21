@@ -229,7 +229,7 @@
             </div>
             <div class="banner-video">
                 <div class="video-wrap  autoplay_off">
-                    <video height="500" controls poster="<?php echo SOURCE; ?>assets/img/umbrella.jpg" class="video-play">
+                    <video height="500" controls poster="<?php echo SOURCE; ?>assets/img/home/video.png" class="video-play">
                         <source autostart="false" src="<?php echo SOURCE; ?>assets/video/Hướng dẫn chọn và thanh toán.mp4" type="video/mp4">
                     </video>
                     <a class="video-button" href="#" title="Play">

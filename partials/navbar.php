@@ -9,16 +9,47 @@ if (!empty($GLOBALS["menu"])) {
 <div id="ci-header" class="ci-header">
     <nav class="navbar px-3 p-xl-0 ">
         <div class="container">
-            <a class="navbar-brand" href="<?php echo HTTP_PATH; ?>">
-                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="130px">
-            </a>
             <button class="navbar-toggle d-block d-xl-none" type="button">
                 <b class="icon-bar"></b>
                 <b class="icon-bar"></b>
                 <b class="icon-bar"></b>
             </button>
+
+            <a class="navbar-brand" href="<?php echo HTTP_PATH; ?>">
+                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-text.png" alt="Logo" width="130px">
+            </a>
+
+            <div class="navbar-user d-block d-xl-none">
+                <div class="dropdown">
+                    <button class="dropdown-toggle dropdown-hide-arrow" data-bs-toggle="dropdown">
+                        <i class="fal fa-circle-user"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/tai-khoan.php'; ?>">
+                                <i class="far fa-user me-3"></i>Quản lý tài khoản
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                                <i class="far fa-lock-keyhole me-3"></i>Đăng nhập
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                                <i class="far fa-key-skeleton me-3"></i>Đăng kí
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
+                    </ul>
+                </div>
+            </div>
+
             <ul id="main-menu" class="nav navbar-nav me-auto">
-            <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>">Trang chủ</a>
                 </li>
                 <li class="nav-item nav-item-submenu">
@@ -81,6 +112,7 @@ if (!empty($GLOBALS["menu"])) {
                 </li>
 
             </ul>
+
             <div class="navbar-right d-none d-xl-block">
                 <form class="d-flex align-items-center">
                     <div class="ci-menu-link d-flex align-items-center me-5">
@@ -111,6 +143,7 @@ if (!empty($GLOBALS["menu"])) {
                     <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh" type="button">MUA </button> -->
                 </form>
             </div>
+
         </div>
     </nav>
 </div>

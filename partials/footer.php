@@ -4,7 +4,7 @@
             <div class="row gx-5">
                 <div class="col-lg-3">
                     <a href="<?php echo HTTP_PATH; ?>" class="logo-bottom">
-                        <img class="b-lazy" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png">
+                        <img class="b-lazy" src="<?php echo SOURCE; ?>assets/img/logo/logo.png">
                     </a>
                 </div>
                 <div class="col-lg-3">
