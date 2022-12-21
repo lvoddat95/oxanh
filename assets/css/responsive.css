@@ -493,7 +493,9 @@
     display: none;
   }
 
-
+  .ci-footer-top img {
+    max-width: 40px;
+  }
 }
 
 @media (max-width: 475px) {

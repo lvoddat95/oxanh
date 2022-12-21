@@ -9,10 +9,10 @@
 
         <div id="ci-slider-block" class="ci-slider-block ci-slider slick-slider data-slick-slider mb-0" data-slick='{"dots": true,"slidesToShow": 1, "slidesToScroll": 1, "lazyLoad": "ondemand"}'>
             <div class="ci-slider-item">
-                <div class="slider-item__img" style="background-image: url(<?php echo SOURCE; ?>assets/img/family4.jpg);"></div>
+                <div class="slider-item__img" style="background-image: url(<?php echo SOURCE; ?>assets/img/home/slider-oxanh.jpg);"></div>
                 <div class="container">
                     <div class="ci-slider-item__info">
-                        <h3 class="ci-slider-info__title"><span>Ô Xanh</span> <br>Kế hoạch trợ giúp lẫn nhau vì bệnh hiểm nghèo</h3>
+                        <h3 class="ci-slider-info__title"><span>Ô Xanh</span> <br>Kế hoạch trợ giúp lẫn nhau <br> vì bệnh hiểm nghèo</h3>
                         <p class="ci-slider-info__desc">
                             An tâm điều trị, giảm bớt âu lo
                         </p>
