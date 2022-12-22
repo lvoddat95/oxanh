@@ -105,6 +105,9 @@ Tags:
   --g01-bg-color: #1f7fc1;
   --g02-bg-color: #43bb8b;
   --g03-bg-color: #cd952b;
+
+  /* fix HC canvas  */
+  scroll-behavior: auto;
 }
 
 ::-webkit-scrollbar-track {
@@ -6164,7 +6167,7 @@ Flaticon icon font: Flaticon
   width: 50px;
   border-radius: 50%;
   background: transparent;
-  /* color: var(--sub-color); */
+  /* color: var(--main-color); */
 }
 
 /* DropdowMenu */
@@ -6192,7 +6195,3 @@ Flaticon icon font: Flaticon
   background-color: #f3f6f9;
   color: var(--main-color);
 }
-
-.navbar-user {}
-
-.navbar-user .dropdown-toggle {}

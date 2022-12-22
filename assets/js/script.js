@@ -63,51 +63,12 @@ $(function () {
 		);
 	});
 
-	/* Script nav*/
-	$(function () {
-		var $window = $(window);
-		var lastScrollTop = 0;
-		var $header = $("#ci-header");
-		var $footer = $("#footer");
-		var headerHeight = $header.outerHeight();
-
-		$(window).on("scroll", function () {
-			var windowTop = $window.scrollTop();
-
-			if (windowTop >= headerHeight) {
-				$header.addClass("sticky");
-			} else {
-				$header.removeClass("sticky").removeClass("show");
-				$footer.removeClass("show");
-			}
-			if ($header.hasClass("sticky")) {
-				if (windowTop < lastScrollTop) {
-					$header.addClass("show");
-					$footer.addClass("show");
-				} else {
-					$header.removeClass("show");
-					$footer.removeClass("show");
-				}
-			}
-			if (windowTop < lastScrollTop) {
-				$footer.addClass("show");
-			} else {
-				$footer.removeClass("show");
-			}
-			lastScrollTop = windowTop;
-		});
-	});
-
 	SlickSlider();
-
 	function SlickSlider() {
 		if ($(".data-slick-slider").length > 0) {
 			$(".data-slick-slider").each(function (e) {
 				var seff = $(this);
 				var otps = JSON.parse(JSON.stringify(seff.data("slick")));
-				console.log(otps);
-				console.log(typeof otps);
-
 				seff.not(".slick-initialized").slick(otps);
 			});
 		}
