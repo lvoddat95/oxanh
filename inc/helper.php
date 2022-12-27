@@ -12,6 +12,7 @@ function get_site_url($p_dir="", $root=false)
 
         $whitelist = array(
             '127.0.0.1',
+            '172.32.0.2',
             '::1'
         );
 
