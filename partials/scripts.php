@@ -31,7 +31,7 @@
 
         if (!empty($arr_cript)) {
             foreach ($arr_cript as $item) {
-                echo '<script src="' . SOURCE . $item . '"></script>';
+                echo '<script src="' . HTTP_PATH . $item . '"></script>';
             }
         }
     }
