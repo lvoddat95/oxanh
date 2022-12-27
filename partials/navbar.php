@@ -19,36 +19,8 @@ if (!empty($GLOBALS["menu"])) {
                 <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-text.png" alt="Logo" width="130px">
             </a>
 
-            <div class="navbar-user d-block d-xl-none">
-                <div class="dropdown">
-                    <button class="dropdown-toggle dropdown-hide-arrow" data-bs-toggle="dropdown">
-                        <i class="fal fa-circle-user"></i>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/tai-khoan.php'; ?>">
-                                <i class="far fa-user me-3"></i>Quản lý tài khoản
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
-                                <i class="far fa-lock-keyhole me-3"></i>Đăng nhập
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
-                                <i class="far fa-key-skeleton me-3"></i>Đăng kí
-                            </a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <ul id="main-menu" class="nav navbar-nav me-auto">
+            <ul id="main-menu" class="nav navbar-nav m-auto">
                 <li class="nav-item">
                     <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/">Trang chủ</a>
                 </li>
@@ -84,64 +56,93 @@ if (!empty($GLOBALS["menu"])) {
 
                 <!-- Hien thi mobile -->
                 <li class="nav-ỉtem-form d-block d-xl-none">
-                    <form class="d-block">
-                        <div class="ci-menu-link d-flex align-items-center me-0 mb-4">
-                            <svg class="ci-menu-user-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
-                                </path>
-                            </svg>
-                            <div class="ci-menu-link__item">
-                                <a href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
-                                    Đăng nhập
-                                </a>
-                            </div>
-                            <span class="ci-menu-link__separator"></span>
-                            <div class="ci-menu-link__item">
-                                <a href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
-                                    Đăng kí
-                                </a>
-                            </div>
-                        </div>
+                    <div class="d-block">
                         <div class="ci-header-phone">
-                            <a class="ci-btn ci-btn-main" href="tel:0978240990">
-                                <i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
+                            <a class="ci-btn ci-btn-main" href="tel:0339869338">
+                                <i class="fal fa-phone-volume fz-20 me-3"></i>0339.869.338
                             </a>
                         </div>
-                        <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh d-block w-100" type="button">MUA </button> -->
-                    </form>
+                    </div>
                 </li>
 
             </ul>
 
-            <div class="navbar-right d-none d-xl-block">
-                <form class="d-flex align-items-center">
-                    <div class="ci-menu-link d-flex align-items-center me-5">
-                        <div class="ci-menu-link__item">
-                            <svg class="ci-menu-user-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
-                                </path>
-                            </svg>
-                            <div class="ci-menu-link__item">
+            <div class="navbar-right d-flex align-items-center">
+              
+                <div class="navbar-nu navbar-notification">
+                    <div class="dropdown d-flex align-items-center">
+                        <button class="dropdown-toggle dropdown-hide-arrow " data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/tai-khoan.php'; ?>">
+                                    <i class="far fa-user me-3"></i>Quản lý tài khoản
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                                    <i class="far fa-lock-keyhole me-3"></i>Đăng nhập
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                                    <i class="far fa-key-skeleton me-3"></i>Đăng kí
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-nu navbar-user">
+                    <div class="dropdown d-flex align-items-center">
+                        <button class="dropdown-toggle dropdown-hide-arrow d-flex align-items-center w-auto" data-bs-toggle="dropdown">
+                            <i class="fal fa-circle-user"></i>
+                            <span class="ci-menu-link__item ms-3">
                                 <a href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
                                     Đăng nhập
                                 </a>
-                            </div>
-                        </div>
-
-                        <span class="ci-menu-link__separator"></span>
-                        <div class="ci-menu-link__item">
+                            </span>
+                        </button>
+                        <!-- <span class="ci-menu-link__separator"></span>
+                        <span class="ci-menu-link__item me-5">
                             <a href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
                                 Đăng kí
                             </a>
-                        </div>
+                        </span> -->
+                        <ul class="dropdown-menu dropdown-menu-end ">
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/tai-khoan.php'; ?>">
+                                    <i class="far fa-user me-3"></i>Quản lý tài khoản
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                                    <i class="far fa-lock-keyhole me-3"></i>Đăng nhập
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                                    <i class="far fa-key-skeleton me-3"></i>Đăng kí
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
+                        </ul>
                     </div>
-                    <div class="ci-header-phone">
-                        <a class="ci-btn ci-btn-main" href="tel:0978240990">
-                            <i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
-                        </a>
-                    </div>
-                    <!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh" type="button">MUA </button> -->
-                </form>
+                </div>
+
+                <div class="ci-header-phone d-none d-xl-block ms-4">
+                    <a class="ci-btn ci-btn-main" href="tel:0978240990">
+                        <i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
+                    </a>
+                </div>
+
             </div>
 
         </div>

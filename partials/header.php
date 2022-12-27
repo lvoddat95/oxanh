@@ -33,8 +33,3 @@
     <link rel="stylesheet" href="<?php echo HTTP_PATH; ?>/assets/css/responsive.css">
 
 </head>
-
-<?php
-var_dump( get_site_url(true) ); 
-
-?>

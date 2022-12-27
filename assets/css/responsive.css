@@ -501,13 +501,16 @@
   }
 
   .ci-flow>div {
-    width: calc(100% / 1);
+    /* width: calc(100% / 1); */
   }
 
   .ci-flow a::after {
     display: none;
   }
-
+  .text-sanpham:before,
+  .img-sanpham:before{
+    display: none;
+  }
 }
 
 @media (max-width: 475px) {
