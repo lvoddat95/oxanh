@@ -15,16 +15,19 @@ function get_site_url($root=false)
 {
     // output: /myproject/index.php
     $currentPath = $_SERVER['PHP_SELF']; 
-    var_dump($currentPath);
 
-    // output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
-    $pathInfo = pathinfo($currentPath)['dirname']; 
-    var_dump($pathInfo);
-    var_dump(APP_NAME);
+    // output: Array ( 
+        // [dirname] => /myproject 
+        // [basename] => index.php 
+        // [extension] => php 
+        // [filename] => index ) 
+ 
 
     if ($root == true) {
 
-        $path = '/'.APP_NAME;
+        $appName = (APP_NAME !== 'inc') ? APP_NAME : "";
+
+        $path = '/'.$appName;
 
         $whitelist = array(
             '127.0.0.1',
@@ -35,10 +38,6 @@ function get_site_url($root=false)
         if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
             $path = '';
         }
-
-        var_dump( !in_array($_SERVER['REMOTE_ADDR'], $whitelist) );
-
-        var_dump($path);
 
         $pathInfo = $path;
     }
