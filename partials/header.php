@@ -43,6 +43,7 @@ function getBaseUrl()
 
     // output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
     $pathInfo = pathinfo($currentPath);
+    var_dump($pathInfo);
 
     // output: localhost
     $hostName = $_SERVER['HTTP_HOST'];
@@ -54,7 +55,6 @@ function getBaseUrl()
     return $protocol . '://' . $hostName . $pathInfo['dirname'] . "/";
 }
 
-var_dump(getBaseUrl());
-var_dump(get_site_url());
+var_dump( pathinfo('/home/user/backup.2021-05-24/')); 
 
 ?>
