@@ -10,5 +10,11 @@ define('TOP_RIGHT', 'top-right.php');
 define('BOTTOM', 'bottom.php');
 define('POPUP', 'popup.php');
 
+define('DIR', dirname(__FILE__));
 
+define('APP_NAME', strtok(str_replace(realpath($_SERVER['DOCUMENT_ROOT']), '', __FILE__), DIRECTORY_SEPARATOR));
+
+define('HTTP_PATH', get_site_url(true)); 
+
+define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT'].'/'.APP_NAME); 
 ?>
