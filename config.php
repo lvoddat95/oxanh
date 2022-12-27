@@ -19,6 +19,9 @@ function get_site_url($root=false)
 
     // output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
     $pathInfo = pathinfo($currentPath)['dirname']; 
+    var_dump($pathInfo);
+    var_dump(APP_NAME);
+
     if ($root == true) {
 
         $path = '/'.APP_NAME;
