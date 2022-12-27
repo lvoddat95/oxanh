@@ -24,7 +24,6 @@ function get_site_url($root = false)
 
         $whitelist = array(
             '127.0.0.1',
-            '172.32.0.2',
             '::1'
         );
 
