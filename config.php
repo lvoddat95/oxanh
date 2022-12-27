@@ -10,3 +10,13 @@ $include_paths = array(
 );
 set_include_path(get_include_path() . PATH_SEPARATOR . implode(PATH_SEPARATOR, $include_paths));
 
+define('DIR', dirname(__FILE__));
+
+define('APP_NAME', strtok(str_replace(realpath($_SERVER['DOCUMENT_ROOT']), '', __FILE__), DIRECTORY_SEPARATOR));
+
+define('HTTP_PATH', get_site_url('',true)); 
+
+define('SOURCE', HTTP_PATH);
+
+define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT'].'/'.APP_NAME); 
+
