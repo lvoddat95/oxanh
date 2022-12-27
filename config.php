@@ -27,7 +27,7 @@ function get_site_url($root=false)
 
         $appName = (APP_NAME !== 'inc') ? APP_NAME : "";
 
-        $path = '/'.$appName;
+        $path = ($appName == "") ? $appName : '/'.$appName;
 
         $whitelist = array(
             '127.0.0.1',
