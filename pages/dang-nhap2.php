@@ -13,8 +13,8 @@
                         <div class="auth-content d-flex flex-column justify-content-center my-3 my-lg-5">
                             <div>
                                 <div class="text-center">
-                                    <a href="<?php echo HTTP_PATH; ?>">
-                                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                                    <a href="<?php echo HTTP_PATH; ?>/">
+                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                     </a>
                                 </div>
                                 <div class="text-center mt-2 mb-5">
@@ -63,15 +63,15 @@
 
                                         <div class="btn-login-list d-flex align-items-center justify-content-center">
                                             <a class="btn-login-with" href="" title="Đăng nhập bằng Facebook">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/facebook.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/facebook.png" alt="" width="28px">
                                                 <span>Facebook</span>
                                             </a>
                                             <a class="btn-login-with mx-2 mx-lg-4" href="" title="Đăng nhập bằng Google">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/google.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/google.png" alt="" width="28px">
                                                 <span>Google</span>
                                             </a>
                                             <a class="btn-login-with" href="" title="Đăng nhập bằng Zalo">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/zalo.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/zalo.png" alt="" width="28px">
                                                 <span>Zalo</span>
                                             </a>
                                         </div>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="w-50 position-relative d-none d-lg-block main-overlay">
                         <div class="bg-overlay"></div>
-                        <img class="auth-img img-fluid" src="<?php echo SOURCE; ?>assets/img/auth/login.jpg" alt="Login">
+                        <img class="auth-img img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/auth/login.jpg" alt="Login">
                     </div>
                 </div>
 

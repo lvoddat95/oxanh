@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/register.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/register.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner text-center">
                     <h1 class="ci-breadcrumb-title">Chính sách và Quy định</h1>
@@ -74,7 +74,7 @@
 
                                 <div class="mt-5 auth-btn-agree d-flex justify-content-center">
                                     <a href="" class="btn ci-btn ci-btn-outline w-50 mx-2 mx-lg-4" type="submit">Không đồng ý</a>
-                                    <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo SOURCE; ?>')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
+                                    <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo HTTP_PATH; ?>/')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
                                         ý</a>
                                 </div>
 

@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/breadcrumb-bg.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/breadcrumb-bg.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Các câu hỏi thường gặp</h1>
@@ -120,7 +120,7 @@
                                             <p>Nếu thanh toán mà bạn không ghi rõ nội dung thanh toán theo đúng cú pháp, phần mềm sẽ không nhận ra bạn đã thanh toán,
                                                 trường hợp đó bạn cần điện thoại cho tổng đài hoặc hotline của Ô Xanh để nhờ trơ giúp. </p>
 
-                                            <a href="<?php echo HTTP_PATH; ?>pages/dang-ky2.php">Link đường dẫn vào web/app đăng ký thành viên</a>
+                                            <a href="<?php echo HTTP_PATH; ?>/pages/dang-ky2.php">Link đường dẫn vào web/app đăng ký thành viên</a>
                                         </div>
                                     </div>
                                 </div>

@@ -15,8 +15,8 @@ if (!empty($GLOBALS["menu"])) {
                 <b class="icon-bar"></b>
             </button>
 
-            <a class="navbar-brand" href="<?php echo HTTP_PATH; ?>">
-                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-text.png" alt="Logo" width="130px">
+            <a class="navbar-brand" href="<?php echo HTTP_PATH; ?>/">
+                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-text.png" alt="Logo" width="130px">
             </a>
 
             <div class="navbar-user d-block d-xl-none">
@@ -50,35 +50,35 @@ if (!empty($GLOBALS["menu"])) {
 
             <ul id="main-menu" class="nav navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>">Trang chủ</a>
+                    <a class="nav-link <?php echo in_array('home', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/">Trang chủ</a>
                 </li>
                 <li class="nav-item nav-item-submenu">
                     <a class="nav-link <?php echo in_array('san-pham', $arr_menu) ? " active " : ""; ?>
-                    " aria-current="page" href="<?php echo HTTP_PATH; ?>">Lựa chọn kế hoạch tham gia</a>
+                    " aria-current="page" href="<?php echo HTTP_PATH; ?>/">Lựa chọn kế hoạch tham gia</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item <?php echo in_array('g1', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php">Kế hoạch tương trợ G1</a></li>
-                        <li><a class="dropdown-item <?php echo in_array('g2', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php">Kế hoạch tương trợ G2</a></li>
-                        <li><a class="dropdown-item <?php echo in_array('g3', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php">Kế hoạch tương trợ G3</a></li>
+                        <li><a class="dropdown-item <?php echo in_array('g1', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g1.php">Kế hoạch tương trợ G1</a></li>
+                        <li><a class="dropdown-item <?php echo in_array('g2', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g2.php">Kế hoạch tương trợ G2</a></li>
+                        <li><a class="dropdown-item <?php echo in_array('g3', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g3.php">Kế hoạch tương trợ G3</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo in_array('giai-quyet-quyen-loi-bao-hiem', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/giai-quyet-quyen-loi-bao-hiem.php">Giải quyết quyền lợi</a>
+                    <a class="nav-link <?php echo in_array('giai-quyet-quyen-loi-bao-hiem', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/giai-quyet-quyen-loi-bao-hiem.php">Giải quyết quyền lợi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo in_array('ho-tro-khach-hang', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/ho-tro-khach-hang.php">Hỗ trợ</a>
+                    <a class="nav-link <?php echo in_array('ho-tro-khach-hang', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/ho-tro-khach-hang.php">Hỗ trợ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php echo in_array('gioi-thieu-ve-cong-ty', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/gioi-thieu-ve-cong-ty.php">Giới thiệu</a>
+                    <a class="nav-link <?php echo in_array('gioi-thieu-ve-cong-ty', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/gioi-thieu-ve-cong-ty.php">Giới thiệu</a>
                 </li>
                 <li class="nav-item nav-item-submenu">
-                    <a class="nav-link <?php echo in_array('blog', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>pages/blog.php">Tin tức</a>
+                    <a class="nav-link <?php echo in_array('blog', $arr_menu) ? " active " : ""; ?>" href="<?php echo HTTP_PATH; ?>/pages/blog.php">Tin tức</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tin-thanh-vien.php">Tin thành viên Oxanh</a></li>
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/manh-thuong-quan.php">Mạnh thường quân</a></li>
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/ngoi-nha-chung.php">Ngôi nhà chung</a></li>
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tin-tong-hop.php">Tin tổng hợp</a></li>
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/tai-khoan.php">Tài khoản</a></li>
-                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>pages/thanh-toan.php">Thanh toán</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/tin-thanh-vien.php">Tin thành viên Oxanh</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/manh-thuong-quan.php">Mạnh thường quân</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/ngoi-nha-chung.php">Ngôi nhà chung</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/tin-tong-hop.php">Tin tổng hợp</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/tai-khoan.php">Tài khoản</a></li>
+                        <li><a class="dropdown-item" href="<?php echo HTTP_PATH; ?>/pages/thanh-toan.php">Thanh toán</a></li>
                     </ul>
                 </li>
 

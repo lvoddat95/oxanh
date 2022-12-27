@@ -51,7 +51,7 @@
                                     <div class="upper-box">
                                         <div class="box-inner">
                                             <div class="icon-box">
-                                                <img width="62px" class="img-fluid" src="<?php echo SOURCE; ?>assets/img/salary.png" alt="HTV">
+                                                <img width="62px" class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/salary.png" alt="HTV">
                                             </div>
                                             <h6>Chi trả toàn bộ Số tiền bảo hiểm từ 100 - 500 triệu đồng</h6>
                                         </div>
@@ -65,7 +65,7 @@
                                     <div class="upper-box">
                                         <div class="box-inner">
                                             <div class="icon-box">
-                                                <img width="62px" class="img-fluid" src="<?php echo SOURCE; ?>assets/img/family.png" alt="HTV">
+                                                <img width="62px" class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/family.png" alt="HTV">
                                             </div>
                                             <h6>Bảo hiểm bệnh ung thư ở bất kỳ giai đoạn nào.</h6>
                                         </div>
@@ -80,7 +80,7 @@
                                     <div class="upper-box">
                                         <div class="box-inner">
                                             <div class="icon-box">
-                                                <img width="62px" class="img-fluid" src="<?php echo SOURCE; ?>assets/img/bill.png" alt="HTV">
+                                                <img width="62px" class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/bill.png" alt="HTV">
                                             </div>
                                             <h6>Phí bảo hiểm chỉ từ vài trăm nghìn đồng/năm</h6>
                                         </div>
@@ -105,7 +105,7 @@
                         <div class="row gx-3 gx-lg-0">
 
                             <div class="col-lg-6 d-none d-lg-block">
-                                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/family3.jpg" alt="">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
@@ -142,7 +142,7 @@
                                     <div class="col-md-6">
                                         <div class="auth-heading mb-5">
                                             <h4>
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/user.png" width="24px" alt="">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/user.png" width="24px" alt="">
                                                 <span>Thông tin cá nhân</span>
                                             </h4>
                                             <div class="line"></div>
@@ -211,14 +211,14 @@
                                             <div class="row">
                                                 <div class="col-md-6 text-center">
                                                     <label for="mattruoc_file">
-                                                        <img class="img-fluid" id="preview_mattruoc" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                        <img class="img-fluid" id="preview_mattruoc" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                     </label>
                                                     <input type="file" name="" id="mattruoc_file" style="display:none" accept="image/*">
                                                     <p class="tx-16">Ảnh mặt trước</p>
                                                 </div>
                                                 <div class="col-md-6 text-center">
                                                     <label for="matsau_file">
-                                                        <img class="img-fluid" id="preview_matsau" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                        <img class="img-fluid" id="preview_matsau" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                     </label>
                                                     <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                                     <p class="tx-16">Ảnh mặt sau</p>
@@ -233,7 +233,7 @@
                                     <div class="col-md-6">
                                         <div class="auth-heading mb-5">
                                             <h4>
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/shield.png" width="24px" alt="">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/shield.png" width="24px" alt="">
                                                 <span>Thông tin đăng nhập</span>
                                             </h4>
                                             <div class="line"></div>

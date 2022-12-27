@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/contact.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/contact.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Hỗ trợ thành viên</h1>
@@ -64,7 +64,7 @@
                     <div class="row justify-content-between">
                         <div class="col-lg-5">
                             <div class="mb-5 mb-lg-0">
-                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family.jpg" alt="HTV">
+                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo HTTP_PATH; ?>/assets/img/family.jpg" alt="HTV">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="mb-5 mb-lg-0">
-                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="HTV">
+                                <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo HTTP_PATH; ?>/assets/img/family3.jpg" alt="HTV">
                             </div>
                         </div>
                     </div>
@@ -137,6 +137,6 @@
 
 <?php include_once SCRIPTS; ?>
 
-<script src="<?php echo SOURCE; ?>assets/js/stores.map.js"></script>
-<script src="<?php echo SOURCE; ?>assets/js/map.js"></script>
+<script src="<?php echo HTTP_PATH; ?>/assets/js/stores.map.js"></script>
+<script src="<?php echo HTTP_PATH; ?>/assets/js/map.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARGkCQ4eW06QTQbb2nzr1sIWyFBLCustY&callback=initMap"></script>

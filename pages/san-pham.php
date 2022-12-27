@@ -79,13 +79,13 @@
                                         Với tỷ lệ mắc Bệnh hiểm nghèo gia tăng mỗi năm <br>
                                         Oxanh xin giới thiệu <span class="fw-medium">Kế hoạch tương trợ G1</span> sẽ giúp bạn giảm bớt lo âu với những quyền lợi ưu việt, mang lại sự chuẩn bị tốt nhất trước những rủi ro bất ngờ.
                                     </div>
-                                    <a href="<?php echo HTTP_PATH; ?>pages/gioi-thieu-ve-cong-ty.php" class="ci-btn  ci-btn-hover-dark ci-btn-main d-inline-block">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/gioi-thieu-ve-cong-ty.php" class="ci-btn  ci-btn-hover-dark ci-btn-main d-inline-block">
                                         <i class="far fa-arrow-right me-3"></i>Về chúng tôi</a>
                                 </div>
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5 img-sanpham">
-                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/baohiem.png" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/baohiem.png" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                         <div class="row justify-content-between align-items-center">
                             <div class="col-lg-6">
                                 <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/danh-muc-benh.svg" alt="Oxanh">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -202,7 +202,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 text-center">
-                                <img class="img-fluid" width="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/policy.jpg" alt="Ô Xanh">
+                                <img class="img-fluid" width="320px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/policy.jpg" alt="Ô Xanh">
                             </div>
                         </div>
 
@@ -227,31 +227,31 @@
                         <div class="ci-flow">
                             <div>
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#step-1');" title="Đăng ký">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/signup.png" alt="Oxanh">
+                                    <img class="ci-flow__icon" src="<?php echo HTTP_PATH; ?>/assets/img/signup.png" alt="Oxanh">
                                     <span class="ci-flow__link">Bước 1: <br>Đăng ký</span>
                                 </a>
                             </div>
                             <div>
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#step-2');" title="Đăng nhập">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/login.png" alt="Oxanh">
+                                    <img class="ci-flow__icon" src="<?php echo HTTP_PATH; ?>/assets/img/login.png" alt="Oxanh">
                                     <span class="ci-flow__link">Bước 2: <br>Đăng nhập</span>
                                 </a>
                             </div>
                             <div>
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#step-3');" title="Kê khai thông tin">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/register.png" alt="Oxanh">
+                                    <img class="ci-flow__icon" src="<?php echo HTTP_PATH; ?>/assets/img/register.png" alt="Oxanh">
                                     <span class="ci-flow__link">Bước 3: <br>Kê khai thông tin</span>
                                 </a>
                             </div>
                             <div>
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#step-4');" title="Chọn gói tương trợ">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/product.png" alt="Oxanh">
+                                    <img class="ci-flow__icon" src="<?php echo HTTP_PATH; ?>/assets/img/product.png" alt="Oxanh">
                                     <span class="ci-flow__link">Bước 4: <br>Chọn gói tương trợ</span>
                                 </a>
                             </div>
                             <div>
                                 <a href="javascript:void(0);" onclick="fancybox_modal('#step-5');" title="Thanh toán" class="last">
-                                    <img class="ci-flow__icon" src="<?php echo SOURCE; ?>assets/img/pay.png" alt="Oxanh">
+                                    <img class="ci-flow__icon" src="<?php echo HTTP_PATH; ?>/assets/img/pay.png" alt="Oxanh">
                                     <span class="ci-flow__link">Bước 5: <br>Thanh toán</span>
                                 </a>
                             </div>
@@ -273,7 +273,7 @@
                         <div>
                             <div class="row gx-5 mb-3">
                                 <div class="col-lg-5 d-flex align-items-center">
-                                    <img class="img-fluid mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.png" alt="Ô Xanh">
+                                    <img class="img-fluid mb-4" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/thoi-gian-cho.png" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="text-justify fz-16">
@@ -316,7 +316,7 @@
                         <div>
                             <div class="row gx-5 mb-3">
                                 <div class="col-lg-5">
-                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-dut.png" alt="Ô Xanh">
+                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/cham-dut.png" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="fz-16 text-justify">

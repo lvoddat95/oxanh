@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/breadcrumb-bg.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/breadcrumb-bg.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Giới thiệu</h1>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5">
-                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/umbrella.jpg" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo HTTP_PATH; ?>/assets/img/umbrella.jpg" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
@@ -74,24 +74,24 @@
                                 <div class="row gx-1 mb-1">
                                     <div class="col-md-7">
                                         <figure class="gallery-img mb-0">
-                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/blog02.jpg" alt="O xanh">
+                                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog02.jpg" alt="O xanh">
                                         </figure>
                                     </div>
                                     <div class="col-md-5">
                                         <figure class="gallery-img mb-0">
-                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/blog03.jpg" alt="O xanh">
+                                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg" alt="O xanh">
                                         </figure>
                                     </div>
                                 </div>
                                 <div class="row gx-1">
                                     <div class="col-md-5">
                                         <figure class="gallery-img mb-0">
-                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/blog04.jpg" alt="O xanh">
+                                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog04.jpg" alt="O xanh">
                                         </figure>
                                     </div>
                                     <div class="col-md-7">
                                         <figure class="gallery-img mb-0">
-                                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/gia-dinh2.jpg" alt="O xanh">
+                                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/gia-dinh2.jpg" alt="O xanh">
                                         </figure>
                                     </div>
 
@@ -110,7 +110,7 @@
                         <p class="fz-16 mb-5">Ô Xanh luôn mang đến khách hàng những trải nghiệm mới mẻ, giúp quá trình tham gia bảo hiểm đơn giản, <br>
                             nhanh chóng và dễ dàng hơn với các giải pháp sáng tạo, sản phẩm dễ hiểu được hỗ trợ bởi công nghệ số thông minh.</p>
                         <div class="text-center">
-                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/oxanh-gia-tri.jpg" alt="O xanh">
+                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/pages/oxanh-gia-tri.jpg" alt="O xanh">
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         </div>
 
                         <div class="text-center">
-                            <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/oxanh-to-chuc.jpg" alt="O xanh">
+                            <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/pages/oxanh-to-chuc.jpg" alt="O xanh">
                         </div>
 
                     </div>

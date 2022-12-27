@@ -21,7 +21,7 @@
                                         <h2> HTV - Ô Xanh Kết Hợp GrabInsure Ra Mắt Sức Khoẻ Ô Xanh EASY</h2>
                                         <div class="text">
                                             <p style="text-align: justify;"><span style="font-size: 12pt;">Từ nay, khách hàng có thể <strong>mua sức khoẻ của Ô Xanh trên ứng dụng Grab</strong> và thanh toán trực tiếp qua ví <strong>Moca</strong>.</span></p>
-                                            <p style="text-align: center;"><span style="font-size: 12pt;"><img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/blog03.jpg" alt="Slider"></span></p>
+                                            <p style="text-align: center;"><span style="font-size: 12pt;"><img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg" alt="Slider"></span></p>
                                             <p style="text-align: justify;"><span style="font-size: 12pt;">Ngày 18/8/2021, <strong> HTV -&nbsp;Ô Xanh và GrabInsure</strong> chính thức ra mắt sản phẩm <strong> sức khoẻ Ô Xanh Easy</strong> với tổng quyền lợi đặc biệt lên tới <strong>166 triệu đồng</strong>. Trong đó, nếu khách hàng không may phải điều trị Covid, bên cạnh các chi phí được chính phủ hỗ trợ chi trả, Ô Xanh Easy sẽ cùng đồng hành để chi trả chi phí y tế cho việc điều trị bệnh nền (sau thời gian chờ), giúp giảm tải gánh nặng tài chính cho khách hàng khi gặp rủi ro sức khoẻ.</span></p>
                                             <p style="text-align: justify;"><span style="font-size: 12pt;">Khi tham gia sức khoẻ Ô Xanh Easy, khách hàng sẽ được chi trả cho các chi phí y tế như: Điều trị nội trú, phẫu thuật do bệnh, tai nạn lên đến 60 triệu đồng/ năm; Điều trị ngoại trú lên đến 1,2 triệu đồng/lần khám và tới 6 triệu đồng/ năm; Tử vong, thương tật toàn bộ vĩnh viễn do bệnh hoặc tai nạn lên tới 100 triệu đồng. Ngoài ra, trẻ em từ 1 đến 6 tuổi được tham gia độc lập, hoặc cùng cha mẹ; khi mua cùng cha mẹ, phí của con được giảm 23% còn 4.454.000 đồng.</span></p>
                                             <p style="text-align: justify;"><span style="font-size: 12pt;">Khách hàng được hưởng mọi đặc quyền về dịch vụ bồi thường của Ô Xanh khi mua Ô Xanh Easy trên ứng dụng Grab như dịch vụ bảo lãnh viện phí 24/7 tại hơn 300 cơ sở y tế trên cả nước với thời gian giải quyết bảo lãnh nhanh nhất lên đến 30 phút đổi với điều trị ngoại trú; Chi trả bồi thường trực tuyến siêu tốc bằng ứng dụng My Ô Xanh trong vòng 5 ngày làm việc.&nbsp;</span></p>
@@ -59,7 +59,7 @@
                                     <div class="comment_list">
                                         <div class="comment_item">
                                             <div class="comment_ask">
-                                                <!-- <img class="comment_avatar" src="<?php echo SOURCE; ?>assets/img/user.png" alt=""> -->
+                                                <!-- <img class="comment_avatar" src="<?php echo HTTP_PATH; ?>/assets/img/user.png" alt=""> -->
                                                 <div class="cmt_avatar">
                                                     <span>N</span>
                                                 </div>
@@ -79,7 +79,7 @@
                                             </div>
                                             <div class="comment_reply">
                                                 <div class="comment_ask">
-                                                    <img class="cmt_avatar" src="<?php echo SOURCE; ?>assets/img/user.png" alt="">
+                                                    <img class="cmt_avatar" src="<?php echo HTTP_PATH; ?>/assets/img/user.png" alt="">
                                                     <div class="cmt_info">
                                                         <span class="cmt_name">Admin <span class="cmt_admin_tag">Quản trị viên</span></span>
                                                         <div class="cmt_content">
@@ -99,7 +99,7 @@
                                         </div>
                                         <div class="comment_item">
                                             <div class="comment_ask">
-                                                <!-- <img class="comment_avatar" src="<?php echo SOURCE; ?>assets/img/user.png" alt=""> -->
+                                                <!-- <img class="comment_avatar" src="<?php echo HTTP_PATH; ?>/assets/img/user.png" alt=""> -->
                                                 <div class="cmt_avatar">
                                                     <span>K</span>
                                                 </div>
@@ -133,17 +133,17 @@
                                         <ul class="list-unstyled">
                                             <li>
                                                 <a href="">
-                                                    <img src="<?php echo SOURCE; ?>assets/img/social/facebook.png" alt="Facebook">
+                                                    <img src="<?php echo HTTP_PATH; ?>/assets/img/social/facebook.png" alt="Facebook">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
-                                                    <img src="<?php echo SOURCE; ?>assets/img/social/youtube.png" alt="Youtube">
+                                                    <img src="<?php echo HTTP_PATH; ?>/assets/img/social/youtube.png" alt="Youtube">
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="">
-                                                    <img src="<?php echo SOURCE; ?>assets/img/social/zalo.png" alt="Zalo">
+                                                    <img src="<?php echo HTTP_PATH; ?>/assets/img/social/zalo.png" alt="Zalo">
                                                 </a>
                                             </li>
                                         </ul>
@@ -248,7 +248,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/family3.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>
@@ -268,7 +268,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/blog03.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>
@@ -288,7 +288,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/blog04.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/blog04.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>
@@ -308,7 +308,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/family3.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>
@@ -328,7 +328,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/blog03.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>
@@ -348,7 +348,7 @@
                             <div class="slider-item">
                                 <div class="ci-blog-slider__item item-style2">
                                     <div class="ci-blog-img">
-                                        <img class="w-100 of-cover" height="240px" src="<?php echo SOURCE; ?>assets/img/blog04.jpg" alt="Slider">
+                                        <img class="w-100 of-cover" height="240px" src="<?php echo HTTP_PATH; ?>/assets/img/blog04.jpg" alt="Slider">
                                     </div>
                                     <div class="ci-blog-info">
                                         <span class="sub-color fw-medium">Blog</span>

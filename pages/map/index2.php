@@ -43,7 +43,7 @@
 
 		<?php include_once NAVBAR; ?>
 
-		<div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/.jpg);">
+		<div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/.jpg);">
 			<div class="container">
 				<div class="ci-breadcrumb-inner">
 					<h1 class="ci-breadcrumb-title">Google Map 2</h1>

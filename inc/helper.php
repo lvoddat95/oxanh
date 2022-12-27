@@ -1,5 +1,5 @@
 <?php 
-function get_site_url($p_dir="", $root=false) 
+function get_site_url($root=false) 
 {
     // output: /myproject/index.php
     $currentPath = $_SERVER['PHP_SELF']; 
@@ -36,7 +36,7 @@ function get_site_url($p_dir="", $root=false)
     $protocol = $isSecure ? 'https' : 'http';
 
     // return: http://localhost/myproject/
-    return $protocol.'://'.$hostName.$pathInfo."/".$p_dir;
+    return $protocol.'://'.$hostName.$pathInfo;
 }
 
 

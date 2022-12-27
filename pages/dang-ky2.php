@@ -13,8 +13,8 @@
                         <div class="auth-content d-flex flex-column justify-content-center my-3 my-lg-5">
                             <div>
                                 <div class="text-center">
-                                    <a href="<?php echo HTTP_PATH; ?>">
-                                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                                    <a href="<?php echo HTTP_PATH; ?>/">
+                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                     </a>
                                 </div>
                                 <div class="text-center mt-2 mb-5">
@@ -94,14 +94,14 @@
                                         <div class="row">
                                             <div class="col-md-6 text-center">
                                                 <label for="mattruoc_file">
-                                                    <img class="img-fluid" id="preview_mattruoc" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                    <img class="img-fluid" id="preview_mattruoc" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                 </label>
                                                 <input type="file" name="" id="mattruoc_file" style="display:none" accept="image/*">
                                                 <p class="tx-16">Ảnh mặt trước</p>
                                             </div>
                                             <div class="col-md-6 text-center">
                                                 <label for="matsau_file">
-                                                    <img class="img-fluid" id="preview_matsau" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                    <img class="img-fluid" id="preview_matsau" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                 </label>
                                                 <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                                 <p class="tx-16">Ảnh mặt sau</p>
@@ -178,7 +178,7 @@
                     </div>
                     <div class="w-50 position-relative d-none d-lg-block main-overlay">
                         <div class="bg-overlay"></div>
-                        <img class="auth-img img-fluid" src="<?php echo SOURCE; ?>assets/img/auth/reg.jpg" alt="Register">
+                        <img class="auth-img img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/auth/reg.jpg" alt="Register">
                     </div>
                 </div>
 

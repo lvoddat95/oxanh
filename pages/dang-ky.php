@@ -7,14 +7,14 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 <body>
     <div id="ci-content" class="ci-content">
 
-        <div class="auth-wrapper" style="background-image: url(<?php echo SOURCE; ?>assets/img/auth/oxanh.png);">
+        <div class="auth-wrapper" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/auth/oxanh.png);">
             <div id="auth-particles" class="bg-overlay"></div>
             <div class="auth-page-content my-3 my-xl-5">
                 <div class="card bg-white">
                     <div class="card-body p-3 p-xl-5">
                         <div class="text-center">
-                            <a href="<?php echo HTTP_PATH; ?>">
-                                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                            <a href="<?php echo HTTP_PATH; ?>/">
+                                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                             </a>
                         </div>
                         <div class="text-center mt-2 mb-5">
@@ -95,14 +95,14 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                                     <div class="row">
                                         <div class="col-md-6 text-center">
                                             <label for="mattruoc_file">
-                                                <img class="img-fluid" id="preview_mattruoc" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                <img class="img-fluid" id="preview_mattruoc" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                             </label>
                                             <input type="file" name="" id="mattruoc_file" style="display:none" accept="image/*">
                                             <p class="tx-16">Ảnh mặt trước</p>
                                         </div>
                                         <div class="col-md-6 text-center">
                                             <label for="matsau_file">
-                                                <img class="img-fluid" id="preview_matsau" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                <img class="img-fluid" id="preview_matsau" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                             </label>
                                             <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                             <p class="tx-16">Ảnh mặt sau</p>

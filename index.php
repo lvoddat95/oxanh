@@ -9,7 +9,7 @@
 
         <div id="ci-slider-block" class="ci-slider-block ci-slider slick-slider data-slick-slider mb-0" data-slick='{"dots": true,"slidesToShow": 1, "slidesToScroll": 1, "lazyLoad": "ondemand"}'>
             <div class="ci-slider-item">
-                <div class="slider-item__img" style="background-image: url(<?php echo SOURCE; ?>assets/img/home/slider-oxanh.jpg);"></div>
+                <div class="slider-item__img" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/home/slider-oxanh.jpg);"></div>
                 <div class="container">
                     <div class="ci-slider-item__info">
                         <h3 class="ci-slider-info__title"><span>Ô Xanh</span> <br>Kế hoạch trợ giúp lẫn nhau <br> vì bệnh hiểm nghèo</h3>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="ci-slider-item">
-                <div class="slider-item__img" style="background-image: url(<?php echo SOURCE; ?>assets/img/blog03.jpg);"></div>
+                <div class="slider-item__img" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg);"></div>
                 <div class="container">
                     <div class="ci-slider-item__info">
                         <h3 class="ci-slider-info__title">Tận hưởng <br> hạnh phúc của bạn</h3>
@@ -88,7 +88,7 @@
                                         <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                                     </div>
                                     <div class="ci-package-item__more">
-                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g1.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g1.php" class="fw-medium">Chi tiết kế hoạch</a>
                                     </div>
                                 </div>
 
@@ -134,10 +134,10 @@
                                         </table>
                                     </div>
                                     <div class="ci-package-item__bottom">
-                                        <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                        <a href="<?php echo HTTP_PATH; ?>/pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                                     </div>
                                     <div class="ci-package-item__more">
-                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g2.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g2.php" class="fw-medium">Chi tiết kế hoạch</a>
                                     </div>
                                 </div>
 
@@ -181,11 +181,11 @@
                                         </table>
                                     </div>
                                     <div class="ci-package-item__bottom">
-                                        <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                        <a href="<?php echo HTTP_PATH; ?>/pages/mua-bao-hiem.php" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
 
                                     </div>
                                     <div class="ci-package-item__more">
-                                        <a class="more" href="<?php echo HTTP_PATH; ?>pages/san-pham/g3.php" class="fw-medium">Chi tiết kế hoạch</a>
+                                        <a class="more" href="<?php echo HTTP_PATH; ?>/pages/san-pham/g3.php" class="fw-medium">Chi tiết kế hoạch</a>
                                     </div>
 
                                 </div>
@@ -229,8 +229,8 @@
             </div>
             <div class="banner-video">
                 <div class="video-wrap  autoplay_off">
-                    <video height="500" controls poster="<?php echo SOURCE; ?>assets/img/home/video.png" class="video-play">
-                        <source autostart="false" src="<?php echo SOURCE; ?>assets/video/Hướng dẫn chọn và thanh toán.mp4" type="video/mp4">
+                    <video height="500" controls poster="<?php echo HTTP_PATH; ?>/assets/img/home/video.png" class="video-play">
+                        <source autostart="false" src="<?php echo HTTP_PATH; ?>/assets/video/Hướng dẫn chọn và thanh toán.mp4" type="video/mp4">
                     </video>
                     <a class="video-button" href="#" title="Play">
                         <span class="icon-play color"><i class="fal fa-play"></i></span>
@@ -247,7 +247,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                        <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
+                        <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -289,7 +289,7 @@
                     <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                         <div class="payment-box pe-md-5 pe-0">
                             <div class="payment-box__icon">
-                                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo3.png" alt="Logo">
+                                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo3.png" alt="Logo">
                             </div>
                             <div class="payment-box__info">
                                 <h3>THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG ÔXANH</h3>
@@ -299,7 +299,7 @@
 
                         <div class="payment-box pe-md-5 pe-0">
                             <div class="payment-box__icon">
-                                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/home.png" alt="Home">
+                                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/home.png" alt="Home">
                             </div>
                             <div class="payment-box__info">
                                 <h3>THANH TOÁN TẠI NHÀ</h3>
@@ -312,8 +312,8 @@
                     <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                         <div class="payment-box pe-md-5 pe-0">
                             <div class="payment-box__icon">
-                                <img class="img-fluid mb-2" src="<?php echo SOURCE; ?>assets/img/payment/zalopay.svg" alt="Zalo Pay">
-                                <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/napas.jpg" alt="Napas">
+                                <img class="img-fluid mb-2" src="<?php echo HTTP_PATH; ?>/assets/img/payment/zalopay.svg" alt="Zalo Pay">
+                                <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/napas.jpg" alt="Napas">
                             </div>
                             <div class="payment-box__info">
                                 <h3>THANH TOÁN QUA CỔNG THANH TOÁN ĐIỆN TỬ</h3>
@@ -323,7 +323,7 @@
 
                         <div class="payment-box pe-md-5 pe-0">
                             <div class="payment-box__icon">
-                                <img class="img-fluid mb-2" src="<?php echo SOURCE; ?>assets/img/payment/payoo_logo.png" alt="Payoo">
+                                <img class="img-fluid mb-2" src="<?php echo HTTP_PATH; ?>/assets/img/payment/payoo_logo.png" alt="Payoo">
                             </div>
                             <div class="payment-box__info">
                                 <h3>THANH TOÁN QUA CÁC CỬA HÀNG TIỆN ÍCH</h3>
@@ -334,7 +334,7 @@
                     <div class="payment-block offset-lg-2 offset-lg-2 col-lg-8 col-md-8 col-sm-12">
                         <div class="payment-box pe-md-5 pe-0 mb-5 ms-auto me-auto">
                             <div class="payment-box__icon">
-                                <img class="img-fluid mb-2" src="<?php echo SOURCE; ?>assets/img/payment/banking.png" alt="Banking">
+                                <img class="img-fluid mb-2" src="<?php echo HTTP_PATH; ?>/assets/img/payment/banking.png" alt="Banking">
                             </div>
                             <div class="payment-box__info">
                                 <h3>THANH TOÁN QUA CHUYỂN KHOẢN</h3>
@@ -342,18 +342,18 @@
                             </div>
                         </div>
                         <div class="payment-img-bank d-flex flex-wrap justify-content-between">
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/1_Agribank.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/2_VCB.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/3_BIDV.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/4_Vietinbank.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/5_Techcombank.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/ABBANK.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/ACB.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/BAC A BANK.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/Ban Viet Bank.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/Bao Viet.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/BIDC.jpg" alt=""></div>
-                            <div class="img-bank"><img src="<?php echo SOURCE; ?>assets/img/bank/CoopBank.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/1_Agribank.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/2_VCB.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/3_BIDV.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/4_Vietinbank.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/5_Techcombank.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/ABBANK.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/ACB.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/BAC A BANK.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/Ban Viet Bank.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/Bao Viet.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/BIDC.jpg" alt=""></div>
+                            <div class="img-bank"><img src="<?php echo HTTP_PATH; ?>/assets/img/bank/CoopBank.jpg" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -451,7 +451,7 @@
                 <div class="row gx-3 gx-lg-0">
 
                     <div class="col-lg-6 col-md-12 d-none d-md-block">
-                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/family3.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/family3.jpg" alt="">
                     </div>
 
                     <div class="col-lg-6 col-md-12 d-flex align-items-center">
@@ -529,7 +529,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 d-none d-lg-block ci-app-img">
-                    <img class="img-fluid b-lazy" src="<?php echo SOURCE; ?>assets/img/mobile.png" alt="App">
+                    <img class="img-fluid b-lazy" src="<?php echo HTTP_PATH; ?>/assets/img/mobile.png" alt="App">
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -544,14 +544,14 @@
                         </div>
                         <div class="d-flex align-items-center mt-4">
                             <div>
-                                <img class="img-fluid me-3" src="<?php echo SOURCE; ?>assets/img/qrcode.png" style="max-height: 120px;">
+                                <img class="img-fluid me-3" src="<?php echo HTTP_PATH; ?>/assets/img/qrcode.png" style="max-height: 120px;">
                             </div>
                             <div class="d-flex flex-column">
                                 <a href="" class="btn-app mb-3">
-                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/app-store.svg">
+                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/app-store.svg">
                                 </a>
                                 <a href="" class="btn-app">
-                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/google-play.svg">
+                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/google-play.svg">
                                 </a>
                             </div>
                         </div>

@@ -127,7 +127,7 @@
     <div class="fancybox-footer">
         <div class="d-flex justify-content-center">
             <a href="javascript:void(0);" class="btn ci-btn ci-btn-200 ci-btn-outline mx-2 mx-lg-4" onclick="fancybox_new_modal('#truong-hop-ngoai-le')">Không</a>
-            <a href="<?php echo HTTP_PATH; ?>pages/mua-bao-hiem.php" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
+            <a href="<?php echo HTTP_PATH; ?>/pages/mua-bao-hiem.php" class="btn ci-btn ci-btn-200 ci-bg-sub-color mx-2 mx-lg-4">Có</a>
         </div>
     </div>
 </div>

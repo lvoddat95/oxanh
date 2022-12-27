@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/pages/giai-quyet-quyen-loi.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/pages/giai-quyet-quyen-loi.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Giải quyết quyền lợi tương trợ</h1>
@@ -160,7 +160,7 @@
                                     </div>
 
                                     <div class="ci-claim-process__img px-5  d-none d-md-block">
-                                        <img width="360px" class=" img-fluid" src="<?php echo SOURCE; ?>assets/img/pages/dieu-can-biet.png" alt="HTV">
+                                        <img width="360px" class=" img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/pages/dieu-can-biet.png" alt="HTV">
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-12">

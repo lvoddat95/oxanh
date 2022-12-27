@@ -4,24 +4,24 @@
  </a>
 
  <!-- Load JS -->
- <script src="<?php echo SOURCE; ?>utils/jquery/dist/jquery.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/jquery/dist/jquery.min.js"></script>
 
  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
- <script src="<?php echo SOURCE; ?>utils/jquery-ui/ui/i18n/datepicker-vi.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/jquery-ui/ui/i18n/datepicker-vi.js"></script>
 
- <script src="<?php echo SOURCE; ?>utils/bootstrap/dist/js/bootstrap.bundle.js"></script>
- <script src="<?php echo SOURCE; ?>utils/slick-carousel/slick/slick.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/owl.carousel/dist/owl.carousel.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/sweetalert2/dist/sweetalert2.all.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/hc-offcanvas-nav/dist/hc-offcanvas-nav.js"></script>
- <script src="<?php echo SOURCE; ?>utils/select2/dist/js/select2.full.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/select2/dist/js/i18n/vi.js"></script>
- <script src="<?php echo SOURCE; ?>utils/datatables/datatables.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/datatables/dataTables.bootstrap5.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/cleave.js/dist/cleave.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/jquery-validation/dist/jquery.validate.min.js"></script>
- <script src="<?php echo SOURCE; ?>utils/tipsy/jquery.tipsy.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/bootstrap/dist/js/bootstrap.bundle.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/slick-carousel/slick/slick.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/owl.carousel/dist/owl.carousel.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/sweetalert2/dist/sweetalert2.all.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/hc-offcanvas-nav/dist/hc-offcanvas-nav.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/select2/dist/js/select2.full.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/select2/dist/js/i18n/vi.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/datatables/datatables.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/datatables/dataTables.bootstrap5.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/cleave.js/dist/cleave.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/jquery-validation/dist/jquery.validate.min.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/utils/tipsy/jquery.tipsy.js"></script>
 
  <!-- Page Script  -->
  <?php
@@ -38,7 +38,7 @@
     ?>
  <!-- End Page Script  -->
 
- <script src="<?php echo SOURCE; ?>assets/js/app.js"></script>
- <script src="<?php echo SOURCE; ?>assets/js/script.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/assets/js/app.js"></script>
+ <script src="<?php echo HTTP_PATH; ?>/assets/js/script.js"></script>
 
  </html>

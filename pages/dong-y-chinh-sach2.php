@@ -13,8 +13,8 @@
                         <div class="auth-content d-flex flex-column justify-content-center my-3 my-lg-5">
                             <div>
                                 <div class="text-center">
-                                    <a href="<?php echo HTTP_PATH; ?>">
-                                        <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                                    <a href="<?php echo HTTP_PATH; ?>/">
+                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                     </a>
                                 </div>
                                 <div class="text-center mt-2 mb-5">
@@ -71,7 +71,7 @@
 
                                     <div class="mt-5 auth-btn-agree d-flex justify-content-center">
                                         <a href="" class="btn ci-btn ci-btn-outline w-50 mx-2 mx-lg-4" type="submit">Không đồng ý</a>
-                                        <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo SOURCE; ?>')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
+                                        <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo HTTP_PATH; ?>/')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
                                             ý</a>
                                     </div>
 
@@ -116,7 +116,7 @@
                     </div>
                     <div class="w-50 position-relative d-none d-lg-block">
                         <div class="bg-overlay"></div>
-                        <img class="auth-img img-fluid" src="<?php echo SOURCE; ?>assets/img/register3.jpg" alt="Login">
+                        <img class="auth-img img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/register3.jpg" alt="Login">
                     </div>
                 </div>
 

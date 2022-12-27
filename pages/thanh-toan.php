@@ -64,7 +64,7 @@
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo3.png" alt="Logo">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo3.png" alt="Logo">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN BẰNG TIỀN MẶT TẠI VĂN PHÒNG ÔXANH</h3>
@@ -75,7 +75,7 @@
 
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/home.png" alt="Home">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/home.png" alt="Home">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN TẠI NHÀ</h3>
@@ -88,8 +88,8 @@
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/zalopay.svg" alt="Zalo Pay">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/napas.jpg" alt="Napas">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/zalopay.svg" alt="Zalo Pay">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/napas.jpg" alt="Napas">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN QUA CỔNG THANH TOÁN ĐIỆN TỬ</h3>
@@ -100,7 +100,7 @@
 
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/payoo_logo.png" alt="Payoo">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/payoo_logo.png" alt="Payoo">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN QUA CÁC CỬA HÀNG TIỆN ÍCH</h3>
@@ -115,7 +115,7 @@
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box active">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" width="" src="<?php echo SOURCE; ?>assets/img/payment/banking.png" alt="Banking">
+                                                    <img class="img-fluid" width="" src="<?php echo HTTP_PATH; ?>/assets/img/payment/banking.png" alt="Banking">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN QUA CHUYỂN KHOẢN</h3>
@@ -126,7 +126,7 @@
                                         <div class="payment-block col-lg-6 col-md-6 col-sm-12">
                                             <div onclick="chose_payment(this);" class="payment-box payment-menthod-box">
                                                 <div class="payment-box__icon">
-                                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/payment/paylater.png" alt="PayLater">
+                                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/payment/paylater.png" alt="PayLater">
                                                 </div>
                                                 <div class="payment-box__info">
                                                     <h3>THANH TOÁN SAU</h3>
@@ -139,19 +139,19 @@
                                             <div id="payment-info" class="payment-info mb-5" data-info="CHUYENKHOAN" style="display: block;">
                                                 <div class="d-flex flex-wrap justify-content-between">
                                                     <a href="#bank-agribank" class="img-bank active" onclick="chosse_bank(this);" data-stk="1029635288" data-chinhanh="">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/bank/1_Agribank.jpg" alt="">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/bank/1_Agribank.jpg" alt="">
                                                     </a>
                                                     <a href="#bank-bidv" class="img-bank " onclick="chosse_bank(this);" data-stk="1401206012620" data-chinhanh="">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/bank/2_VCB.jpg" alt="">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/bank/2_VCB.jpg" alt="">
                                                     </a>
                                                     <a href="#bank-agribank" class="img-bank " onclick="chosse_bank(this);" data-stk="16010000695086" data-chinhanh="">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/bank/3_BIDV.jpg" alt="">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/bank/3_BIDV.jpg" alt="">
                                                     </a>
                                                     <a href="#bank-vietinbank" class="img-bank " onclick="chosse_bank(this);" data-stk="116002916355" data-chinhanh="">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/bank/4_Vietinbank.jpg" alt="">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/bank/4_Vietinbank.jpg" alt="">
                                                     </a>
                                                     <a href="#bank-techcombank" class="img-bank " onclick="chosse_bank(this);" data-stk="1234567890" data-chinhanh="">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/bank/5_Techcombank.jpg" alt="">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/bank/5_Techcombank.jpg" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="bank-info">

@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/register.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/register.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Đăng ký tài khoản</h1>
@@ -29,7 +29,7 @@
                                     <div class="col-md-6">
                                         <div class="auth-heading mb-5">
                                             <h4>
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/user.png" width="24px" alt="">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/user.png" width="24px" alt="">
                                                 <span>Thông tin cá nhân</span>
                                             </h4>
                                             <div class="line"></div>
@@ -98,14 +98,14 @@
                                             <div class="row">
                                                 <div class="col-md-6 text-center">
                                                     <label for="mattruoc_file">
-                                                        <img class="img-fluid" id="preview_mattruoc" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                        <img class="img-fluid" id="preview_mattruoc" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                     </label>
                                                     <input type="file" name="" id="mattruoc_file" style="display:none" accept="image/*">
                                                     <p class="tx-16">Ảnh mặt trước</p>
                                                 </div>
                                                 <div class="col-md-6 text-center">
                                                     <label for="matsau_file">
-                                                        <img class="img-fluid" id="preview_matsau" src="<?php echo SOURCE; ?>assets/img/camera.svg">
+                                                        <img class="img-fluid" id="preview_matsau" src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg">
                                                     </label>
                                                     <input type="file" name="" id="matsau_file" style="display:none" accept="image/*">
                                                     <p class="tx-16">Ảnh mặt sau</p>
@@ -123,7 +123,7 @@
                                     <div class="col-md-6">
                                         <div class="auth-heading mb-5">
                                             <h4>
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/shield.png" width="24px" alt="">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/shield.png" width="24px" alt="">
                                                 <span>Thông tin đăng nhập</span>
                                             </h4>
                                             <div class="line"></div>

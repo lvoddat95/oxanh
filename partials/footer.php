@@ -3,8 +3,8 @@
         <div class="ci-footer-top">
             <div class="row gx-5">
                 <div class="col-lg-3">
-                    <a href="<?php echo HTTP_PATH; ?>" class="logo-bottom">
-                        <img class="b-lazy" src="<?php echo SOURCE; ?>assets/img/logo/logo.png">
+                    <a href="<?php echo HTTP_PATH; ?>/" class="logo-bottom">
+                        <img class="b-lazy" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo.png">
                     </a>
                 </div>
                 <div class="col-lg-3">
@@ -32,17 +32,17 @@
                             <ul class="list-unstyled">
                                 <li>
                                     <a href="">
-                                        <img src="<?php echo SOURCE; ?>assets/img/social/facebook.png" alt="Facebook">
+                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/social/facebook.png" alt="Facebook">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="<?php echo SOURCE; ?>assets/img/social/youtube.png" alt="Youtube">
+                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/social/youtube.png" alt="Youtube">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="">
-                                        <img src="<?php echo SOURCE; ?>assets/img/social/zalo.png" alt="Zalo">
+                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/social/zalo.png" alt="Zalo">
                                     </a>
                                 </li>
                             </ul>

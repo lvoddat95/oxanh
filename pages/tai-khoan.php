@@ -10,7 +10,7 @@
             <div class="ci-breadcrumb-link bg-silver2 d-flex">
                 <div class="container">
                     <ul class="list-unstyled">
-                        <li class="home"><a href="<?php echo HTTP_PATH; ?>">Trang chủ</a></li>
+                        <li class="home"><a href="<?php echo HTTP_PATH; ?>/">Trang chủ</a></li>
                         <li><a href="#">Tài khoản</a></li>
                     </ul>
                 </div>
@@ -32,42 +32,42 @@
                             </div>
                             <ul class="account-menu-list">
                                 <li class="item active">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/tai-khoan.php" title="Thông tin tài khoản">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/tai-khoan.php" title="Thông tin tài khoản">
                                         <i class="fa fa-user fa-fw"></i>Thông tin tài khoản
                                     </a>
                                 </li>
 
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/san-pham-quan-tam.php" title="Sản phẩm đang quan tâm">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/san-pham-quan-tam.php" title="Sản phẩm đang quan tâm">
                                         <i class="fa fa-inbox fa-fw"></i>Sản phẩm đang quan tâm
                                     </a>
                                 </li>
 
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/ma-giam-gia.php" title="Mã giảm giá">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/ma-giam-gia.php" title="Mã giảm giá">
                                         <i class="fa fa-gift fa-fw"></i>Mã giảm giá
                                     </a>
                                 </li>
 
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/quan-ly-don-hang.php" title="Quản lý đơn hàng">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/quan-ly-don-hang.php" title="Quản lý đơn hàng">
                                         <i class="fa fa-box-circle-check fa-fw"></i>Quản lý đơn hàng
                                     </a>
                                 </li>
 
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/quan-ly-thong-bao.php" title="Quản lý thông báo">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/quan-ly-thong-bao.php" title="Quản lý thông báo">
                                         <i class="fa fa-bell fa-fw"></i>Quản lý thông báo
                                     </a>
                                 </li>
 
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
                                         <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
                                     </a>
                                 </li>
                                 <li class="item ">
-                                    <a href="<?php echo HTTP_PATH; ?>pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/doi-mat-khau.php" title="Thay đổi mật khẩu">
                                         <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
                                     </a>
                                 </li>
@@ -84,7 +84,7 @@
                                             <div class="media">
                                                 <div class="media-aside text-center">
                                                     <label for="file">
-                                                        <img src="<?php echo SOURCE; ?>assets/img/camera.svg" height="80" width="80" class="of-cover rounded-circle">
+                                                        <img src="<?php echo HTTP_PATH; ?>/assets/img/camera.svg" height="80" width="80" class="of-cover rounded-circle">
                                                     </label>
                                                 </div>
                                                 <div class="media-body mt-2 text-center">

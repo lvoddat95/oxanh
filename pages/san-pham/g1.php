@@ -81,13 +81,13 @@
                                         Với tỷ lệ mắc Bệnh hiểm nghèo gia tăng mỗi năm <br>
                                         Oxanh xin giới thiệu <span class="fw-medium text-warning">Kế hoạch tương trợ G1</span> sẽ giúp bạn giảm bớt lo âu với những quyền lợi ưu việt, mang lại sự chuẩn bị tốt nhất trước những rủi ro bất ngờ.
                                     </div>
-                                    <a href="<?php echo HTTP_PATH; ?>pages/gioi-thieu-ve-cong-ty.php" class="ci-btn  ci-btn-hover-dark ci-btn-main d-inline-block">
+                                    <a href="<?php echo HTTP_PATH; ?>/pages/gioi-thieu-ve-cong-ty.php" class="ci-btn  ci-btn-hover-dark ci-btn-main d-inline-block">
                                         <i class="far fa-arrow-right me-3"></i>Về chúng tôi</a>
                                 </div>
                             </div>
                             <div class="col-md-5 ">
                                 <div class="ps-lg-5 img-sanpham">
-                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo SOURCE; ?>assets/img/san-pham/san-pham.jpg" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/san-pham.jpg" alt="Ô Xanh">
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="mb-5 mb-lg-0 me-9 me-lg-5">
-                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo SOURCE; ?>assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
+                                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="320px" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/danh-muc-benh-hiem-ngheo.jpg" alt="Danh mục bệnh">
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -210,7 +210,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 text-center">
-                                <img class="img-fluid radius-16" src="<?php echo SOURCE; ?>assets/img/san-pham/luu-y.jpg" alt="Ô Xanh">
+                                <img class="img-fluid radius-16" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/luu-y.jpg" alt="Ô Xanh">
                             </div>
                         </div>
 
@@ -279,7 +279,7 @@
                         <div>
                             <div class="row gx-5">
                                 <div class="col-lg-5">
-                                    <img class="img-fluid radius-16 mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/thoi-gian-cho.jpg" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 mb-4" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/thoi-gian-cho.jpg" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="text-justify fz-16 mb-3 mb-md-5">
@@ -322,7 +322,7 @@
                         <div>
                             <div class="row gx-5 mb-3 mb-md-5">
                                 <div class="col-lg-5">
-                                    <img class="img-fluid radius-16 mb-4" src="<?php echo SOURCE; ?>assets/img/san-pham/cham-dut-ke-hoach.jpg" alt="Ô Xanh">
+                                    <img class="img-fluid radius-16 mb-4" src="<?php echo HTTP_PATH; ?>/assets/img/san-pham/cham-dut-ke-hoach.jpg" alt="Ô Xanh">
                                 </div>
                                 <div class="col-lg-7">
                                     <div class="fz-16 text-justify">
@@ -459,7 +459,7 @@
                                             </p>
 
                                             <p class="ci-list mb-3 mt-4">
-                                                <span class="fw-medium d-block">Bước 2: Nộp hồ sơ tương trợ <a href="<?php echo HTTP_PATH; ?>pages/giai-quyet-quyen-loi-bao-hiem.php">(tại đây)</a>:</span>
+                                                <span class="fw-medium d-block">Bước 2: Nộp hồ sơ tương trợ <a href="<?php echo HTTP_PATH; ?>/pages/giai-quyet-quyen-loi-bao-hiem.php">(tại đây)</a>:</span>
                                                 Sau khi chuẩn bị xong hồ sơ yêu cầu tương trợ như Bước 1, thành viên Nộp hồ sơ tương trợ trực tuyến (tại đây - để up hồ sơ lên hệ thống)
                                             </p>
 

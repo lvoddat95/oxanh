@@ -6,15 +6,15 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 
 <body>
     <div id="ci-content" class="ci-content">
-        <div class="auth-wrapper" style="background-image: url(<?php echo SOURCE; ?>assets/img/slider.png);">
+        <div class="auth-wrapper" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/slider.png);">
             <div id="auth-particles" class="bg-overlay"></div>
             <div class="auth-page-login">
                 <div class="auth-page-content my-3 my-xl-5">
                     <div class="card">
                         <div class="card-body p-3 p-xl-5">
                             <div class="text-center">
-                                <a href="<?php echo HTTP_PATH; ?>">
-                                    <img class="img-fluid" src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                                <a href="<?php echo HTTP_PATH; ?>/">
+                                    <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                 </a>
                             </div>
                             <div class="text-center mt-2 mb-5">
@@ -64,15 +64,15 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 
                                         <div class="btn-login-list d-flex align-items-center justify-content-center">
                                             <a class="btn-login-with" href="" title="Đăng nhập bằng Facebook">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/facebook.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/facebook.png" alt="" width="28px">
                                                 <span>Facebook</span>
                                             </a>
                                             <a class="btn-login-with mx-2 mx-lg-4" href="" title="Đăng nhập bằng Google">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/google.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/google.png" alt="" width="28px">
                                                 <span>Google</span>
                                             </a>
                                             <a class="btn-login-with" href="" title="Đăng nhập bằng Zalo">
-                                                <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/zalo.png" alt="" width="28px">
+                                                <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/zalo.png" alt="" width="28px">
                                                 <span>Zalo</span>
                                             </a>
                                         </div>

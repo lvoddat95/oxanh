@@ -7,7 +7,7 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo SOURCE; ?>assets/img/register.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/register.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
                     <h1 class="ci-breadcrumb-title">Đăng nhập tài khoản</h1>
@@ -66,15 +66,15 @@
 
                                     <div class="btn-login-list d-flex align-items-center justify-content-center">
                                         <a class="btn-login-with" href="" title="Đăng nhập bằng Facebook">
-                                            <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/facebook.png" alt="" width="28px">
+                                            <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/facebook.png" alt="" width="28px">
                                             <span>Facebook</span>
                                         </a>
                                         <a class="btn-login-with mx-2 mx-lg-4" href="" title="Đăng nhập bằng Google">
-                                            <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/google.png" alt="" width="28px">
+                                            <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/google.png" alt="" width="28px">
                                             <span>Google</span>
                                         </a>
                                         <a class="btn-login-with" href="" title="Đăng nhập bằng Zalo">
-                                            <img class="img-fluid me-2" src="<?php echo SOURCE; ?>assets/img/social/zalo.png" alt="" width="28px">
+                                            <img class="img-fluid me-2" src="<?php echo HTTP_PATH; ?>/assets/img/social/zalo.png" alt="" width="28px">
                                             <span>Zalo</span>
                                         </a>
                                     </div>

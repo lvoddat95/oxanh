@@ -7,7 +7,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 <body>
     <div id="ci-content" class="ci-content">
 
-        <div class="auth-wrapper" style="background-image: url(<?php echo SOURCE; ?>assets/img/slider.png);">
+        <div class="auth-wrapper" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/slider.png);">
             <div id="auth-particles" class="bg-overlay"></div>
             <div class="auth-page-content">
                 <div class="container">
@@ -16,7 +16,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
                         <div class="card-body p-3 p-xl-5">
                             <div class="text-center ">
                                 <a href="index.html" class="d-inline-block auth-logo">
-                                    <img src="<?php echo SOURCE; ?>assets/img/logo/logo-nav.png" alt="" height="50">
+                                    <img src="<?php echo HTTP_PATH; ?>/assets/img/logo/logo-nav.png" alt="" height="50">
                                 </a>
                             </div>
                             <div class="text-center mt-2 mb-5">
@@ -78,7 +78,7 @@ $GLOBALS["pScript"] = "assets/js/particles.js;assets/js/particles.app.js";
 
                                     <div class="mt-5 auth-btn-agree d-flex justify-content-center">
                                         <a href="" class="btn ci-btn ci-btn-outline w-50 mx-2 mx-lg-4" type="submit">Không đồng ý</a>
-                                        <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo SOURCE; ?>')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
+                                        <a href="javascript:void(0);" onclick="AlertMessage('#dialog-content','<?php echo HTTP_PATH; ?>/')" class="btn ci-btn ci-bg-sub-color w-50 mx-2 mx-lg-4" type="submit">Đồng
                                             ý</a>
                                     </div>
 
