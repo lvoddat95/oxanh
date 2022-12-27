@@ -32,6 +32,7 @@ function get_site_url($root = false)
         }
 
         $pathInfo = $path;
+        var_dump($pathInfo);
     }
 
     // output: localhost
