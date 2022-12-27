@@ -1,76 +1,73 @@
-<?php
+<?php 
 require __DIR__ . "/vendor/autoload.php";
 require __DIR__ . "/inc/helper.php";
 require __DIR__ . "/inc/const.php";
 
 // Cau hinh thu muc nhan include
 $include_paths = array(
-    $_SERVER['DOCUMENT_ROOT'] . '/partials/',
-    $_SERVER['DOCUMENT_ROOT'] . '/oxanh/partials/',
+    $_SERVER['DOCUMENT_ROOT'].'/partials/',
+    $_SERVER['DOCUMENT_ROOT'].'/oxanh/partials/',
 );
 set_include_path(get_include_path() . PATH_SEPARATOR . implode(PATH_SEPARATOR, $include_paths));
 
-define('DIR', dirname(__FILE__));
-
-define('APP_NAME', strtok(str_replace(realpath($_SERVER['DOCUMENT_ROOT']), '', __FILE__), DIRECTORY_SEPARATOR));
-
-define('HTTP_PATH', get_site_url(true)); 
-
-define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT'].'/'.APP_NAME); 
-
 // var_dump(get_include_path());
-function get_site_url($root = false)
+function get_site_url($root=false) 
 {
     // output: /myproject/index.php
-    $currentPath = $_SERVER['PHP_SELF'];
+    $currentPath = $_SERVER['PHP_SELF']; 
 
     // output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
-    $pathInfo = pathinfo($currentPath)['dirname'];
+    $pathInfo = pathinfo($currentPath)['dirname']; 
     if ($root == true) {
 
-        $path = '/' . APP_NAME;
+        $path = '/'.APP_NAME;
 
         $whitelist = array(
             '127.0.0.1',
+            '172.32.0.2',
             '::1'
         );
 
-        if (!in_array($_SERVER['REMOTE_ADDR'], $whitelist)) {
+        if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
             $path = '';
         }
 
+        var_dump( !in_array($_SERVER['REMOTE_ADDR'], $whitelist) );
+
+        var_dump($path);
+
         $pathInfo = $path;
-        var_dump($pathInfo);
     }
 
     // output: localhost
-    $hostName = $_SERVER['HTTP_HOST'];
+    $hostName = $_SERVER['HTTP_HOST']; 
 
     $isSecure = false;
     if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
         $isSecure = true;
-    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || !empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on') {
+    }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || !empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on') {
         $isSecure = true;
     }
     $protocol = $isSecure ? 'https' : 'http';
 
     // return: http://localhost/myproject/
-    return $protocol . '://' . $hostName . $pathInfo;
+    return $protocol.'://'.$hostName.$pathInfo;
 }
 
 
-function inc($view, $require_once = true, $extend = '')
-{
+function inc($view,$require_once=true,$extend=''){
     if ($require_once == true) {
         if (!empty($extend)) {
             $GLOBALS["gv"] = $extend;
         }
-
+        
         require_once $view;
-    } else {
+    }else{
         if (!empty($extend)) {
             $GLOBALS["gv"] = $extend;
         }
         require $view;
     }
 }
+
