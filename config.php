@@ -15,6 +15,7 @@ function get_site_url($root=false)
 {
     // output: /myproject/index.php
     $currentPath = $_SERVER['PHP_SELF']; 
+    var_dump($currentPath);
 
     // output: Array ( [dirname] => /myproject [basename] => index.php [extension] => php [filename] => index ) 
     $pathInfo = pathinfo($currentPath)['dirname']; 
