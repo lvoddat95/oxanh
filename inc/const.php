@@ -2,7 +2,8 @@
 define('HEADER', 'header.php');
 define('FOOTER', 'footer.php');
 define('NAVBAR', 'navbar.php');
-define('NAVBAR2', 'navbar-mua-bao-hiem.php');
+// define('NAVBAR2', 'navbar-mua-bao-hiem.php');
+define('NAVBAR2', 'navbar-tai-khoan.php');
 define('NAVBAR3', 'navbar-tai-khoan.php');
 define('SCRIPTS', 'scripts.php');
 define('MOBILE_NAV', 'mobile-bottom.php');

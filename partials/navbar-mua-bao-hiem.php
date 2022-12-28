@@ -26,17 +26,17 @@ if (!empty($GLOBALS["menu"])) {
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/tai-khoan.php'; ?>">
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . '/pages/tai-khoan.php'; ?>">
                                 <i class="far fa-user me-3"></i>Quản lý tài khoản
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . '/pages/dang-nhap2.php'; ?>">
                                 <i class="far fa-lock-keyhole me-3"></i>Đăng nhập
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                            <a class="dropdown-item" href="<?php echo HTTP_PATH . '/pages/dang-ky2.php'; ?>">
                                 <i class="far fa-key-skeleton me-3"></i>Đăng kí
                             </a>
                         </li>
@@ -91,13 +91,13 @@ if (!empty($GLOBALS["menu"])) {
                                 </path>
                             </svg>
                             <div class="ci-menu-link__item">
-                                <a href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                                <a href="<?php echo HTTP_PATH . '/pages/dang-nhap2.php'; ?>">
                                     Đăng nhập
                                 </a>
                             </div>
                             <span class="ci-menu-link__separator"></span>
                             <div class="ci-menu-link__item">
-                                <a href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                                <a href="<?php echo HTTP_PATH . '/pages/dang-ky2.php'; ?>">
                                     Đăng kí
                                 </a>
                             </div>
@@ -122,7 +122,7 @@ if (!empty($GLOBALS["menu"])) {
                                 </path>
                             </svg>
                             <div class="ci-menu-link__item">
-                                <a href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
+                                <a href="<?php echo HTTP_PATH . '/pages/dang-nhap2.php'; ?>">
                                     Đăng nhập
                                 </a>
                             </div>
@@ -130,7 +130,7 @@ if (!empty($GLOBALS["menu"])) {
 
                         <span class="ci-menu-link__separator"></span>
                         <div class="ci-menu-link__item">
-                            <a href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
+                            <a href="<?php echo HTTP_PATH . '/pages/dang-ky2.php'; ?>">
                                 Đăng kí
                             </a>
                         </div>
