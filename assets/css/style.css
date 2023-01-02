@@ -6340,3 +6340,7 @@ Flaticon icon font: Flaticon
   background-color: #f3f6f9;
   color: var(--main-color);
 }
+
+.img-cmt{
+  object-fit: cover;
+}
