@@ -579,10 +579,6 @@ a:hover {
   margin-right: 12px;
 }
 
-.ci-header .nav-item {
-  position: relative;
-}
-
 .ci-header .nav-item .nav-link {
   position: relative;
   padding: 38px 0;
@@ -593,6 +589,7 @@ a:hover {
   transition: var(--transition-25); */
 }
 
+.ci-header .nav-item.menu-item-has-children>.nav-link::after,
 .ci-header .nav-item.nav-item-submenu .nav-link::after {
   content: "\f107";
   font-family: "Font Awesome 6 Pro";
@@ -603,6 +600,12 @@ a:hover {
 
 .ci-header .nav-item .nav-link:hover,
 .ci-header .nav-item .nav-link.active {
+  color: var(--main-color);
+}
+
+.ci-header .nav-item ul .nav-link:hover,
+.ci-header .nav-item ul .nav-link.active {
+  background-color: #f3f6f9;
   color: var(--main-color);
 }
 
@@ -618,11 +621,16 @@ a:hover {
   transition: var(--transition-25);
 }
 
+.ci-header .nav-item ul .nav-link::before {
+  display: none;
+}
+
 .ci-header .nav-item .nav-link:hover::before,
 .ci-header .nav-item .nav-link.active::before {
   background: var(--main-color);
   width: 100%;
 }
+
 
 .sticky {
   position: fixed;
@@ -5489,21 +5497,52 @@ Flaticon icon font: Flaticon
   display: table-cell;
 }
 
-.navbar-nav .nav-item:hover>ul.dropdown-menu {
+.navbar-nav li ul {
+  list-style-type: none;
+}
+
+.navbar-nav li:hover>ul.sub-menu,
+.navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
 
+.navbar-nav .sub-menu,
 .navbar-nav .dropdown-menu {
   position: absolute;
 }
 
+.navbar-nav .sub-menu,
 .navbar-nav .dropdown-menu {
+  display: none;
   font-size: 1.6rem;
   min-width: 200px;
   padding: 20px 0;
   background: #fff;
   border: 0;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  z-index: 1000;
   box-shadow: var(--shadow-l);
+  border-radius: var(--radius-4);
+}
+
+
+.navbar-nav .sub-menu .nav-link {
+  margin: 0;
+  padding: 10px;
+  font-weight: 500;
+  font-size: var(--fz-14);
+  display: block;
+  width: 100%;
+  clear: both;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
 }
 
 .navbar-nav .dropdown-menu .dropdown-item {
@@ -6209,7 +6248,7 @@ Flaticon icon font: Flaticon
   color: var(--main-color);
 }
 
-.navbar-pill{
+.navbar-pill {
   position: absolute;
   top: -2px;
   right: -2px;
@@ -6225,6 +6264,7 @@ Flaticon icon font: Flaticon
   font-weight: var(--fw-medium);
   font-family: var(--font-family-roboto);
 }
+
 .navbar-notification .dropdown-menu {
   padding: 0;
   min-width: 300px;
@@ -6341,6 +6381,6 @@ Flaticon icon font: Flaticon
   color: var(--main-color);
 }
 
-.img-cmt{
+.img-cmt {
   object-fit: cover;
 }
