@@ -71,7 +71,7 @@ if (!empty($GLOBALS["menu"])) {
                     <div class="dropdown">
                         <button class="dropdown-toggle dropdown-hide-arrow navbar-icon" data-bs-toggle="dropdown">
                             <i class="fal fa-bell position-relative">
-                                <span class="navbar-pill" class="fz-10 fw-normal ff-roboto"></span>
+                                <span class="navbar-pill" class="fz-10 fw-normal ff-roboto">2</span>
                             </i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-end">
