@@ -164,6 +164,10 @@
     display: none;
   }
 
+  .webview .hc-offcanvas-nav {
+    display: none;
+  }
+
   .ci-header {
     position: fixed;
     left: 0;
@@ -312,6 +316,7 @@
 }
 
 @media (max-width: 767px) {
+
   .ci-block {
     overflow: hidden;
     padding: 30px 0;
@@ -568,7 +573,8 @@
     border-bottom: 1px solid var(--silver2);
     line-height: normal;
   }
-  .table-block tr:last-child{
+
+  .table-block tr:last-child {
     border: 0;
   }
 
