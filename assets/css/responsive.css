@@ -99,14 +99,14 @@
   margin-right: 44px;
 }
 
-.nav-á»‰tem-form {
+.nav-item-form {
   position: absolute !important;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-.nav-á»‰tem-form .ci-menu-link {
+.mnav-item-form .ci-menu-link {
   justify-content: center;
 }
 
