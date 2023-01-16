@@ -313,6 +313,7 @@
 
 @media (max-width: 767px) {
   .ci-block {
+    overflow: hidden;
     padding: 30px 0;
   }
 
