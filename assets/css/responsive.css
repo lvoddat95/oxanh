@@ -215,6 +215,14 @@
     padding: 10px 30px;
   }
 
+  .ci-slider .slick-prev{
+    left: 0;
+  }
+
+  .ci-slider .slick-next{
+    right: 0;
+  }
+
   .slider-item__img {
     height: 440px;
   }
