@@ -168,6 +168,14 @@
     display: none !important;
   }
 
+  .webview .ci-content {
+    margin-top: 0;
+  }
+
+  .webview .ci-header {
+    display: none;
+  }
+
   .ci-header {
     position: fixed;
     left: 0;
@@ -215,11 +223,11 @@
     padding: 10px 30px;
   }
 
-  .ci-slider .slick-prev{
+  .ci-slider .slick-prev {
     left: 0;
   }
 
-  .ci-slider .slick-next{
+  .ci-slider .slick-next {
     right: 0;
   }
 
@@ -521,6 +529,10 @@
 }
 
 @media (max-width: 575px) {
+  .ci-menu-link {
+    margin-right: 0;
+  }
+
   .ci-docs__link {
     display: block;
   }
