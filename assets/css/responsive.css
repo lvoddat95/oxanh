@@ -99,14 +99,14 @@
   margin-right: 44px;
 }
 
-.nav-ỉtem-form {
+.nav-item-form {
   position: absolute !important;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-.nav-ỉtem-form .ci-menu-link {
+.nav-item-form .ci-menu-link {
   justify-content: center;
 }
 
@@ -164,6 +164,18 @@
     display: none;
   }
 
+  .webview .hc-offcanvas-nav {
+    display: none !important;
+  }
+
+  .webview .ci-content {
+    margin-top: 0;
+  }
+
+  .webview .ci-header {
+    display: none;
+  }
+
   .ci-header {
     position: fixed;
     left: 0;
@@ -209,6 +221,14 @@
 
   .ci-btn-slider {
     padding: 10px 30px;
+  }
+
+  .ci-slider .slick-prev {
+    left: 0;
+  }
+
+  .ci-slider .slick-next {
+    right: 0;
   }
 
   .slider-item__img {
@@ -312,7 +332,9 @@
 }
 
 @media (max-width: 767px) {
+
   .ci-block {
+    overflow: hidden;
     padding: 30px 0;
   }
 
@@ -435,17 +457,33 @@
     overflow-x: scroll;
   }
 
-  .account-menu-list li {
+  .swiper.account-menu-list {
+    display: block;
+    height: 146px;
+    overflow: visible;
+  }
+
+  .account-menu-list:not(.swiper) li {
     padding: 0 5px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+  }
+
+  .account-menu-lis.swiper li {
+    height: calc((100% - 30px) / 2) !important;
+  }
+
+  .account-menu-list:not(.swiper) li a {
+    width: 110px;
+    height: 55px;
   }
 
   .account-menu-list li a {
-    width: 110px;
-    height: 55px;
+
+    height: 100%;
     display: flex;
     margin-bottom: 10px;
     border-radius: 8px !important;
@@ -491,6 +529,10 @@
 }
 
 @media (max-width: 575px) {
+  .ci-menu-link {
+    margin-right: 0;
+  }
+
   .ci-docs__link {
     display: block;
   }
@@ -537,6 +579,37 @@
   .ci-quyen-loi-box__detail {
     padding: 0px !important;
   }
+
+  .table-block table {
+    display: block;
+  }
+
+  .table-block table tbody {
+    display: block;
+  }
+
+  .table-block tr {
+    display: block;
+    border-bottom: 1px solid var(--silver2);
+    line-height: normal;
+  }
+
+  .table-block tr:last-child {
+    border: 0;
+  }
+
+  .table-block tr td:first-child {
+    display: block;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .table-block tr td:last-child {
+    display: block;
+    padding-left: 0;
+    width: 100%;
+  }
+
 }
 
 @media (min-width: 992px) {}

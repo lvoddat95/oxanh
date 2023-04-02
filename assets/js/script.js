@@ -4,19 +4,19 @@ $(function () {
 			infinite: false,
 			slidesToShow: 3,
 			responsive: [{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					},
 				},
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					},
 				},
-			},
 			],
 		});
 	}
@@ -48,8 +48,8 @@ $(function () {
 
 	$(".ci-btn-mua-bh").on("click", function () {
 		$("html, body").animate({
-			scrollTop: $("#ci-package-block").offset().top,
-		},
+				scrollTop: $("#ci-package-block").offset().top,
+			},
 			900
 		);
 	});
@@ -57,13 +57,14 @@ $(function () {
 	// Len dau trang
 	$(".go-top").on("click", function () {
 		$("html, body").animate({
-			scrollTop: 0,
-		},
+				scrollTop: 0,
+			},
 			500
 		);
 	});
 
 	SlickSlider();
+
 	function SlickSlider() {
 		if ($(".data-slick-slider").length > 0) {
 			$(".data-slick-slider").each(function (e) {
@@ -265,7 +266,7 @@ var chose_payment = function (p_this) {
 	}
 };
 
-var chosse_bank = function (p_this) { };
+var chosse_bank = function (p_this) {};
 
 $("#payment-info .img-bank").on("click", function (e) {
 	$("#payment-info .img-bank").removeClass("active");
@@ -605,7 +606,7 @@ if ($('.banner-video').length > 0) {
 				// });
 			}
 		});
-		
+
 
 		// self.find('.mute-video').on('click', function (event) {
 		// 	event.preventDefault();
@@ -621,3 +622,25 @@ if ($('.banner-video').length > 0) {
 
 	});
 }
+
+//Mở popup giữa màn hình
+function open_window_center(url, w = 800, h = 600) {
+	var left = (screen.width / 2) - (w / 2);
+	var top = (screen.height / 2) - (h / 2);
+	//Open the window.
+	var windowFeatures = 'width=' + w + ',height=' + h + ',top=' + top + ',left=' + left;
+	var newWindow = window.open(url, '_blank', windowFeatures);
+
+	// Puts focus on the newWindow
+	if (window.focus) {
+		newWindow.focus();
+	}
+}
+
+function coppy_url() {
+	// Lấy URL hiện tại của trang
+	var currentUrl = window.location.href;
+	
+	// Sao chép URL vào clipboard
+	navigator.clipboard.writeText(currentUrl);
+  }

@@ -31,5 +31,5 @@
     <link rel="stylesheet" href="<?php echo HTTP_PATH; ?>/assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="<?php echo HTTP_PATH; ?>/assets/css/style.css">
     <link rel="stylesheet" href="<?php echo HTTP_PATH; ?>/assets/css/responsive.css">
-
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 </head>
